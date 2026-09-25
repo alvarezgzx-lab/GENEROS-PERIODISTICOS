@@ -1,0 +1,10 @@
+# No subir dependencias, compilaciones ni resultados de pruebas.
+# INSUMOS_DIR ("clase muestra/") y content/ se suben: son necesarios para la compilación.
+node_modules
+dist
+dev-dist
+test-results
+playwright-report
+.vercel
+*.log
+REPORT.md
