@@ -1,0 +1,48 @@
+{
+  "generado": "2026-09-25T17:31:09.014Z",
+  "insumos_dir": "clase muestra",
+  "fuentes": [
+    {
+      "rol": "contenido",
+      "ruta_original": "clase muestra/presentacion_los_generos_periodisticos - Copy.md",
+      "formato": "md",
+      "sha256": "435076a835c02e5a1bcc544be95ee9142aac19581cf3605da80818268a634caf",
+      "copia_de_trabajo": "content/extracted/contenido.txt",
+      "sha256_copia": "f85b814c14b03aca23ddb5a35e506ef163f76bcde090167cedcb527025f41805"
+    },
+    {
+      "rol": "guion",
+      "ruta_original": "clase muestra/guion_docente_los_generos_periodisticos - Copy.md",
+      "formato": "md",
+      "sha256": "c8c7b3c9909bfbaa36af68704ae8b32b15bc2caa0c599e0ee32e8eb9a5b085b0",
+      "copia_de_trabajo": "content/extracted/guion-docente.txt",
+      "sha256_copia": "c8c7b3c9909bfbaa36af68704ae8b32b15bc2caa0c599e0ee32e8eb9a5b085b0"
+    },
+    {
+      "rol": "qr",
+      "ruta_original": "clase muestra/QR practica.svg",
+      "formato": "svg",
+      "sha256": "f670759de190a3dac98bd645dc6970a5660c5636e2ba356acc26298d264ddb45",
+      "copia_de_trabajo": null,
+      "sha256_copia": null
+    }
+  ],
+  "descartados": [],
+  "ignorados": [
+    {
+      "archivo": "AGENTS.md",
+      "motivo": "Instrucciones para el agente; no es un insumo de la clase."
+    },
+    {
+      "archivo": "ficha_practica_independiente_generos_periodisticos - Copy.html",
+      "motivo": "Formato .html no corresponde a contenido, guion ni QR (es la ficha de práctica a la que apunta el QR)."
+    }
+  ],
+  "normalizaciones": [
+    "Unicode NFC",
+    "Saltos de línea CRLF → LF",
+    "Espacios finales de línea eliminados (incluye los dobles espacios de salto de línea de Markdown)",
+    "Guiones de corte de palabra al final de línea unidos",
+    "Tres o más saltos de línea consecutivos reducidos a dos"
+  ]
+}
