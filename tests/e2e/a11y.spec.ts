@@ -1,7 +1,7 @@
 /** Prueba 8 · Accesibilidad: axe sin violaciones graves ni críticas. */
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
-import { ir, TOTAL } from './helpers';
+import { ir, quieto, TOTAL } from './helpers';
 
 test('axe en todas las pantallas', async ({ page }) => {
   for (let n = 1; n <= TOTAL; n++) {
@@ -28,12 +28,14 @@ test('axe en todas las pantallas', async ({ page }) => {
 test('axe con glosario, notas y retroalimentación visibles', async ({ page }) => {
   await ir(page, 14);
   await page.getByRole('button', { name: 'Glosario' }).click();
+  await quieto(page);
   let r = await new AxeBuilder({
     page: page as unknown as ConstructorParameters<typeof AxeBuilder>[0]['page'],
   }).analyze();
   expect(r.violations.filter((v) => v.impact === 'serious' || v.impact === 'critical').map((v) => v.id)).toEqual([]);
   await page.keyboard.press('Escape');
   await page.keyboard.press('n');
+  await quieto(page);
   r = await new AxeBuilder({ page: page as unknown as ConstructorParameters<typeof AxeBuilder>[0]['page'] }).analyze();
   expect(r.violations.filter((v) => v.impact === 'serious' || v.impact === 'critical').map((v) => v.id)).toEqual([]);
 });

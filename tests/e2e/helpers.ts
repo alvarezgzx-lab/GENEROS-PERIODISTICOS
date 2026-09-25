@@ -10,7 +10,11 @@ export async function ir(page: Page, n: number) {
   await page.goto(`/?p=${n}-${Date.now()}#/${n}`);
   await page.locator(`[data-pantalla="${n}"]`).waitFor();
   await page.evaluate(() => document.fonts.ready);
-  // Espera a que termine la transición de entrada de la pantalla.
+  await quieto(page);
+}
+
+/** Espera a que terminen las transiciones y animaciones CSS en curso. */
+export async function quieto(page: Page) {
   await page.waitForFunction(() => document.getAnimations().every((a) => a.playState !== 'running'));
 }
 
