@@ -1,0 +1,3199 @@
+{
+  "titulo": "Los géneros periodísticos",
+  "duracion_total_s": 1200,
+  "pantallas": [
+    {
+      "id": 1,
+      "segmento": "Diapositiva 1. Los géneros periodísticos",
+      "diapositiva": 1,
+      "fase_lgr": "yo",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros periodísticos",
+        "fuente": "contenido.txt § Diapositiva 1",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Los medios de comunicación publican textos sobre hechos y asuntos de interés para la sociedad. Sin embargo, no todos esos textos tienen la misma finalidad.",
+          "fuente": "contenido.txt § Diapositiva 1",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Algunos se concentran en **informar**; otros buscan **explicar** los hechos y relacionarlos con sus causas o consecuencias; otros expresan una **opinión** y tratan de convencer al lector o invitarlo a reflexionar.",
+          "fuente": "contenido.txt § Diapositiva 1",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "intenciones",
+        "descripcion": "Tres flechas que salen de un mismo hecho hacia tres intenciones: informar, explicar y opinar, cada una con su ícono, forma y etiqueta."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 1. Los géneros periodísticos\n\n“En los medios encontramos textos que hablan de acontecimientos reales y asuntos que interesan a la sociedad. Aunque todos pueden contener información, no todos tienen la misma intención. Hoy aprenderemos a reconocer qué busca hacer cada texto y a comprobar nuestra respuesta con palabras tomadas de la lectura.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 2,
+      "segmento": "Diapositiva 1. Los géneros periodísticos",
+      "diapositiva": 1,
+      "fase_lgr": "yo",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros periodísticos",
+        "fuente": "contenido.txt § Diapositiva 1",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "En esta lección aprenderás a:",
+          "fuente": "contenido.txt § Diapositiva 1",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "distinguir textos informativos, interpretativos y de opinión;",
+          "fuente": "contenido.txt § Diapositiva 1",
+          "estilo": "item"
+        },
+        {
+          "texto": "reconocer palabras y expresiones que relacionan las ideas;",
+          "fuente": "contenido.txt § Diapositiva 1",
+          "estilo": "item"
+        },
+        {
+          "texto": "identificar si el autor manifiesta una postura;",
+          "fuente": "contenido.txt § Diapositiva 1",
+          "estilo": "item"
+        },
+        {
+          "texto": "justificar una clasificación con evidencias del texto.",
+          "fuente": "contenido.txt § Diapositiva 1",
+          "estilo": "item"
+        }
+      ],
+      "visual": {
+        "id": "ruta",
+        "descripcion": "Ruta de cuatro pasos (encontrar, explicar, reconocer, justificar) que anticipa lo que se hará en la lección."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 1. Los géneros periodísticos\n\n“En los medios encontramos textos que hablan de acontecimientos reales y asuntos que interesan a la sociedad. Aunque todos pueden contener información, no todos tienen la misma intención. Hoy aprenderemos a reconocer qué busca hacer cada texto y a comprobar nuestra respuesta con palabras tomadas de la lectura.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 3,
+      "segmento": "Diapositiva 2. ¿Qué son los géneros periodísticos?",
+      "diapositiva": 2,
+      "fase_lgr": "yo",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "¿Qué son los géneros periodísticos?",
+        "fuente": "contenido.txt § Diapositiva 2",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Los **géneros periodísticos** son distintas formas de presentar acontecimientos, ideas y asuntos de interés público en los medios de comunicación.",
+          "fuente": "contenido.txt § Diapositiva 2",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Cada género se organiza de acuerdo con la intención de quien escribe:",
+          "fuente": "contenido.txt § Diapositiva 2",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "comunicar lo que ocurrió;",
+          "fuente": "contenido.txt § Diapositiva 2",
+          "estilo": "item"
+        },
+        {
+          "texto": "explicar por qué ocurrió o qué consecuencias puede tener;",
+          "fuente": "contenido.txt § Diapositiva 2",
+          "estilo": "item"
+        },
+        {
+          "texto": "expresar una postura y defenderla mediante razones.",
+          "fuente": "contenido.txt § Diapositiva 2",
+          "estilo": "item"
+        }
+      ],
+      "visual": {
+        "id": "intenciones",
+        "descripcion": "Un mismo hecho y tres intenciones posibles de quien escribe: comunicar, explicar o expresar una postura."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 2. ¿Qué son los géneros periodísticos?\n\n“Los géneros periodísticos son distintas formas de presentar información, explicaciones y opiniones. Para distinguirlos no basta con observar el tema. Debemos preguntarnos qué pretende hacer principalmente quien escribe.”\n\n“Un texto puede mezclar distintos recursos. Por eso buscaremos la intención que predomina.”\n\n**Pregunta:** “¿Un texto que contiene cifras siempre es informativo?”\n\n**Respuesta esperada:** “No necesariamente, porque también puede utilizar las cifras para explicar o defender una opinión.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": [
+        "géneros periodísticos"
+      ]
+    },
+    {
+      "id": 4,
+      "segmento": "Diapositiva 2. ¿Qué son los géneros periodísticos?",
+      "diapositiva": 2,
+      "fase_lgr": "yo",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "¿Qué son los géneros periodísticos?",
+        "fuente": "contenido.txt § Diapositiva 2",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Un texto puede combinar información, explicaciones y opiniones. Para clasificarlo debemos reconocer cuál de esas intenciones es la más importante.",
+          "fuente": "contenido.txt § Diapositiva 2",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Tres grandes grupos",
+          "fuente": "contenido.txt § Diapositiva 2",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "1. Géneros informativos.",
+          "fuente": "contenido.txt § Diapositiva 2",
+          "estilo": "numerado"
+        },
+        {
+          "texto": "2. Géneros interpretativos.",
+          "fuente": "contenido.txt § Diapositiva 2",
+          "estilo": "numerado"
+        },
+        {
+          "texto": "3. Géneros de opinión.",
+          "fuente": "contenido.txt § Diapositiva 2",
+          "estilo": "numerado"
+        }
+      ],
+      "visual": {
+        "id": "generos-trio",
+        "descripcion": "Los tres grupos con su ícono, forma y etiqueta: informativo (círculo), interpretativo (cuadrado) y de opinión (triángulo). Una balanza indica que se busca la intención que predomina."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 2. ¿Qué son los géneros periodísticos?\n\n“Los géneros periodísticos son distintas formas de presentar información, explicaciones y opiniones. Para distinguirlos no basta con observar el tema. Debemos preguntarnos qué pretende hacer principalmente quien escribe.”\n\n“Un texto puede mezclar distintos recursos. Por eso buscaremos la intención que predomina.”\n\n**Pregunta:** “¿Un texto que contiene cifras siempre es informativo?”\n\n**Respuesta esperada:** “No necesariamente, porque también puede utilizar las cifras para explicar o defender una opinión.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 5,
+      "segmento": "Diapositiva 3. Los géneros informativos",
+      "diapositiva": 3,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros informativos",
+        "fuente": "contenido.txt § Diapositiva 3",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Los textos informativos tienen como propósito principal **dar a conocer hechos de interés público**.",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Presentan acontecimientos, datos y declaraciones que pueden comprobarse. Generalmente responden preguntas como:",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "¿qué ocurrió?;",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "item"
+        },
+        {
+          "texto": "¿quiénes participaron?;",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "item"
+        },
+        {
+          "texto": "¿cuándo y dónde sucedió?;",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "item"
+        },
+        {
+          "texto": "¿cómo se desarrollaron los hechos?",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "item"
+        }
+      ],
+      "visual": {
+        "id": "preguntas-hecho",
+        "descripcion": "Un hecho en el centro rodeado de los íconos de las preguntas qué, quiénes, cuándo, dónde y cómo.",
+        "categoria": "informativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 3. Los géneros informativos\n\n“Los textos informativos se concentran en comunicar hechos. Por eso suelen presentar fechas, lugares, nombres, cifras y declaraciones.”\n\n“También indican de dónde proviene la información. Expresiones como ‘según’ o ‘de acuerdo con’ permiten distinguir lo que afirma una fuente de lo que escribe el periodista.”\n\n**Pregunta:** “¿Qué tipo de información podríamos comprobar en este texto?”\n\n**Respuestas posibles:** una fecha, una cantidad, un lugar o el nombre de una persona o institución.\n\n**Aclaración:** “Decir que el redactor evita una valoración explícita no significa que el texto no tenga autor. Significa que la opinión personal no es su propósito principal.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 6,
+      "segmento": "Diapositiva 3. Los géneros informativos",
+      "diapositiva": 3,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros informativos",
+        "fuente": "contenido.txt § Diapositiva 3",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Características principales",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Incluyen fechas, lugares, nombres y cifras.",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "item"
+        },
+        {
+          "texto": "Identifican a las personas o instituciones que proporcionan la información.",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "item"
+        },
+        {
+          "texto": "Emplean expresiones como **según**, **de acuerdo con**, **informó**, **señaló** o **explicó**.",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "item"
+        },
+        {
+          "texto": "Evitan que la valoración personal del redactor sea el centro del texto.",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "item"
+        },
+        {
+          "texto": "Organizan los acontecimientos de manera clara y ordenada.",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "item"
+        }
+      ],
+      "visual": {
+        "id": "categoria",
+        "descripcion": "Distintivo del género informativo (círculo con ícono de periódico) con las pistas que lo caracterizan: calendario, ubicación, persona y cifra.",
+        "categoria": "informativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 3. Los géneros informativos\n\n“Los textos informativos se concentran en comunicar hechos. Por eso suelen presentar fechas, lugares, nombres, cifras y declaraciones.”\n\n“También indican de dónde proviene la información. Expresiones como ‘según’ o ‘de acuerdo con’ permiten distinguir lo que afirma una fuente de lo que escribe el periodista.”\n\n**Pregunta:** “¿Qué tipo de información podríamos comprobar en este texto?”\n\n**Respuestas posibles:** una fecha, una cantidad, un lugar o el nombre de una persona o institución.\n\n**Aclaración:** “Decir que el redactor evita una valoración explícita no significa que el texto no tenga autor. Significa que la opinión personal no es su propósito principal.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 7,
+      "segmento": "Diapositiva 3. Los géneros informativos",
+      "diapositiva": 3,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros informativos",
+        "fuente": "contenido.txt § Diapositiva 3",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Que un texto informativo evite una valoración explícita no significa que carezca de autor. Significa que su propósito dominante es comunicar hechos verificables.",
+          "fuente": "contenido.txt § Diapositiva 3",
+          "estilo": "destacado"
+        }
+      ],
+      "visual": {
+        "id": "autor-presente",
+        "descripcion": "Una persona que escribe detrás del texto: el autor existe aunque su opinión no sea el centro; la balanza se inclina hacia los hechos verificables.",
+        "categoria": "informativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 3. Los géneros informativos\n\n“Los textos informativos se concentran en comunicar hechos. Por eso suelen presentar fechas, lugares, nombres, cifras y declaraciones.”\n\n“También indican de dónde proviene la información. Expresiones como ‘según’ o ‘de acuerdo con’ permiten distinguir lo que afirma una fuente de lo que escribe el periodista.”\n\n**Pregunta:** “¿Qué tipo de información podríamos comprobar en este texto?”\n\n**Respuestas posibles:** una fecha, una cantidad, un lugar o el nombre de una persona o institución.\n\n**Aclaración:** “Decir que el redactor evita una valoración explícita no significa que el texto no tenga autor. Significa que la opinión personal no es su propósito principal.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 8,
+      "segmento": "Diapositiva 4. Los géneros interpretativos",
+      "diapositiva": 4,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros interpretativos",
+        "fuente": "contenido.txt § Diapositiva 4",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Los textos interpretativos tienen como propósito principal **explicar y analizar los hechos**.",
+          "fuente": "contenido.txt § Diapositiva 4",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "No se limitan a decir qué ocurrió. También presentan antecedentes, comparan perspectivas y establecen relaciones entre causas, consecuencias y contextos.",
+          "fuente": "contenido.txt § Diapositiva 4",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "relaciones",
+        "descripcion": "Red de nodos: antecedente → hecho → consecuencia, con un contexto que los rodea; las flechas muestran que el texto relaciona los datos.",
+        "categoria": "interpretativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 4. Los géneros interpretativos\n\n“Los textos interpretativos también presentan datos y fuentes, pero hacen algo más: explican cómo se relacionan.”\n\n“Pueden mostrar causas, consecuencias, antecedentes, contrastes y diferentes perspectivas. Por eso emplean expresiones como ‘por ello’, ‘sin embargo’ y ‘es decir’.”\n\n**Pregunta:** “¿Qué diferencia habría entre mencionar dos datos y explicar la relación entre ellos?”\n\n**Respuesta esperada:** “Mencionar los datos informa; explicar cómo se relacionan ayuda a interpretar el asunto.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 9,
+      "segmento": "Diapositiva 4. Los géneros interpretativos",
+      "diapositiva": 4,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros interpretativos",
+        "fuente": "contenido.txt § Diapositiva 4",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Características principales",
+          "fuente": "contenido.txt § Diapositiva 4",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Incluyen datos y fuentes de información.",
+          "fuente": "contenido.txt § Diapositiva 4",
+          "estilo": "item"
+        },
+        {
+          "texto": "Explican por qué ocurrió un hecho o qué efectos puede producir.",
+          "fuente": "contenido.txt § Diapositiva 4",
+          "estilo": "item"
+        },
+        {
+          "texto": "Comparan situaciones o puntos de vista.",
+          "fuente": "contenido.txt § Diapositiva 4",
+          "estilo": "item"
+        },
+        {
+          "texto": "Aclaran el significado de cifras y acontecimientos.",
+          "fuente": "contenido.txt § Diapositiva 4",
+          "estilo": "item"
+        },
+        {
+          "texto": "Relacionan información mediante expresiones como **porque**, **por ello**, **sin embargo**, **por el contrario** y **es decir**.",
+          "fuente": "contenido.txt § Diapositiva 4",
+          "estilo": "item"
+        },
+        {
+          "texto": "No necesitan presentar una opinión personal explícita del redactor.",
+          "fuente": "contenido.txt § Diapositiva 4",
+          "estilo": "item"
+        }
+      ],
+      "visual": {
+        "id": "categoria",
+        "descripcion": "Distintivo del género interpretativo (cuadrado con ícono de red) y las relaciones que construye: causa, contraste y aclaración.",
+        "categoria": "interpretativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 4. Los géneros interpretativos\n\n“Los textos interpretativos también presentan datos y fuentes, pero hacen algo más: explican cómo se relacionan.”\n\n“Pueden mostrar causas, consecuencias, antecedentes, contrastes y diferentes perspectivas. Por eso emplean expresiones como ‘por ello’, ‘sin embargo’ y ‘es decir’.”\n\n**Pregunta:** “¿Qué diferencia habría entre mencionar dos datos y explicar la relación entre ellos?”\n\n**Respuesta esperada:** “Mencionar los datos informa; explicar cómo se relacionan ayuda a interpretar el asunto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 10,
+      "segmento": "Diapositiva 4. Los géneros interpretativos",
+      "diapositiva": 4,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros interpretativos",
+        "fuente": "contenido.txt § Diapositiva 4",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "La diferencia principal es que el texto informativo comunica los hechos, mientras que el interpretativo los relaciona para ayudar al lector a comprender su significado.",
+          "fuente": "contenido.txt § Diapositiva 4",
+          "estilo": "destacado"
+        }
+      ],
+      "visual": {
+        "id": "compara-info-interp",
+        "descripcion": "Comparación: a la izquierda, datos sueltos en lista (informativo); a la derecha, los mismos datos unidos por flechas (interpretativo)."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 4. Los géneros interpretativos\n\n“Los textos interpretativos también presentan datos y fuentes, pero hacen algo más: explican cómo se relacionan.”\n\n“Pueden mostrar causas, consecuencias, antecedentes, contrastes y diferentes perspectivas. Por eso emplean expresiones como ‘por ello’, ‘sin embargo’ y ‘es decir’.”\n\n**Pregunta:** “¿Qué diferencia habría entre mencionar dos datos y explicar la relación entre ellos?”\n\n**Respuesta esperada:** “Mencionar los datos informa; explicar cómo se relacionan ayuda a interpretar el asunto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 11,
+      "segmento": "Diapositiva 5. Los géneros de opinión",
+      "diapositiva": 5,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros de opinión",
+        "fuente": "contenido.txt § Diapositiva 5",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Los textos de opinión tienen como propósito principal **expresar y defender una postura** sobre un asunto de interés público.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "El autor no solo presenta hechos: también los valora, propone una interpretación y ofrece razones para convencer al lector o invitarlo a reflexionar.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "postura",
+        "descripcion": "Una postura central sostenida por tres razones (columnas), con el autor visible junto a ella.",
+        "categoria": "opinion"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 5. Los géneros de opinión\n\n“En estos textos el autor expresa y defiende una postura. Puede presentar datos verdaderos, pero los utiliza para apoyar una valoración o propuesta.”\n\n“Las palabras que muestran juicio, primera persona y obligación resultan especialmente importantes.”\n\n**Preguntas:**\n\n- “¿Qué expresa la palabra ‘grave’?”\n- “¿Qué diferencia existe entre ‘ocurrió’ y ‘debe actuar’?”\n\n**Respuestas esperadas:** “‘Grave’ expresa una valoración. ‘Ocurrió’ comunica un hecho; ‘debe actuar’ propone o exige una acción.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 12,
+      "segmento": "Diapositiva 5. Los géneros de opinión",
+      "diapositiva": 5,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros de opinión",
+        "fuente": "contenido.txt § Diapositiva 5",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Características principales",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Presentan una postura o idea central.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "item"
+        },
+        {
+          "texto": "Desarrollan argumentos, ejemplos y evidencias.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "item"
+        },
+        {
+          "texto": "Pueden emplear la primera persona: **considero**, **pienso**, **valoro**, **me parece**.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "item"
+        },
+        {
+          "texto": "Utilizan palabras que expresan una valoración: **grave**, **acertado**, **injusto**, **necesario**.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "item"
+        },
+        {
+          "texto": "Pueden formular recomendaciones u obligaciones: **debe**, **hay que**, **conviene**, **urge**.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "item"
+        },
+        {
+          "texto": "Concluyen con una reflexión, una propuesta o un llamado a actuar.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "item"
+        }
+      ],
+      "visual": {
+        "id": "categoria",
+        "descripcion": "Distintivo del género de opinión (triángulo con ícono de megáfono) y sus pistas: primera persona, valoración y recomendación.",
+        "categoria": "opinion"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 5. Los géneros de opinión\n\n“En estos textos el autor expresa y defiende una postura. Puede presentar datos verdaderos, pero los utiliza para apoyar una valoración o propuesta.”\n\n“Las palabras que muestran juicio, primera persona y obligación resultan especialmente importantes.”\n\n**Preguntas:**\n\n- “¿Qué expresa la palabra ‘grave’?”\n- “¿Qué diferencia existe entre ‘ocurrió’ y ‘debe actuar’?”\n\n**Respuestas esperadas:** “‘Grave’ expresa una valoración. ‘Ocurrió’ comunica un hecho; ‘debe actuar’ propone o exige una acción.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 13,
+      "segmento": "Diapositiva 5. Los géneros de opinión",
+      "diapositiva": 5,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los géneros de opinión",
+        "fuente": "contenido.txt § Diapositiva 5",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Organización frecuente",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**Introducción:** presenta el tema y la postura.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Desarrollo:** expone razones, ejemplos y pruebas.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Conclusión:** recupera la postura y puede proponer una acción o reflexión.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Un texto de opinión también puede contener datos y fuentes. La diferencia es que esos datos se utilizan para sostener una postura.",
+          "fuente": "contenido.txt § Diapositiva 5",
+          "estilo": "destacado"
+        }
+      ],
+      "visual": {
+        "id": "estructura-opinion",
+        "descripcion": "Tres bloques apilados (introducción, desarrollo, conclusión) con una flecha que regresa a la postura inicial.",
+        "categoria": "opinion"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 5. Los géneros de opinión\n\n“En estos textos el autor expresa y defiende una postura. Puede presentar datos verdaderos, pero los utiliza para apoyar una valoración o propuesta.”\n\n“Las palabras que muestran juicio, primera persona y obligación resultan especialmente importantes.”\n\n**Preguntas:**\n\n- “¿Qué expresa la palabra ‘grave’?”\n- “¿Qué diferencia existe entre ‘ocurrió’ y ‘debe actuar’?”\n\n**Respuestas esperadas:** “‘Grave’ expresa una valoración. ‘Ocurrió’ comunica un hecho; ‘debe actuar’ propone o exige una acción.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 14,
+      "segmento": "Diapositiva 6. Los marcadores discursivos",
+      "diapositiva": 6,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los marcadores discursivos",
+        "fuente": "contenido.txt § Diapositiva 6",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Los **marcadores discursivos** son palabras o expresiones que conectan las partes de un texto y ayudan a comprender la relación entre sus ideas.",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Funcionan como señales que indican si una idea se agrega, se opone, explica, ejemplifica o concluye otra idea.",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "puente",
+        "descripcion": "Dos ideas unidas por un puente-señal: el marcador indica qué tipo de relación hay entre ellas."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 6. Los marcadores discursivos\n\n“Los marcadores discursivos funcionan como señales dentro del texto. Nos indican cómo se conecta una idea con otra.”\n\n“Si aparece ‘sin embargo’, ¿las ideas se suman o se contrastan?”\n\n**Respuesta esperada:** “Se contrastan.”\n\n“Si aparece ‘es decir’, ¿qué hará probablemente el autor?”\n\n**Respuesta esperada:** “Aclarará o explicará una idea.”\n\n**Aclaración:** “No clasificaremos un texto solo porque aparezca ‘sin embargo’ o ‘además’. Primero debemos explicar qué ideas conecta.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": [
+        "marcadores discursivos"
+      ]
+    },
+    {
+      "id": 15,
+      "segmento": "Diapositiva 6. Los marcadores discursivos",
+      "diapositiva": 6,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los marcadores discursivos",
+        "fuente": "contenido.txt § Diapositiva 6",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Para ordenar y agregar información",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**en primer lugar**, **además**, **asimismo**, **por otra parte**, **por último**.",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Para expresar causa o consecuencia",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**porque**, **debido a**, **por ello**, **por tanto**, **en consecuencia**.",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Para contrastar ideas",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**pero**, **sin embargo**, **en cambio**, **por el contrario**, **aunque**.",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "funciones-marcador",
+        "descripcion": "Íconos de función: suma (agregar), flecha (causa y consecuencia) y flechas opuestas (contraste)."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 6. Los marcadores discursivos\n\n“Los marcadores discursivos funcionan como señales dentro del texto. Nos indican cómo se conecta una idea con otra.”\n\n“Si aparece ‘sin embargo’, ¿las ideas se suman o se contrastan?”\n\n**Respuesta esperada:** “Se contrastan.”\n\n“Si aparece ‘es decir’, ¿qué hará probablemente el autor?”\n\n**Respuesta esperada:** “Aclarará o explicará una idea.”\n\n**Aclaración:** “No clasificaremos un texto solo porque aparezca ‘sin embargo’ o ‘además’. Primero debemos explicar qué ideas conecta.”",
+      "revisar": [],
+      "glosario": [
+        "marcadores discursivos"
+      ]
+    },
+    {
+      "id": 16,
+      "segmento": "Diapositiva 6. Los marcadores discursivos",
+      "diapositiva": 6,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Los marcadores discursivos",
+        "fuente": "contenido.txt § Diapositiva 6",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Para explicar o presentar ejemplos",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**es decir**, **en otras palabras**, **por ejemplo**, **en particular**.",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Para cerrar o resumir",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**en conclusión**, **en suma**, **en fin**, **por último**.",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Un marcador aislado no permite clasificar un texto. Es necesario observar qué ideas relaciona y qué intención ayuda a construir.",
+          "fuente": "contenido.txt § Diapositiva 6",
+          "estilo": "destacado"
+        }
+      ],
+      "visual": {
+        "id": "funciones-marcador-2",
+        "descripcion": "Íconos de función: signo de igualdad (explicar o aclarar) y bandera de meta (cerrar o resumir)."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 6. Los marcadores discursivos\n\n“Los marcadores discursivos funcionan como señales dentro del texto. Nos indican cómo se conecta una idea con otra.”\n\n“Si aparece ‘sin embargo’, ¿las ideas se suman o se contrastan?”\n\n**Respuesta esperada:** “Se contrastan.”\n\n“Si aparece ‘es decir’, ¿qué hará probablemente el autor?”\n\n**Respuesta esperada:** “Aclarará o explicará una idea.”\n\n**Aclaración:** “No clasificaremos un texto solo porque aparezca ‘sin embargo’ o ‘además’. Primero debemos explicar qué ideas conecta.”",
+      "revisar": [
+        "[REVISAR] «por último» aparece en dos grupos: «Para ordenar y agregar información» y «Para cerrar o resumir». Se muestra tal como viene."
+      ],
+      "glosario": [
+        "marcadores discursivos"
+      ]
+    },
+    {
+      "id": 17,
+      "segmento": "Diapositiva 7. Otras pistas importantes",
+      "diapositiva": 7,
+      "fase_lgr": "yo",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Otras pistas importantes",
+        "fuente": "contenido.txt § Diapositiva 7",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Además de los marcadores discursivos, existen otras pistas que permiten reconocer la intención de un texto.",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Atribución de información",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Permite saber quién proporciona el dato: **según**, **de acuerdo con**, **informó**, **señaló**, **explicó**.",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Datos verificables",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Pueden comprobarse: fechas, cifras, nombres, lugares, documentos y declaraciones.",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "pistas-1",
+        "descripcion": "Íconos de pista: comillas con persona (atribución) y marca de verificación sobre un dato (dato verificable)."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 7. Otras pistas importantes\n\n“Los marcadores no son las únicas pistas. También podemos buscar fuentes, datos, valoraciones, primera persona y recomendaciones.”\n\nSolicitar un ejemplo de cada grupo. Si se confunden dato y valoración, contrastar:\n\n- “La empresa cuenta con 132 aviones” es un dato.\n- “El avión es un desastre” es una valoración.",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": [
+        "atribución de información",
+        "datos verificables"
+      ]
+    },
+    {
+      "id": 18,
+      "segmento": "Diapositiva 7. Otras pistas importantes",
+      "diapositiva": 7,
+      "fase_lgr": "yo",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Otras pistas importantes",
+        "fuente": "contenido.txt § Diapositiva 7",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Valoración",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Expresa un juicio sobre una persona, hecho o situación: **grave**, **injusto**, **excelente**, **innecesario**, **un desastre**.",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Presencia del autor",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Hace visible su experiencia o punto de vista: **creo**, **considero**, **lo que más valoro**, **me parece**, **en mi experiencia**.",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Obligación o recomendación",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Indica lo que debería hacerse: **debe**, **deben**, **hay que**, **conviene**, **urge**.",
+          "fuente": "contenido.txt § Diapositiva 7",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "pistas-2",
+        "descripcion": "Íconos de pista: balanza (valoración), persona que habla (presencia del autor) y señal de indicación (obligación o recomendación)."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 7. Otras pistas importantes\n\n“Los marcadores no son las únicas pistas. También podemos buscar fuentes, datos, valoraciones, primera persona y recomendaciones.”\n\nSolicitar un ejemplo de cada grupo. Si se confunden dato y valoración, contrastar:\n\n- “La empresa cuenta con 132 aviones” es un dato.\n- “El avión es un desastre” es una valoración.",
+      "revisar": [],
+      "glosario": [
+        "valoración",
+        "presencia del autor"
+      ]
+    },
+    {
+      "id": 19,
+      "segmento": "Diapositiva 8. Una ruta para analizar los textos",
+      "diapositiva": 8,
+      "fase_lgr": "yo",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Una ruta para analizar los textos",
+        "fuente": "contenido.txt § Diapositiva 8",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Primero: encuentra las pistas",
+          "fuente": "contenido.txt § Diapositiva 8",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Localiza marcadores, datos, fuentes, valoraciones y expresiones que hagan visible al autor.",
+          "fuente": "contenido.txt § Diapositiva 8",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Después: explica su función",
+          "fuente": "contenido.txt § Diapositiva 8",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Pregúntate si agregan información, establecen una causa, contrastan dos ideas, aclaran un dato, expresan una valoración o recomiendan una acción.",
+          "fuente": "contenido.txt § Diapositiva 8",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "ruta",
+        "descripcion": "Ruta de cuatro pasos con el paso 1 (encontrar) y el paso 2 (explicar) resaltados."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 8. Una ruta para analizar\n\n“Seguiremos siempre cuatro pasos: encontrar, explicar, reconocer y justificar.”\n\n“Primero localizamos las pistas. Después decimos qué función cumplen. Luego reconocemos la intención principal. Al final justificamos con dos evidencias.”\n\nSolicitar que el grupo lea la fórmula de respuesta.",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 20,
+      "segmento": "Diapositiva 8. Una ruta para analizar los textos",
+      "diapositiva": 8,
+      "fase_lgr": "yo",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Una ruta para analizar los textos",
+        "fuente": "contenido.txt § Diapositiva 8",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Luego: reconoce la intención principal",
+          "fuente": "contenido.txt § Diapositiva 8",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Decide si el texto busca principalmente informar, explicar o expresar y defender una opinión.",
+          "fuente": "contenido.txt § Diapositiva 8",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Finalmente: justifica tu respuesta",
+          "fuente": "contenido.txt § Diapositiva 8",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "El texto pertenece al género __________ porque la expresión __________ indica __________ y la expresión __________ muestra __________.",
+          "fuente": "contenido.txt § Diapositiva 8",
+          "estilo": "cita"
+        }
+      ],
+      "visual": {
+        "id": "ruta",
+        "descripcion": "Ruta de cuatro pasos con el paso 3 (reconocer) y el paso 4 (justificar) resaltados."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 8. Una ruta para analizar\n\n“Seguiremos siempre cuatro pasos: encontrar, explicar, reconocer y justificar.”\n\n“Primero localizamos las pistas. Después decimos qué función cumplen. Luego reconocemos la intención principal. Al final justificamos con dos evidencias.”\n\nSolicitar que el grupo lea la fórmula de respuesta.",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 21,
+      "segmento": "Diapositiva 9. Ejemplo de texto informativo",
+      "diapositiva": 9,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Ejemplo de texto informativo",
+        "fuente": "contenido.txt § Diapositiva 9",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Semana Nacional de Vacunación",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**De acuerdo con las autoridades sanitarias**, la primera Semana Nacional de Vacunación de 2025 se desarrollaría entre el 26 de abril y el 3 de mayo. La meta era vacunar a **1.8 millones de personas**.",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Asimismo**, se aplicarían las vacunas del esquema básico en hospitales, clínicas y escuelas. **Además**, las autoridades explicaron los beneficios de la vacunación. **Por último**, recordaron la importancia de la vacunación colectiva.",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "lupa-texto",
+        "descripcion": "Lupa sobre el texto: las expresiones resaltadas son las pistas que se analizarán.",
+        "categoria": "informativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 9. Ejemplo informativo\n\n“Voy a analizar este texto paso a paso.”\n\n“Primero encuentro ‘de acuerdo con las autoridades’. Esta expresión indica de dónde proviene la información.”\n\n“La cifra de 1.8 millones puede comprobarse. ‘Asimismo’ y ‘además’ agregan datos. ‘Por último’ ordena el cierre.”\n\n“Ahora me pregunto si aparece una valoración personal del redactor. No la encuentro. Por eso concluyo que el propósito principal es informar.”\n\n**Pregunta:** “¿Cuál sería la evidencia más fuerte: la palabra ‘además’ sola o la combinación de fuentes, cifras y ausencia de valoración?”\n\n**Respuesta esperada:** “La combinación de varias pistas.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 22,
+      "segmento": "Diapositiva 9. Ejemplo de texto informativo",
+      "diapositiva": 9,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Ejemplo de texto informativo",
+        "fuente": "contenido.txt § Diapositiva 9",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Análisis",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**De acuerdo con las autoridades sanitarias** identifica la fuente de la información.",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "item"
+        },
+        {
+          "texto": "**1.8 millones de personas** es un dato verificable.",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Asimismo** y **además** agregan información.",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Por último** ordena el cierre de la explicación.",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "item"
+        },
+        {
+          "texto": "No aparece una valoración personal explícita del redactor.",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "item"
+        }
+      ],
+      "visual": {
+        "id": "pistas-encontradas",
+        "descripcion": "Cada pista encontrada con el ícono de su función: fuente, dato verificable, agregar y cerrar; la valoración aparece ausente.",
+        "categoria": "informativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 9. Ejemplo informativo\n\n“Voy a analizar este texto paso a paso.”\n\n“Primero encuentro ‘de acuerdo con las autoridades’. Esta expresión indica de dónde proviene la información.”\n\n“La cifra de 1.8 millones puede comprobarse. ‘Asimismo’ y ‘además’ agregan datos. ‘Por último’ ordena el cierre.”\n\n“Ahora me pregunto si aparece una valoración personal del redactor. No la encuentro. Por eso concluyo que el propósito principal es informar.”\n\n**Pregunta:** “¿Cuál sería la evidencia más fuerte: la palabra ‘además’ sola o la combinación de fuentes, cifras y ausencia de valoración?”\n\n**Respuesta esperada:** “La combinación de varias pistas.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 23,
+      "segmento": "Diapositiva 9. Ejemplo de texto informativo",
+      "diapositiva": 9,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Ejemplo de texto informativo",
+        "fuente": "contenido.txt § Diapositiva 9",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Conclusión",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "El propósito principal es informar sobre las fechas, la meta y las acciones de una campaña de vacunación.",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Pertenece al género informativo.**",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "destacado"
+        },
+        {
+          "texto": "Texto adaptado de “Salud arranca la primera Semana Nacional de Vacunación de 2025”, Redacción Animal Político.",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "fuente"
+        },
+        {
+          "texto": "https://grupoanimal.mx/salud/semana-nacional-vacunacion-2025-fecha",
+          "fuente": "contenido.txt § Diapositiva 9",
+          "estilo": "fuente"
+        }
+      ],
+      "visual": {
+        "id": "categoria",
+        "descripcion": "Distintivo del género informativo como conclusión del análisis.",
+        "categoria": "informativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 9. Ejemplo informativo\n\n“Voy a analizar este texto paso a paso.”\n\n“Primero encuentro ‘de acuerdo con las autoridades’. Esta expresión indica de dónde proviene la información.”\n\n“La cifra de 1.8 millones puede comprobarse. ‘Asimismo’ y ‘además’ agregan datos. ‘Por último’ ordena el cierre.”\n\n“Ahora me pregunto si aparece una valoración personal del redactor. No la encuentro. Por eso concluyo que el propósito principal es informar.”\n\n**Pregunta:** “¿Cuál sería la evidencia más fuerte: la palabra ‘además’ sola o la combinación de fuentes, cifras y ausencia de valoración?”\n\n**Respuesta esperada:** “La combinación de varias pistas.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 24,
+      "segmento": "Diapositiva 10. Ejemplo de texto interpretativo",
+      "diapositiva": 10,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Ejemplo de texto interpretativo",
+        "fuente": "contenido.txt § Diapositiva 10",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Centros de datos en México",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "En México aumenta la llegada de centros de datos. **A su vez**, la transparencia sobre el uso de agua y energía no avanza al mismo ritmo.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Por el contrario**, el optimismo por las inversiones contrasta con la falta de una regulación específica. **Es decir**, el beneficio económico adquiere otro significado cuando se relaciona con sus posibles costos sociales y ambientales.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Sin embargo**, las autoridades, las empresas y los especialistas no valoran estos riesgos de la misma manera.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "lupa-texto",
+        "descripcion": "Lupa sobre el texto: las expresiones resaltadas son las pistas que se analizarán.",
+        "categoria": "interpretativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 10. Ejemplo interpretativo\n\n“Repitamos el procedimiento.”\n\n“‘Por el contrario’ enfrenta el entusiasmo por las inversiones con la falta de regulación. ‘Es decir’ aclara el significado de la información. ‘Sin embargo’ presenta otra perspectiva.”\n\n“Este texto no solo comunica que existen inversiones. Explica cómo se relacionan con la regulación y el uso de recursos.”\n\n**Pregunta:** “¿El redactor expresa claramente una opinión personal?”\n\n**Respuesta esperada:** “No. Presenta y relaciona distintas perspectivas.”\n\n**Conclusión:** “Por eso lo clasificamos como interpretativo y no como opinión.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 25,
+      "segmento": "Diapositiva 10. Ejemplo de texto interpretativo",
+      "diapositiva": 10,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Ejemplo de texto interpretativo",
+        "fuente": "contenido.txt § Diapositiva 10",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Análisis",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**A su vez** incorpora otro aspecto del problema.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Por el contrario** presenta un contraste.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Es decir** aclara el significado de la información.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Sin embargo** permite comparar distintas perspectivas.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "item"
+        },
+        {
+          "texto": "Los datos se relacionan para explicar un problema.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "item"
+        },
+        {
+          "texto": "No domina una valoración personal de los redactores.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "item"
+        }
+      ],
+      "visual": {
+        "id": "pistas-encontradas-interp",
+        "descripcion": "Cada marcador con el ícono de su función: agregar, contrastar, aclarar y comparar perspectivas.",
+        "categoria": "interpretativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 10. Ejemplo interpretativo\n\n“Repitamos el procedimiento.”\n\n“‘Por el contrario’ enfrenta el entusiasmo por las inversiones con la falta de regulación. ‘Es decir’ aclara el significado de la información. ‘Sin embargo’ presenta otra perspectiva.”\n\n“Este texto no solo comunica que existen inversiones. Explica cómo se relacionan con la regulación y el uso de recursos.”\n\n**Pregunta:** “¿El redactor expresa claramente una opinión personal?”\n\n**Respuesta esperada:** “No. Presenta y relaciona distintas perspectivas.”\n\n**Conclusión:** “Por eso lo clasificamos como interpretativo y no como opinión.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 26,
+      "segmento": "Diapositiva 10. Ejemplo de texto interpretativo",
+      "diapositiva": 10,
+      "fase_lgr": "yo",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Ejemplo de texto interpretativo",
+        "fuente": "contenido.txt § Diapositiva 10",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Conclusión",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "El propósito principal es explicar la relación entre las inversiones, la falta de regulación y el uso de recursos.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Pertenece al género interpretativo.**",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "destacado"
+        },
+        {
+          "texto": "Texto adaptado de “Centros de Datos se asientan en México entre falta de regulación, opacidad y optimismo por inversión”, Aline Corpus, Lorena Ríos y Gabriel Orihuela.",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "fuente"
+        },
+        {
+          "texto": "https://grupoanimal.mx/sociedad/centros-datos-mexico-falta-regulacion-inversion",
+          "fuente": "contenido.txt § Diapositiva 10",
+          "estilo": "fuente"
+        }
+      ],
+      "visual": {
+        "id": "categoria",
+        "descripcion": "Distintivo del género interpretativo como conclusión del análisis.",
+        "categoria": "interpretativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 10. Ejemplo interpretativo\n\n“Repitamos el procedimiento.”\n\n“‘Por el contrario’ enfrenta el entusiasmo por las inversiones con la falta de regulación. ‘Es decir’ aclara el significado de la información. ‘Sin embargo’ presenta otra perspectiva.”\n\n“Este texto no solo comunica que existen inversiones. Explica cómo se relacionan con la regulación y el uso de recursos.”\n\n**Pregunta:** “¿El redactor expresa claramente una opinión personal?”\n\n**Respuesta esperada:** “No. Presenta y relaciona distintas perspectivas.”\n\n**Conclusión:** “Por eso lo clasificamos como interpretativo y no como opinión.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 27,
+      "segmento": "Diapositiva 11. Informar no es lo mismo que interpretar",
+      "diapositiva": 11,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Informar no es lo mismo que interpretar",
+        "fuente": "contenido.txt § Diapositiva 11",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Los dos textos anteriores contienen datos y fuentes. Sin embargo, los utilizan de manera diferente.",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Texto informativo",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "tabla-encabezado",
+          "col": 0
+        },
+        {
+          "texto": "Texto interpretativo",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "tabla-encabezado",
+          "col": 1
+        },
+        {
+          "texto": "Comunica qué ocurrió.",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "tabla-celda",
+          "col": 0
+        },
+        {
+          "texto": "Explica cómo se relacionan los hechos.",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "tabla-celda",
+          "col": 1
+        },
+        {
+          "texto": "Presenta datos y declaraciones.",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "tabla-celda",
+          "col": 0
+        },
+        {
+          "texto": "Compara datos, situaciones y perspectivas.",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "tabla-celda",
+          "col": 1
+        },
+        {
+          "texto": "Ordena la información.",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "tabla-celda",
+          "col": 0
+        },
+        {
+          "texto": "Establece causas, consecuencias, contrastes y contextos.",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "tabla-celda",
+          "col": 1
+        },
+        {
+          "texto": "Evita una valoración explícita del redactor.",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "tabla-celda",
+          "col": 0
+        },
+        {
+          "texto": "Puede explicar un problema sin expresar una postura personal.",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "tabla-celda",
+          "col": 1
+        }
+      ],
+      "visual": {
+        "id": "encabezados-categoria",
+        "descripcion": "Cada columna de la tabla lleva el ícono, la forma y la etiqueta de su género."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 11. Informar e interpretar\n\n“Los dos textos tienen datos y fuentes. Esa semejanza puede provocar una confusión.”\n\nSi alguien elige B: “Es verdad que aparecen cifras, pero también aparecían en el texto informativo. Necesitamos una diferencia que no compartan.”\n\nSi alguien elige C: “Correcto. El texto interpretativo emplea los datos para construir contrastes y explicaciones.”\n\nCompletar oralmente: “El texto es interpretativo porque __________ y __________.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": [],
+      "diseno": "tabla"
+    },
+    {
+      "id": 28,
+      "segmento": "Diapositiva 11. Informar no es lo mismo que interpretar",
+      "diapositiva": 11,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Informar no es lo mismo que interpretar",
+        "fuente": "contenido.txt § Diapositiva 11",
+        "estilo": "titulo"
+      },
+      "bloques": [],
+      "visual": {
+        "id": "pregunta",
+        "descripcion": "Ícono de pregunta con la ruta de análisis: reconocer la intención con varias pistas."
+      },
+      "interaccion": {
+        "tipo": "seleccion",
+        "id_reactivo": "D11",
+        "etiqueta": "D11",
+        "enunciado": {
+          "texto": "¿Por qué el texto sobre centros de datos es interpretativo?",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "subtitulo"
+        },
+        "multiple": false,
+        "opciones": [
+          {
+            "clave": "A",
+            "texto": "Porque tiene un título y una fecha.",
+            "categoria": null
+          },
+          {
+            "clave": "B",
+            "texto": "Porque presenta cifras y nombres.",
+            "categoria": null
+          },
+          {
+            "clave": "C",
+            "texto": "Porque relaciona los hechos mediante contrastes, explicaciones y contexto.",
+            "categoria": null
+          }
+        ],
+        "correcta": [
+          "C"
+        ],
+        "fallas": {
+          "A": {
+            "etiqueta": null,
+            "intervencion": null
+          },
+          "B": {
+            "etiqueta": "Clasifica por una cifra",
+            "intervencion": "Es verdad que aparecen cifras, pero también aparecían en el texto informativo. Necesitamos una diferencia que no compartan."
+          }
+        },
+        "paso_del_trayecto": "reconoce",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": null,
+        "tipo_predeterminado": true
+      },
+      "notas": "## Diapositiva 11. Informar e interpretar\n\n“Los dos textos tienen datos y fuentes. Esa semejanza puede provocar una confusión.”\n\nSi alguien elige B: “Es verdad que aparecen cifras, pero también aparecían en el texto informativo. Necesitamos una diferencia que no compartan.”\n\nSi alguien elige C: “Correcto. El texto interpretativo emplea los datos para construir contrastes y explicaciones.”\n\nCompletar oralmente: “El texto es interpretativo porque __________ y __________.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 29,
+      "segmento": "Diapositiva 11. Informar no es lo mismo que interpretar",
+      "diapositiva": 11,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Informar no es lo mismo que interpretar",
+        "fuente": "contenido.txt § Diapositiva 11",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Respuesta",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**C.** Las expresiones **por el contrario**, **es decir** y **sin embargo** relacionan la información para explicar su significado.",
+          "fuente": "contenido.txt § Diapositiva 11",
+          "estilo": "destacado"
+        }
+      ],
+      "visual": {
+        "id": "relaciones",
+        "descripcion": "Las tres expresiones como flechas que relacionan los datos del texto.",
+        "categoria": "interpretativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 11. Informar e interpretar\n\n“Los dos textos tienen datos y fuentes. Esa semejanza puede provocar una confusión.”\n\nSi alguien elige B: “Es verdad que aparecen cifras, pero también aparecían en el texto informativo. Necesitamos una diferencia que no compartan.”\n\nSi alguien elige C: “Correcto. El texto interpretativo emplea los datos para construir contrastes y explicaciones.”\n\nCompletar oralmente: “El texto es interpretativo porque __________ y __________.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 30,
+      "segmento": "Diapositiva 12. Ejemplo de texto de opinión",
+      "diapositiva": 12,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Ejemplo de texto de opinión",
+        "fuente": "contenido.txt § Diapositiva 12",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "El futuro del turismo en México",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "José Ángel Díaz Rebolledo comenta la realización de un foro sobre el futuro del turismo. El autor informa quiénes participaron, pero también hace visible su valoración mediante expresiones como:",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**No exagero**.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Lo que más valoro**.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Nuestro papel**.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Me quedo con la impresión**.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "item"
+        }
+      ],
+      "visual": {
+        "id": "autor-visible",
+        "descripcion": "Un autor que se asoma al texto: sus expresiones personales lo hacen visible.",
+        "categoria": "opinion"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 12. Ejemplo de opinión\n\n“Ahora observemos cómo se hace visible el autor.”\n\nLeer las cuatro expresiones resaltadas y preguntar: “¿Cuál de estas expresiones podría aparecer en una lista neutral de datos?”\n\n**Respuesta esperada:** “Ninguna, porque todas muestran una valoración o impresión personal.”\n\n“Los hechos del foro siguen siendo reales. Sin embargo, el propósito dominante es valorarlos y defender una visión sobre el turismo.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 31,
+      "segmento": "Diapositiva 12. Ejemplo de texto de opinión",
+      "diapositiva": 12,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Ejemplo de texto de opinión",
+        "fuente": "contenido.txt § Diapositiva 12",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Análisis",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**No exagero** refuerza una afirmación personal.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Lo que más valoro** expresa claramente un juicio.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Nuestro papel** muestra que el autor se incluye en el asunto.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Me quedo con la impresión** comunica una conclusión personal.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "item"
+        },
+        {
+          "texto": "El acontecimiento funciona como punto de partida para defender una postura.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "item"
+        }
+      ],
+      "visual": {
+        "id": "pistas-opinion",
+        "descripcion": "Cada expresión con el ícono de lo que muestra: afirmación personal, juicio, inclusión del autor y conclusión personal.",
+        "categoria": "opinion"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 12. Ejemplo de opinión\n\n“Ahora observemos cómo se hace visible el autor.”\n\nLeer las cuatro expresiones resaltadas y preguntar: “¿Cuál de estas expresiones podría aparecer en una lista neutral de datos?”\n\n**Respuesta esperada:** “Ninguna, porque todas muestran una valoración o impresión personal.”\n\n“Los hechos del foro siguen siendo reales. Sin embargo, el propósito dominante es valorarlos y defender una visión sobre el turismo.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 32,
+      "segmento": "Diapositiva 12. Ejemplo de texto de opinión",
+      "diapositiva": 12,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Ejemplo de texto de opinión",
+        "fuente": "contenido.txt § Diapositiva 12",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Conclusión",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "El propósito principal es valorar la importancia del encuentro y defender una visión sobre el futuro del turismo.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Pertenece al género de opinión.**",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "destacado"
+        },
+        {
+          "texto": "Ejemplo tomado de “La agenda impostergable y el futuro del turismo en México”, José Ángel Díaz Rebolledo.",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "fuente"
+        },
+        {
+          "texto": "https://www.eluniversal.com.mx/opinion/articulista-invitado/la-agenda-impostergable-y-el-futuro-del-turismo-en-mexico/",
+          "fuente": "contenido.txt § Diapositiva 12",
+          "estilo": "fuente"
+        }
+      ],
+      "visual": {
+        "id": "categoria",
+        "descripcion": "Distintivo del género de opinión como conclusión del análisis.",
+        "categoria": "opinion"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 12. Ejemplo de opinión\n\n“Ahora observemos cómo se hace visible el autor.”\n\nLeer las cuatro expresiones resaltadas y preguntar: “¿Cuál de estas expresiones podría aparecer en una lista neutral de datos?”\n\n**Respuesta esperada:** “Ninguna, porque todas muestran una valoración o impresión personal.”\n\n“Los hechos del foro siguen siendo reales. Sin embargo, el propósito dominante es valorarlos y defender una visión sobre el turismo.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 33,
+      "segmento": "Diapositiva 13. Cuidado con las pistas aisladas",
+      "diapositiva": 13,
+      "fase_lgr": "nosotros",
+      "duracion_s": 30,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Cuidado con las pistas aisladas",
+        "fuente": "contenido.txt § Diapositiva 13",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Un lector afirmó:",
+          "fuente": "contenido.txt § Diapositiva 13",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "“El texto sobre turismo menciona un foro, participantes y hechos reales. Por eso debe ser informativo.”",
+          "fuente": "contenido.txt § Diapositiva 13",
+          "estilo": "cita"
+        }
+      ],
+      "visual": {
+        "id": "una-pista",
+        "descripcion": "Una sola pista iluminada frente a varias pistas ignoradas: clasificar con una sola pista lleva a error."
+      },
+      "interaccion": {
+        "tipo": "seleccion",
+        "id_reactivo": "D13",
+        "etiqueta": "D13",
+        "enunciado": {
+          "texto": "¿Qué error cometió?",
+          "fuente": "contenido.txt § Diapositiva 13",
+          "estilo": "subtitulo"
+        },
+        "multiple": false,
+        "opciones": [
+          {
+            "clave": "A",
+            "texto": "Pensó que los textos de opinión nunca tienen datos.",
+            "categoria": null
+          },
+          {
+            "clave": "B",
+            "texto": "Clasificó el texto utilizando una sola pista.",
+            "categoria": null
+          },
+          {
+            "clave": "C",
+            "texto": "Supuso que todos los textos firmados son interpretativos.",
+            "categoria": null
+          }
+        ],
+        "correcta": [
+          "B"
+        ],
+        "fallas": {
+          "A": {
+            "etiqueta": null,
+            "intervencion": null
+          },
+          "C": {
+            "etiqueta": null,
+            "intervencion": null
+          }
+        },
+        "paso_del_trayecto": "justifica",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": null,
+        "tipo_predeterminado": true
+      },
+      "notas": "## Diapositiva 13. Pistas aisladas\n\n“Este razonamiento parece lógico: si el texto menciona hechos, entonces es informativo. Sin embargo, está incompleto.”\n\n“Los textos interpretativos y de opinión también pueden contener hechos.”\n\nSolicitar que el grupo identifique el error.\n\n**Respuesta esperada:** “Se utilizó una sola pista y se ignoraron las valoraciones.”\n\n**Refuerzo:** “Antes de clasificar debemos revisar todas las pistas y decidir cuáles tienen mayor peso.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 34,
+      "segmento": "Diapositiva 13. Cuidado con las pistas aisladas",
+      "diapositiva": 13,
+      "fase_lgr": "nosotros",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Cuidado con las pistas aisladas",
+        "fuente": "contenido.txt § Diapositiva 13",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Respuesta",
+          "fuente": "contenido.txt § Diapositiva 13",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**B. Clasificó el texto utilizando una sola pista.**",
+          "fuente": "contenido.txt § Diapositiva 13",
+          "estilo": "destacado"
+        },
+        {
+          "texto": "El texto contiene información sobre un hecho real, pero también presenta primera persona, valoraciones, una interpretación personal y una conclusión que orienta al lector.",
+          "fuente": "contenido.txt § Diapositiva 13",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Los datos pueden aparecer en los tres tipos de textos. Para clasificarlos hay que reconocer qué intención domina.",
+          "fuente": "contenido.txt § Diapositiva 13",
+          "estilo": "cita"
+        }
+      ],
+      "visual": {
+        "id": "varias-pistas",
+        "descripcion": "Varias pistas reunidas bajo una lupa: la intención se reconoce al combinarlas."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 13. Pistas aisladas\n\n“Este razonamiento parece lógico: si el texto menciona hechos, entonces es informativo. Sin embargo, está incompleto.”\n\n“Los textos interpretativos y de opinión también pueden contener hechos.”\n\nSolicitar que el grupo identifique el error.\n\n**Respuesta esperada:** “Se utilizó una sola pista y se ignoraron las valoraciones.”\n\n**Refuerzo:** “Antes de clasificar debemos revisar todas las pistas y decidir cuáles tienen mayor peso.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 35,
+      "segmento": "Diapositiva 14. Completa los textos",
+      "diapositiva": 14,
+      "fase_lgr": "nosotros",
+      "duracion_s": 15,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Completa los textos",
+        "fuente": "contenido.txt § Diapositiva 14",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Texto A",
+          "fuente": "contenido.txt § Diapositiva 14",
+          "estilo": "subtitulo"
+        }
+      ],
+      "visual": {
+        "id": "completar",
+        "descripcion": "Piezas que encajan en los huecos: cada marcador cumple una función en el texto.",
+        "categoria": "informativo"
+      },
+      "interaccion": {
+        "tipo": "arrastre",
+        "id_reactivo": "D14-A",
+        "etiqueta": "D14 · A",
+        "parrafos": [
+          [
+            {
+              "antes": "",
+              "despues": " las autoridades sanitarias, la meta de la campaña era vacunar a 1.8 millones de personas.",
+              "correcta": "De acuerdo con"
+            }
+          ],
+          [
+            {
+              "antes": "",
+              "despues": ", se aplicarían las vacunas del esquema básico en hospitales, clínicas y escuelas.",
+              "correcta": "Asimismo"
+            }
+          ],
+          [
+            {
+              "antes": "",
+              "despues": ", las autoridades recordaron la importancia de la vacunación colectiva.",
+              "correcta": "Por último"
+            }
+          ]
+        ],
+        "banco": [
+          "Asimismo",
+          "Por último",
+          "De acuerdo con"
+        ],
+        "bancoTitulo": {
+          "texto": "**Banco de palabras:**",
+          "fuente": "contenido.txt § Diapositiva 14",
+          "estilo": "subtitulo"
+        },
+        "fuenteTexto": "contenido.txt § Diapositiva 14 (respuestas: § Diapositiva 15)",
+        "fallas": {},
+        "paso_del_trayecto": "explica",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": null,
+        "tipo_predeterminado": false
+      },
+      "notas": "## Diapositiva 14. Completa los textos\n\n“Completemos primero el texto A. Busquemos una expresión para identificar la fuente, otra para agregar información y otra para cerrar.”\n\n**Respuestas:** De acuerdo con; asimismo; por último.\n\n“Ahora completemos el texto B. Necesitamos una expresión de contraste, una aclaración y otro contraste.”\n\n**Respuestas:** Por el contrario; es decir; sin embargo.\n\nPreguntar:\n\n- “¿Cuál se concentra en presentar información?”\n- “¿Cuál construye una explicación?”\n- “¿Cómo lo sabemos?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 36,
+      "segmento": "Diapositiva 14. Completa los textos",
+      "diapositiva": 14,
+      "fase_lgr": "nosotros",
+      "duracion_s": 15,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Completa los textos",
+        "fuente": "contenido.txt § Diapositiva 14",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Texto B",
+          "fuente": "contenido.txt § Diapositiva 14",
+          "estilo": "subtitulo"
+        }
+      ],
+      "visual": {
+        "id": "completar",
+        "descripcion": "Piezas que encajan en los huecos: cada marcador cumple una función en el texto.",
+        "categoria": "interpretativo"
+      },
+      "interaccion": {
+        "tipo": "arrastre",
+        "id_reactivo": "D14-B",
+        "etiqueta": "D14 · B",
+        "parrafos": [
+          [
+            {
+              "antes": "",
+              "despues": ", el optimismo por las inversiones contrasta con la falta de regulación.",
+              "correcta": "Por el contrario"
+            }
+          ],
+          [
+            {
+              "antes": "",
+              "despues": ", las cifras económicas deben relacionarse con el consumo de agua y energía para comprender su importancia.",
+              "correcta": "Es decir"
+            }
+          ],
+          [
+            {
+              "antes": "",
+              "despues": ", algunas autoridades consideran que los riesgos pueden atenderse mediante nuevas tecnologías.",
+              "correcta": "Sin embargo"
+            }
+          ]
+        ],
+        "banco": [
+          "Sin embargo",
+          "Por el contrario",
+          "Es decir"
+        ],
+        "bancoTitulo": {
+          "texto": "**Banco de palabras:**",
+          "fuente": "contenido.txt § Diapositiva 14",
+          "estilo": "subtitulo"
+        },
+        "fuenteTexto": "contenido.txt § Diapositiva 14 (respuestas: § Diapositiva 15)",
+        "fallas": {},
+        "paso_del_trayecto": "explica",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": null,
+        "tipo_predeterminado": false
+      },
+      "notas": "## Diapositiva 14. Completa los textos\n\n“Completemos primero el texto A. Busquemos una expresión para identificar la fuente, otra para agregar información y otra para cerrar.”\n\n**Respuestas:** De acuerdo con; asimismo; por último.\n\n“Ahora completemos el texto B. Necesitamos una expresión de contraste, una aclaración y otro contraste.”\n\n**Respuestas:** Por el contrario; es decir; sin embargo.\n\nPreguntar:\n\n- “¿Cuál se concentra en presentar información?”\n- “¿Cuál construye una explicación?”\n- “¿Cómo lo sabemos?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 37,
+      "segmento": "Diapositiva 14. Completa los textos",
+      "diapositiva": 14,
+      "fase_lgr": "nosotros",
+      "duracion_s": 15,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Completa los textos",
+        "fuente": "contenido.txt § Diapositiva 14",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Después de completar",
+          "fuente": "contenido.txt § Diapositiva 14",
+          "estilo": "subtitulo"
+        }
+      ],
+      "visual": {
+        "id": "dos-textos",
+        "descripcion": "Dos documentos, A y B: uno con datos en lista y otro con datos unidos por flechas."
+      },
+      "interaccion": {
+        "tipo": "seleccion",
+        "id_reactivo": "D14-1",
+        "etiqueta": "D14 · 1",
+        "enunciado": {
+          "texto": "1. ¿Cuál texto se concentra en presentar información?",
+          "fuente": "contenido.txt § Diapositiva 14",
+          "estilo": "parrafo"
+        },
+        "multiple": false,
+        "opciones": [
+          {
+            "clave": "A",
+            "texto": "Texto A",
+            "categoria": null
+          },
+          {
+            "clave": "B",
+            "texto": "Texto B",
+            "categoria": null
+          }
+        ],
+        "correcta": [
+          "A"
+        ],
+        "fallas": {
+          "B": {
+            "etiqueta": null,
+            "intervencion": null
+          }
+        },
+        "paso_del_trayecto": "reconoce",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": null,
+        "tipo_predeterminado": true
+      },
+      "notas": "## Diapositiva 14. Completa los textos\n\n“Completemos primero el texto A. Busquemos una expresión para identificar la fuente, otra para agregar información y otra para cerrar.”\n\n**Respuestas:** De acuerdo con; asimismo; por último.\n\n“Ahora completemos el texto B. Necesitamos una expresión de contraste, una aclaración y otro contraste.”\n\n**Respuestas:** Por el contrario; es decir; sin embargo.\n\nPreguntar:\n\n- “¿Cuál se concentra en presentar información?”\n- “¿Cuál construye una explicación?”\n- “¿Cómo lo sabemos?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 38,
+      "segmento": "Diapositiva 14. Completa los textos",
+      "diapositiva": 14,
+      "fase_lgr": "nosotros",
+      "duracion_s": 15,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Completa los textos",
+        "fuente": "contenido.txt § Diapositiva 14",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "3. ¿Qué función cumple cada expresión?",
+          "fuente": "contenido.txt § Diapositiva 14",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "dos-textos",
+        "descripcion": "Dos documentos, A y B: uno con datos en lista y otro con datos unidos por flechas."
+      },
+      "interaccion": {
+        "tipo": "seleccion",
+        "id_reactivo": "D14-2",
+        "etiqueta": "D14 · 2",
+        "enunciado": {
+          "texto": "2. ¿Cuál relaciona los hechos para explicar un problema?",
+          "fuente": "contenido.txt § Diapositiva 14",
+          "estilo": "parrafo"
+        },
+        "multiple": false,
+        "opciones": [
+          {
+            "clave": "A",
+            "texto": "Texto A",
+            "categoria": null
+          },
+          {
+            "clave": "B",
+            "texto": "Texto B",
+            "categoria": null
+          }
+        ],
+        "correcta": [
+          "B"
+        ],
+        "fallas": {
+          "A": {
+            "etiqueta": null,
+            "intervencion": null
+          }
+        },
+        "paso_del_trayecto": "reconoce",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": null,
+        "tipo_predeterminado": true
+      },
+      "notas": "## Diapositiva 14. Completa los textos\n\n“Completemos primero el texto A. Busquemos una expresión para identificar la fuente, otra para agregar información y otra para cerrar.”\n\n**Respuestas:** De acuerdo con; asimismo; por último.\n\n“Ahora completemos el texto B. Necesitamos una expresión de contraste, una aclaración y otro contraste.”\n\n**Respuestas:** Por el contrario; es decir; sin embargo.\n\nPreguntar:\n\n- “¿Cuál se concentra en presentar información?”\n- “¿Cuál construye una explicación?”\n- “¿Cómo lo sabemos?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 39,
+      "segmento": "Diapositiva 15. Revisamos las respuestas",
+      "diapositiva": 15,
+      "fase_lgr": "nosotros",
+      "duracion_s": 15,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Revisamos las respuestas",
+        "fuente": "contenido.txt § Diapositiva 15",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Texto A",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**De acuerdo con** las autoridades sanitarias, la meta de la campaña era vacunar a 1.8 millones de personas.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Asimismo**, se aplicarían las vacunas del esquema básico en hospitales, clínicas y escuelas.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Por último**, las autoridades recordaron la importancia de la vacunación colectiva.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "lupa-texto",
+        "descripcion": "Lupa sobre el texto completado: las expresiones resaltadas son las respuestas.",
+        "categoria": "informativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 15. Revisamos\n\n“No revisaremos solamente si la palabra cabe en el espacio. Explicaremos qué función cumple.”\n\nSolicitar que distintos estudiantes completen oralmente:\n\n- “‘De acuerdo con’ sirve para…”\n- “‘Por el contrario’ sirve para…”\n- “‘Es decir’ sirve para…”\n\n**Respuestas esperadas:** identificar una fuente; contrastar; aclarar una idea.",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 40,
+      "segmento": "Diapositiva 15. Revisamos las respuestas",
+      "diapositiva": 15,
+      "fase_lgr": "nosotros",
+      "duracion_s": 15,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Revisamos las respuestas",
+        "fuente": "contenido.txt § Diapositiva 15",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Texto A",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**De acuerdo con** identifica la fuente.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Asimismo** agrega información.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Por último** ordena el cierre.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "item"
+        },
+        {
+          "texto": "El propósito principal es **informar**.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "destacado"
+        }
+      ],
+      "visual": {
+        "id": "categoria",
+        "descripcion": "Distintivo del género informativo con las funciones de fuente, agregar y cerrar.",
+        "categoria": "informativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 15. Revisamos\n\n“No revisaremos solamente si la palabra cabe en el espacio. Explicaremos qué función cumple.”\n\nSolicitar que distintos estudiantes completen oralmente:\n\n- “‘De acuerdo con’ sirve para…”\n- “‘Por el contrario’ sirve para…”\n- “‘Es decir’ sirve para…”\n\n**Respuestas esperadas:** identificar una fuente; contrastar; aclarar una idea.",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 41,
+      "segmento": "Diapositiva 15. Revisamos las respuestas",
+      "diapositiva": 15,
+      "fase_lgr": "nosotros",
+      "duracion_s": 15,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Revisamos las respuestas",
+        "fuente": "contenido.txt § Diapositiva 15",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Texto B",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**Por el contrario**, el optimismo por las inversiones contrasta con la falta de regulación.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Es decir**, las cifras económicas deben relacionarse con el consumo de agua y energía para comprender su importancia.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Sin embargo**, algunas autoridades consideran que los riesgos pueden atenderse mediante nuevas tecnologías.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "parrafo"
+        }
+      ],
+      "visual": {
+        "id": "lupa-texto",
+        "descripcion": "Lupa sobre el texto completado: las expresiones resaltadas son las respuestas.",
+        "categoria": "interpretativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 15. Revisamos\n\n“No revisaremos solamente si la palabra cabe en el espacio. Explicaremos qué función cumple.”\n\nSolicitar que distintos estudiantes completen oralmente:\n\n- “‘De acuerdo con’ sirve para…”\n- “‘Por el contrario’ sirve para…”\n- “‘Es decir’ sirve para…”\n\n**Respuestas esperadas:** identificar una fuente; contrastar; aclarar una idea.",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 42,
+      "segmento": "Diapositiva 15. Revisamos las respuestas",
+      "diapositiva": 15,
+      "fase_lgr": "nosotros",
+      "duracion_s": 15,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Revisamos las respuestas",
+        "fuente": "contenido.txt § Diapositiva 15",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Texto B",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**Por el contrario** establece un contraste.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Es decir** aclara una idea.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "item"
+        },
+        {
+          "texto": "**Sin embargo** confronta otra perspectiva.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "item"
+        },
+        {
+          "texto": "El propósito principal es **explicar e interpretar**.",
+          "fuente": "contenido.txt § Diapositiva 15",
+          "estilo": "destacado"
+        }
+      ],
+      "visual": {
+        "id": "categoria",
+        "descripcion": "Distintivo del género interpretativo con las funciones de contrastar, aclarar y confrontar.",
+        "categoria": "interpretativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 15. Revisamos\n\n“No revisaremos solamente si la palabra cabe en el espacio. Explicaremos qué función cumple.”\n\nSolicitar que distintos estudiantes completen oralmente:\n\n- “‘De acuerdo con’ sirve para…”\n- “‘Por el contrario’ sirve para…”\n- “‘Es decir’ sirve para…”\n\n**Respuestas esperadas:** identificar una fuente; contrastar; aclarar una idea.",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 43,
+      "segmento": "Diapositiva 16. Leemos un texto de Daniel Rodríguez",
+      "diapositiva": 16,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Leemos un texto de Daniel Rodríguez",
+        "fuente": "contenido.txt § Diapositiva 16",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Al “deshuesadero” aviones de Volaris",
+          "fuente": "contenido.txt § Diapositiva 16",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**Autor:** Daniel Rodríguez",
+          "fuente": "contenido.txt § Diapositiva 16",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Medio:** *El Informador*",
+          "fuente": "contenido.txt § Diapositiva 16",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Sección:** Ideas",
+          "fuente": "contenido.txt § Diapositiva 16",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Fecha:** 19 de marzo de 2024",
+          "fuente": "contenido.txt § Diapositiva 16",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Completa el fragmento con las expresiones del banco.",
+          "fuente": "contenido.txt § Diapositiva 16",
+          "estilo": "destacado"
+        },
+        {
+          "texto": "Texto tomado de la actividad del libro base.",
+          "fuente": "contenido.txt § Diapositiva 16",
+          "estilo": "fuente"
+        },
+        {
+          "texto": "https://www.informador.mx/ideas/Al-deshuesadero-aviones-de-Volaris-20240319-0031.html",
+          "fuente": "contenido.txt § Diapositiva 16",
+          "estilo": "fuente"
+        }
+      ],
+      "visual": {
+        "id": "documento-fuente",
+        "descripcion": "Ficha de un artículo con autor, medio, sección y fecha: datos que identifican quién escribe y dónde se publicó.",
+        "categoria": "opinion"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 16. Texto sobre Volaris\n\n“Antes de clasificar, completemos el fragmento. Algunas expresiones comunican la experiencia y valoración del autor; otras indican lo que considera necesario hacer.”\n\nLeer el banco de expresiones. Después de completar, preguntar:\n\n- “¿Qué parte presenta un hecho?”\n- “¿Qué parte muestra una experiencia personal?”\n- “¿Qué expresión contiene una valoración?”\n- “¿Cuáles proponen una acción?”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 44,
+      "segmento": "Diapositiva 16. Leemos un texto de Daniel Rodríguez",
+      "diapositiva": 16,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Leemos un texto de Daniel Rodríguez",
+        "fuente": "contenido.txt § Diapositiva 16",
+        "estilo": "titulo"
+      },
+      "bloques": [],
+      "visual": null,
+      "interaccion": {
+        "tipo": "arrastre",
+        "id_reactivo": "D16-1",
+        "etiqueta": "D16 · 1",
+        "parrafos": [
+          [
+            {
+              "antes": "Las autoridades de aeronáutica civil de Estados Unidos han iniciado una investigación de los incidentes con varias aerolíneas. Y precisamente es lo mismo que",
+              "despues": " las autoridades aquí en México.",
+              "correcta": "deben hacer"
+            },
+            {
+              "antes": "Esto lo comento por una",
+              "despues": " del pasado 9 de marzo en un vuelo de Volaris.",
+              "correcta": "experiencia personal"
+            }
+          ],
+          [
+            {
+              "antes": "Total,",
+              "despues": " de aparato en lo que se refiere al mantenimiento.",
+              "correcta": "un desastre"
+            }
+          ]
+        ],
+        "banco": [
+          "deben hacer",
+          "experiencia personal",
+          "un desastre",
+          "debe poner",
+          "deben ser enviados",
+          "deben analizar y actuar"
+        ],
+        "bancoTitulo": {
+          "texto": "Banco de expresiones",
+          "fuente": "contenido.txt § Diapositiva 16",
+          "estilo": "subtitulo"
+        },
+        "fuenteTexto": "contenido.txt § Diapositiva 16 (respuestas: § Diapositiva 17)",
+        "fallas": {},
+        "paso_del_trayecto": "encuentra",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": null,
+        "tipo_predeterminado": false
+      },
+      "notas": "## Diapositiva 16. Texto sobre Volaris\n\n“Antes de clasificar, completemos el fragmento. Algunas expresiones comunican la experiencia y valoración del autor; otras indican lo que considera necesario hacer.”\n\nLeer el banco de expresiones. Después de completar, preguntar:\n\n- “¿Qué parte presenta un hecho?”\n- “¿Qué parte muestra una experiencia personal?”\n- “¿Qué expresión contiene una valoración?”\n- “¿Cuáles proponen una acción?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": [],
+      "diseno": "una-columna"
+    },
+    {
+      "id": 45,
+      "segmento": "Diapositiva 16. Leemos un texto de Daniel Rodríguez",
+      "diapositiva": 16,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Leemos un texto de Daniel Rodríguez",
+        "fuente": "contenido.txt § Diapositiva 16",
+        "estilo": "titulo"
+      },
+      "bloques": [],
+      "visual": null,
+      "interaccion": {
+        "tipo": "arrastre",
+        "id_reactivo": "D16-2",
+        "etiqueta": "D16 · 2",
+        "parrafos": [
+          [
+            {
+              "antes": "Volaris, que acaba de cumplir 18 años y cuenta con 132 naves en servicio,",
+              "despues": " mucha atención en el servicio y mantenimiento de sus aviones.",
+              "correcta": "debe poner"
+            }
+          ],
+          [
+            {
+              "antes": "Esos aviones que ya no se encuentren en condiciones apropiadas",
+              "despues": " al ‘deshuesadero’.",
+              "correcta": "deben ser enviados"
+            }
+          ],
+          [
+            {
+              "antes": "Quienes están al frente de Volaris",
+              "despues": " de inmediato a favor de la seguridad de los pasajeros.",
+              "correcta": "deben analizar y actuar"
+            }
+          ]
+        ],
+        "banco": [
+          "deben hacer",
+          "experiencia personal",
+          "un desastre",
+          "debe poner",
+          "deben ser enviados",
+          "deben analizar y actuar"
+        ],
+        "bancoTitulo": {
+          "texto": "Banco de expresiones",
+          "fuente": "contenido.txt § Diapositiva 16",
+          "estilo": "subtitulo"
+        },
+        "fuenteTexto": "contenido.txt § Diapositiva 16 (respuestas: § Diapositiva 17)",
+        "fallas": {},
+        "paso_del_trayecto": "encuentra",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": null,
+        "tipo_predeterminado": false
+      },
+      "notas": "## Diapositiva 16. Texto sobre Volaris\n\n“Antes de clasificar, completemos el fragmento. Algunas expresiones comunican la experiencia y valoración del autor; otras indican lo que considera necesario hacer.”\n\nLeer el banco de expresiones. Después de completar, preguntar:\n\n- “¿Qué parte presenta un hecho?”\n- “¿Qué parte muestra una experiencia personal?”\n- “¿Qué expresión contiene una valoración?”\n- “¿Cuáles proponen una acción?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": [],
+      "diseno": "una-columna"
+    },
+    {
+      "id": 46,
+      "segmento": "Diapositiva 17. Analizamos el texto sobre Volaris",
+      "diapositiva": 17,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Analizamos el texto sobre Volaris",
+        "fuente": "contenido.txt § Diapositiva 17",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Respuestas",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**deben hacer** — **experiencia personal** — **un desastre** — **debe poner** — **deben ser enviados** — **deben analizar y actuar**.",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "Pista del texto",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-encabezado",
+          "col": 0
+        },
+        {
+          "texto": "¿Qué muestra?",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-encabezado",
+          "col": 1
+        },
+        {
+          "texto": "18 años, 132 naves y más de 33 millones de pasajeros",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 0
+        },
+        {
+          "texto": "Datos verificables",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 1
+        },
+        {
+          "texto": "**experiencia personal**",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 0
+        },
+        {
+          "texto": "Presencia del autor",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 1
+        },
+        {
+          "texto": "**un desastre**",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 0
+        },
+        {
+          "texto": "Valoración",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 1
+        },
+        {
+          "texto": "**debe poner**",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 0
+        },
+        {
+          "texto": "Recomendación",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 1
+        },
+        {
+          "texto": "**deben ser enviados**",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 0
+        },
+        {
+          "texto": "Propuesta de acción",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 1
+        },
+        {
+          "texto": "**deben analizar y actuar**",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 0
+        },
+        {
+          "texto": "Obligación o llamado a actuar",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "tabla-celda",
+          "col": 1
+        }
+      ],
+      "visual": null,
+      "interaccion": null,
+      "notas": "## Diapositiva 17. Analizamos el texto\n\n“Las cifras sobre los años de operación, los aviones y los pasajeros son datos verificables.”\n\n“Pero ‘experiencia personal’ hace visible al autor; ‘un desastre’ expresa una valoración, y ‘debe’ o ‘deben actuar’ indican lo que considera necesario.”\n\nSi se elige A: “¿Las cifras tienen mayor peso que la valoración y las recomendaciones?”\n\nSi se elige B: “El texto presenta antecedentes, pero ¿mantiene una explicación neutral?”\n\nSi se elige C: “¿Qué dos evidencias demuestran la postura?”\n\n**Respuesta esperada:** “‘Un desastre’ y ‘deben analizar y actuar’.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] La tabla cita «más de 33 millones de pasajeros», dato que no aparece en el fragmento de la Diapositiva 16. Se muestra tal como viene."
+      ],
+      "glosario": [],
+      "diseno": "tabla"
+    },
+    {
+      "id": 47,
+      "segmento": "Diapositiva 17. Analizamos el texto sobre Volaris",
+      "diapositiva": 17,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Analizamos el texto sobre Volaris",
+        "fuente": "contenido.txt § Diapositiva 17",
+        "estilo": "titulo"
+      },
+      "bloques": [],
+      "visual": {
+        "id": "balanza-pistas",
+        "descripcion": "Balanza: de un lado los datos verificables; del otro, la valoración y las recomendaciones, que pesan más."
+      },
+      "interaccion": {
+        "tipo": "seleccion",
+        "id_reactivo": "D17",
+        "etiqueta": "D17",
+        "enunciado": {
+          "texto": "¿Cuál es la intención principal del texto?",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "subtitulo"
+        },
+        "multiple": false,
+        "opciones": [
+          {
+            "clave": "A",
+            "texto": "Informar cuántos aviones y pasajeros tiene Volaris.",
+            "categoria": "informativo"
+          },
+          {
+            "clave": "B",
+            "texto": "Explicar de manera neutral el crecimiento de la empresa.",
+            "categoria": "interpretativo"
+          },
+          {
+            "clave": "C",
+            "texto": "Valorar el estado de los aviones y pedir que se tomen medidas.",
+            "categoria": "opinion"
+          }
+        ],
+        "correcta": [
+          "C"
+        ],
+        "fallas": {
+          "A": {
+            "etiqueta": "Clasifica por una cifra",
+            "intervencion": "¿Las cifras tienen mayor peso que la valoración y las recomendaciones?"
+          },
+          "B": {
+            "etiqueta": null,
+            "intervencion": "El texto presenta antecedentes, pero ¿mantiene una explicación neutral?"
+          }
+        },
+        "paso_del_trayecto": "reconoce",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": "opinion",
+        "tipo_predeterminado": true
+      },
+      "notas": "## Diapositiva 17. Analizamos el texto\n\n“Las cifras sobre los años de operación, los aviones y los pasajeros son datos verificables.”\n\n“Pero ‘experiencia personal’ hace visible al autor; ‘un desastre’ expresa una valoración, y ‘debe’ o ‘deben actuar’ indican lo que considera necesario.”\n\nSi se elige A: “¿Las cifras tienen mayor peso que la valoración y las recomendaciones?”\n\nSi se elige B: “El texto presenta antecedentes, pero ¿mantiene una explicación neutral?”\n\nSi se elige C: “¿Qué dos evidencias demuestran la postura?”\n\n**Respuesta esperada:** “‘Un desastre’ y ‘deben analizar y actuar’.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 48,
+      "segmento": "Diapositiva 17. Analizamos el texto sobre Volaris",
+      "diapositiva": 17,
+      "fase_lgr": "nosotros",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Analizamos el texto sobre Volaris",
+        "fuente": "contenido.txt § Diapositiva 17",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Respuesta",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**C.** Las cifras proporcionan información, pero la experiencia personal, la valoración y las recomendaciones muestran que el autor defiende una postura.",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "parrafo"
+        },
+        {
+          "texto": "**Pertenece al género de opinión.**",
+          "fuente": "contenido.txt § Diapositiva 17",
+          "estilo": "destacado"
+        }
+      ],
+      "visual": {
+        "id": "categoria",
+        "descripcion": "Distintivo del género de opinión como conclusión del análisis.",
+        "categoria": "opinion"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 17. Analizamos el texto\n\n“Las cifras sobre los años de operación, los aviones y los pasajeros son datos verificables.”\n\n“Pero ‘experiencia personal’ hace visible al autor; ‘un desastre’ expresa una valoración, y ‘debe’ o ‘deben actuar’ indican lo que considera necesario.”\n\nSi se elige A: “¿Las cifras tienen mayor peso que la valoración y las recomendaciones?”\n\nSi se elige B: “El texto presenta antecedentes, pero ¿mantiene una explicación neutral?”\n\nSi se elige C: “¿Qué dos evidencias demuestran la postura?”\n\n**Respuesta esperada:** “‘Un desastre’ y ‘deben analizar y actuar’.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 49,
+      "segmento": "Diapositiva 18. Identifica la intención",
+      "diapositiva": 18,
+      "fase_lgr": "ustedes",
+      "duracion_s": 30,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Identifica la intención",
+        "fuente": "contenido.txt § Diapositiva 18",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Lee el siguiente fragmento:",
+          "fuente": "contenido.txt § Diapositiva 18",
+          "estilo": "parrafo",
+          "zona": "izquierda"
+        }
+      ],
+      "visual": null,
+      "interaccion": {
+        "tipo": "seleccion",
+        "id_reactivo": "D18",
+        "etiqueta": "D18",
+        "enunciado": {
+          "texto": "¿A qué género pertenece?",
+          "fuente": "contenido.txt § Diapositiva 18",
+          "estilo": "subtitulo"
+        },
+        "multiple": false,
+        "opciones": [
+          {
+            "clave": "A",
+            "texto": "Informativo, porque únicamente comunica hechos separados.",
+            "categoria": "informativo"
+          },
+          {
+            "clave": "B",
+            "texto": "Interpretativo, porque relaciona beneficios, problemas y consecuencias.",
+            "categoria": "interpretativo"
+          },
+          {
+            "clave": "C",
+            "texto": "De opinión, porque toda comparación expresa una postura personal.",
+            "categoria": "opinion"
+          }
+        ],
+        "correcta": [
+          "B"
+        ],
+        "fallas": {
+          "A": {
+            "etiqueta": null,
+            "intervencion": null
+          },
+          "C": {
+            "etiqueta": null,
+            "intervencion": null
+          }
+        },
+        "marcadores": {
+          "titulo": {
+            "texto": "Justifica",
+            "fuente": "contenido.txt § Diapositiva 18",
+            "estilo": "subtitulo"
+          },
+          "fragmento": {
+            "texto": "En México crece la instalación de centros de datos. **Por el contrario**, las reglas para vigilar su funcionamiento no avanzan al mismo ritmo. Su llegada promete inversiones; **sin embargo**, también despierta preguntas sobre el consumo de agua y energía. **Es decir**, para comprender su importancia es necesario considerar tanto los beneficios como los posibles costos.",
+            "fuente": "contenido.txt § Diapositiva 18",
+            "estilo": "cita"
+          },
+          "opciones": [
+            "crece la instalación de centros de datos",
+            "Por el contrario",
+            "promete inversiones",
+            "sin embargo",
+            "Es decir"
+          ],
+          "validas": [
+            "Por el contrario",
+            "sin embargo",
+            "Es decir"
+          ],
+          "minimo": 2,
+          "ranuras": [
+            {
+              "texto": "**Primera evidencia:**",
+              "fuente": "contenido.txt § Diapositiva 18",
+              "estilo": "parrafo"
+            },
+            {
+              "texto": "**Segunda evidencia:**",
+              "fuente": "contenido.txt § Diapositiva 18",
+              "estilo": "parrafo"
+            }
+          ]
+        },
+        "paso_del_trayecto": "reconoce",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": "interpretativo",
+        "tipo_predeterminado": true
+      },
+      "notas": "## Diapositiva 18. Identifica la intención\n\n“Ahora realiza el procedimiento sin una explicación previa. Encuentra dos pistas y explica su función antes de elegir.”\n\nDespués de responder: “‘Por el contrario’ y ‘sin embargo’ contrastan información. ‘Es decir’ aclara cómo deben relacionarse los datos. El propósito dominante es explicar, por eso corresponde al género interpretativo.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": [],
+      "diseno": "dos-columnas"
+    },
+    {
+      "id": 50,
+      "segmento": "Diapositiva 18. Identifica la intención",
+      "diapositiva": 18,
+      "fase_lgr": "ustedes",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Identifica la intención",
+        "fuente": "contenido.txt § Diapositiva 18",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Respuesta para revisión",
+          "fuente": "contenido.txt § Diapositiva 18",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**B. Interpretativo.** Las expresiones **por el contrario** y **sin embargo** contrastan distintas situaciones. **Es decir** aclara cómo deben relacionarse los datos para comprender el problema.",
+          "fuente": "contenido.txt § Diapositiva 18",
+          "estilo": "destacado"
+        }
+      ],
+      "visual": {
+        "id": "relaciones",
+        "descripcion": "Las expresiones como flechas que contrastan y aclaran la relación entre los datos.",
+        "categoria": "interpretativo"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 18. Identifica la intención\n\n“Ahora realiza el procedimiento sin una explicación previa. Encuentra dos pistas y explica su función antes de elegir.”\n\nDespués de responder: “‘Por el contrario’ y ‘sin embargo’ contrastan información. ‘Es decir’ aclara cómo deben relacionarse los datos. El propósito dominante es explicar, por eso corresponde al género interpretativo.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 51,
+      "segmento": "Diapositiva 19. Justifica tu decisión",
+      "diapositiva": 19,
+      "fase_lgr": "ustedes",
+      "duracion_s": 30,
+      "tipo": "interactivo",
+      "titulo": {
+        "texto": "Justifica tu decisión",
+        "fuente": "contenido.txt § Diapositiva 19",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "En el texto sobre Volaris aparecen cifras sobre la empresa, pero también expresiones como **experiencia personal**, **un desastre**, **debe** y **deben actuar**.",
+          "fuente": "contenido.txt § Diapositiva 19",
+          "estilo": "parrafo",
+          "zona": "izquierda"
+        }
+      ],
+      "visual": null,
+      "interaccion": {
+        "tipo": "seleccion",
+        "id_reactivo": "D19",
+        "etiqueta": "D19",
+        "enunciado": {
+          "texto": "¿Cuál es su propósito principal?",
+          "fuente": "contenido.txt § Diapositiva 19",
+          "estilo": "subtitulo"
+        },
+        "multiple": false,
+        "opciones": [
+          {
+            "clave": "A",
+            "texto": "Informar sobre la cantidad de aviones sin expresar una valoración.",
+            "categoria": "informativo"
+          },
+          {
+            "clave": "B",
+            "texto": "Explicar de forma neutral las causas del crecimiento de Volaris.",
+            "categoria": "interpretativo"
+          },
+          {
+            "clave": "C",
+            "texto": "Valorar las condiciones de los aviones y plantear la necesidad de actuar.",
+            "categoria": "opinion"
+          }
+        ],
+        "correcta": [
+          "C"
+        ],
+        "fallas": {
+          "A": {
+            "etiqueta": null,
+            "intervencion": null
+          },
+          "B": {
+            "etiqueta": null,
+            "intervencion": null
+          }
+        },
+        "marcadores": {
+          "titulo": {
+            "texto": "Completa tu respuesta",
+            "fuente": "contenido.txt § Diapositiva 19",
+            "estilo": "subtitulo"
+          },
+          "opciones": [
+            "cifras sobre la empresa",
+            "experiencia personal",
+            "un desastre",
+            "debe",
+            "deben actuar"
+          ],
+          "validas": [
+            "experiencia personal",
+            "un desastre",
+            "debe",
+            "deben actuar"
+          ],
+          "minimo": 2,
+          "ranuras": [
+            {
+              "texto": "porque la expresión",
+              "fuente": "contenido.txt § Diapositiva 19",
+              "estilo": "parrafo"
+            },
+            {
+              "texto": "Además, la expresión",
+              "fuente": "contenido.txt § Diapositiva 19",
+              "estilo": "parrafo"
+            }
+          ]
+        },
+        "paso_del_trayecto": "justifica",
+        "nivel_de_lectura": null,
+        "proceso_pisa": null,
+        "categoria_correcta": "opinion",
+        "tipo_predeterminado": true
+      },
+      "notas": "## Diapositiva 19. Justifica tu decisión\n\n“En este ejercicio no basta con elegir la opción C. Debemos demostrarla.”\n\nSolicitar que se complete la oración con dos expresiones distintas.\n\n**Respuesta suficiente:** “El texto es de opinión porque ‘un desastre’ expresa una valoración y ‘deben analizar y actuar’ presenta una acción que el autor considera necesaria.”\n\n**Respuesta insuficiente:** “Es de opinión porque tiene opiniones.”\n\n**Retroalimentación:** “Necesitamos citar las palabras del texto y explicar qué muestran.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El contenido cita «deben actuar», pero el fragmento de Volaris dice «deben analizar y actuar». Se muestra tal como viene.",
+        "[REVISAR] La fórmula de respuesta de esta diapositiva («…muestra… Además, la expresión… indica…») difiere de la de la Diapositiva 8 («…indica… y la expresión… muestra…»)."
+      ],
+      "glosario": [],
+      "diseno": "dos-columnas"
+    },
+    {
+      "id": 52,
+      "segmento": "Diapositiva 19. Justifica tu decisión",
+      "diapositiva": 19,
+      "fase_lgr": "ustedes",
+      "duracion_s": 30,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Justifica tu decisión",
+        "fuente": "contenido.txt § Diapositiva 19",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Respuesta para revisión",
+          "fuente": "contenido.txt § Diapositiva 19",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "**C. Género de opinión.**",
+          "fuente": "contenido.txt § Diapositiva 19",
+          "estilo": "destacado"
+        },
+        {
+          "texto": "El texto pertenece al género de opinión porque la expresión **un desastre** muestra una valoración negativa. Además, la expresión **deben analizar y actuar** indica que el autor considera necesaria una acción.",
+          "fuente": "contenido.txt § Diapositiva 19",
+          "estilo": "cita"
+        }
+      ],
+      "visual": {
+        "id": "categoria",
+        "descripcion": "Distintivo del género de opinión como conclusión justificada.",
+        "categoria": "opinion"
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 19. Justifica tu decisión\n\n“En este ejercicio no basta con elegir la opción C. Debemos demostrarla.”\n\nSolicitar que se complete la oración con dos expresiones distintas.\n\n**Respuesta suficiente:** “El texto es de opinión porque ‘un desastre’ expresa una valoración y ‘deben analizar y actuar’ presenta una acción que el autor considera necesaria.”\n\n**Respuesta insuficiente:** “Es de opinión porque tiene opiniones.”\n\n**Retroalimentación:** “Necesitamos citar las palabras del texto y explicar qué muestran.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 53,
+      "segmento": "Práctica independiente (ficha)",
+      "diapositiva": null,
+      "fase_lgr": "tu",
+      "duracion_s": 0,
+      "tipo": "qr",
+      "titulo": null,
+      "bloques": [],
+      "visual": {
+        "id": "qr",
+        "descripcion": "Código QR proporcionado que abre la ficha de práctica independiente en Google Drive."
+      },
+      "interaccion": null,
+      "notas": "El guion no incluye indicaciones para este momento.",
+      "revisar": [
+        "[REVISAR] El guion no indica en qué momento se comparte la ficha de práctica independiente; la pantalla del QR se colocó antes del cierre y sin duración asignada."
+      ],
+      "glosario": []
+    },
+    {
+      "id": 54,
+      "segmento": "Diapositiva 20. Lo que aprendimos",
+      "diapositiva": 20,
+      "fase_lgr": "cierre",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Lo que aprendimos",
+        "fuente": "contenido.txt § Diapositiva 20",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Género informativo",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "subtitulo",
+          "zona": "a"
+        },
+        {
+          "texto": "Da a conocer hechos.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "item",
+          "zona": "a"
+        },
+        {
+          "texto": "Presenta datos y fuentes.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "item",
+          "zona": "a"
+        },
+        {
+          "texto": "Evita que la valoración personal sea el centro del texto.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "item",
+          "zona": "a"
+        },
+        {
+          "texto": "Género interpretativo",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "subtitulo",
+          "zona": "b"
+        },
+        {
+          "texto": "Explica y analiza los hechos.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "item",
+          "zona": "b"
+        },
+        {
+          "texto": "Relaciona causas, consecuencias, contrastes y contextos.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "item",
+          "zona": "b"
+        },
+        {
+          "texto": "Ayuda a comprender el significado de la información.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "item",
+          "zona": "b"
+        },
+        {
+          "texto": "Género de opinión",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "subtitulo",
+          "zona": "c"
+        },
+        {
+          "texto": "Expresa y defiende una postura.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "item",
+          "zona": "c"
+        },
+        {
+          "texto": "Presenta valoraciones, razones y propuestas.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "item",
+          "zona": "c"
+        },
+        {
+          "texto": "Busca convencer al lector o invitarlo a reflexionar.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "item",
+          "zona": "c"
+        }
+      ],
+      "visual": {
+        "id": "encabezados-categoria",
+        "descripcion": "Cada columna lleva el ícono, la forma y la etiqueta de su género."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 20. Lo que aprendimos\n\n“Informar es comunicar hechos verificables. Interpretar es relacionar esos hechos para explicar su significado. Opinar es expresar y defender una postura.”\n\nSolicitar que se completen las dos frases finales.\n\n**Posibles respuestas:**\n\n> Para distinguir un texto informativo de uno interpretativo debo observar si solamente presenta los datos o si también explica sus relaciones, causas y consecuencias.\n\n> Para reconocer un texto de opinión debo buscar valoraciones, primera persona, argumentos y expresiones que recomienden una acción.\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [
+        "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+      ],
+      "glosario": [],
+      "diseno": "tres-columnas"
+    },
+    {
+      "id": 55,
+      "segmento": "Diapositiva 20. Lo que aprendimos",
+      "diapositiva": 20,
+      "fase_lgr": "cierre",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Lo que aprendimos",
+        "fuente": "contenido.txt § Diapositiva 20",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Para analizar cualquier texto",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "1. Encuentra las pistas.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "numerado"
+        },
+        {
+          "texto": "2. Explica qué función cumplen.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "numerado"
+        },
+        {
+          "texto": "3. Reconoce la intención principal.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "numerado"
+        },
+        {
+          "texto": "4. Justifica con dos evidencias.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "numerado"
+        },
+        {
+          "texto": "Una palabra es una pista. Varias pistas relacionadas forman una explicación.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "cita"
+        }
+      ],
+      "visual": {
+        "id": "ruta",
+        "descripcion": "Ruta completa de cuatro pasos, todos activos."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 20. Lo que aprendimos\n\n“Informar es comunicar hechos verificables. Interpretar es relacionar esos hechos para explicar su significado. Opinar es expresar y defender una postura.”\n\nSolicitar que se completen las dos frases finales.\n\n**Posibles respuestas:**\n\n> Para distinguir un texto informativo de uno interpretativo debo observar si solamente presenta los datos o si también explica sus relaciones, causas y consecuencias.\n\n> Para reconocer un texto de opinión debo buscar valoraciones, primera persona, argumentos y expresiones que recomienden una acción.\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 56,
+      "segmento": "Diapositiva 20. Lo que aprendimos",
+      "diapositiva": 20,
+      "fase_lgr": "cierre",
+      "duracion_s": 20,
+      "tipo": "contenido",
+      "titulo": {
+        "texto": "Lo que aprendimos",
+        "fuente": "contenido.txt § Diapositiva 20",
+        "estilo": "titulo"
+      },
+      "bloques": [
+        {
+          "texto": "Actividad final",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "subtitulo"
+        },
+        {
+          "texto": "Para distinguir un texto informativo de uno interpretativo debo observar ________________________________________________.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "cita"
+        },
+        {
+          "texto": "Para reconocer un texto de opinión debo buscar ________________________________________________.",
+          "fuente": "contenido.txt § Diapositiva 20",
+          "estilo": "cita"
+        }
+      ],
+      "visual": {
+        "id": "compara-info-interp",
+        "descripcion": "Comparación visual de los tres géneros para apoyar la actividad final."
+      },
+      "interaccion": null,
+      "notas": "## Diapositiva 20. Lo que aprendimos\n\n“Informar es comunicar hechos verificables. Interpretar es relacionar esos hechos para explicar su significado. Opinar es expresar y defender una postura.”\n\nSolicitar que se completen las dos frases finales.\n\n**Posibles respuestas:**\n\n> Para distinguir un texto informativo de uno interpretativo debo observar si solamente presenta los datos o si también explica sus relaciones, causas y consecuencias.\n\n> Para reconocer un texto de opinión debo buscar valoraciones, primera persona, argumentos y expresiones que recomienden una acción.\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": []
+    },
+    {
+      "id": 57,
+      "segmento": "Resultados de la sesión",
+      "diapositiva": null,
+      "fase_lgr": "cierre",
+      "duracion_s": 0,
+      "tipo": "dashboard",
+      "titulo": null,
+      "bloques": [],
+      "visual": null,
+      "interaccion": null,
+      "notas": "## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "revisar": [],
+      "glosario": []
+    }
+  ],
+  "glosario": [
+    {
+      "termino": "géneros periodísticos",
+      "definicion": {
+        "texto": "Los **géneros periodísticos** son distintas formas de presentar acontecimientos, ideas y asuntos de interés público en los medios de comunicación.",
+        "fuente": "contenido.txt § Diapositiva 2",
+        "estilo": "parrafo"
+      }
+    },
+    {
+      "termino": "marcadores discursivos",
+      "definicion": {
+        "texto": "Los **marcadores discursivos** son palabras o expresiones que conectan las partes de un texto y ayudan a comprender la relación entre sus ideas.",
+        "fuente": "contenido.txt § Diapositiva 6",
+        "estilo": "parrafo"
+      }
+    },
+    {
+      "termino": "atribución de información",
+      "definicion": {
+        "texto": "Permite saber quién proporciona el dato: **según**, **de acuerdo con**, **informó**, **señaló**, **explicó**.",
+        "fuente": "contenido.txt § Diapositiva 7",
+        "estilo": "parrafo"
+      }
+    },
+    {
+      "termino": "datos verificables",
+      "definicion": {
+        "texto": "Pueden comprobarse: fechas, cifras, nombres, lugares, documentos y declaraciones.",
+        "fuente": "contenido.txt § Diapositiva 7",
+        "estilo": "parrafo"
+      }
+    },
+    {
+      "termino": "valoración",
+      "definicion": {
+        "texto": "Expresa un juicio sobre una persona, hecho o situación: **grave**, **injusto**, **excelente**, **innecesario**, **un desastre**.",
+        "fuente": "contenido.txt § Diapositiva 7",
+        "estilo": "parrafo"
+      }
+    },
+    {
+      "termino": "presencia del autor",
+      "definicion": {
+        "texto": "Hace visible su experiencia o punto de vista: **creo**, **considero**, **lo que más valoro**, **me parece**, **en mi experiencia**.",
+        "fuente": "contenido.txt § Diapositiva 7",
+        "estilo": "parrafo"
+      }
+    }
+  ],
+  "intervenciones": {
+    "encuentra": {
+      "texto": "Si solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”",
+      "fuente": "guion-docente.txt § Orientaciones para revisar las respuestas"
+    },
+    "explica": {
+      "texto": "Si solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”",
+      "fuente": "guion-docente.txt § Orientaciones para revisar las respuestas"
+    },
+    "reconoce": {
+      "texto": "Si clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”",
+      "fuente": "guion-docente.txt § Orientaciones para revisar las respuestas"
+    },
+    "justifica": {
+      "texto": "Si acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
+      "fuente": "guion-docente.txt § Orientaciones para revisar las respuestas"
+    }
+  }
+}
