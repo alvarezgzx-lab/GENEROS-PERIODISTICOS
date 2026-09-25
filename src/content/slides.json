@@ -893,7 +893,8 @@
       "notas": "## Diapositiva 8. Una ruta para analizar\n\n“Seguiremos siempre cuatro pasos: encontrar, explicar, reconocer y justificar.”\n\n“Primero localizamos las pistas. Después decimos qué función cumplen. Luego reconocemos la intención principal. Al final justificamos con dos evidencias.”\n\nSolicitar que el grupo lea la fórmula de respuesta.",
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
-        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El guion titula esta diapositiva «Una ruta para analizar» y el contenido «Una ruta para analizar los textos». En pantalla se usa el título del contenido."
       ],
       "glosario": []
     },
@@ -978,7 +979,8 @@
       "notas": "## Diapositiva 9. Ejemplo informativo\n\n“Voy a analizar este texto paso a paso.”\n\n“Primero encuentro ‘de acuerdo con las autoridades’. Esta expresión indica de dónde proviene la información.”\n\n“La cifra de 1.8 millones puede comprobarse. ‘Asimismo’ y ‘además’ agregan datos. ‘Por último’ ordena el cierre.”\n\n“Ahora me pregunto si aparece una valoración personal del redactor. No la encuentro. Por eso concluyo que el propósito principal es informar.”\n\n**Pregunta:** “¿Cuál sería la evidencia más fuerte: la palabra ‘además’ sola o la combinación de fuentes, cifras y ausencia de valoración?”\n\n**Respuesta esperada:** “La combinación de varias pistas.”",
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
-        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El guion titula esta diapositiva «Ejemplo informativo» y el contenido «Ejemplo de texto informativo». En pantalla se usa el título del contenido."
       ],
       "glosario": []
     },
@@ -1128,7 +1130,8 @@
       "notas": "## Diapositiva 10. Ejemplo interpretativo\n\n“Repitamos el procedimiento.”\n\n“‘Por el contrario’ enfrenta el entusiasmo por las inversiones con la falta de regulación. ‘Es decir’ aclara el significado de la información. ‘Sin embargo’ presenta otra perspectiva.”\n\n“Este texto no solo comunica que existen inversiones. Explica cómo se relacionan con la regulación y el uso de recursos.”\n\n**Pregunta:** “¿El redactor expresa claramente una opinión personal?”\n\n**Respuesta esperada:** “No. Presenta y relaciona distintas perspectivas.”\n\n**Conclusión:** “Por eso lo clasificamos como interpretativo y no como opinión.”",
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
-        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El guion titula esta diapositiva «Ejemplo interpretativo» y el contenido «Ejemplo de texto interpretativo». En pantalla se usa el título del contenido."
       ],
       "glosario": []
     },
@@ -1327,7 +1330,8 @@
       "notas": "## Diapositiva 11. Informar e interpretar\n\n“Los dos textos tienen datos y fuentes. Esa semejanza puede provocar una confusión.”\n\nSi alguien elige B: “Es verdad que aparecen cifras, pero también aparecían en el texto informativo. Necesitamos una diferencia que no compartan.”\n\nSi alguien elige C: “Correcto. El texto interpretativo emplea los datos para construir contrastes y explicaciones.”\n\nCompletar oralmente: “El texto es interpretativo porque __________ y __________.”",
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
-        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El guion titula esta diapositiva «Informar e interpretar» y el contenido «Informar no es lo mismo que interpretar». En pantalla se usa el título del contenido."
       ],
       "glosario": [],
       "diseno": "tabla"
@@ -1396,7 +1400,12 @@
         "tipo_predeterminado": true
       },
       "notas": "## Diapositiva 11. Informar e interpretar\n\n“Los dos textos tienen datos y fuentes. Esa semejanza puede provocar una confusión.”\n\nSi alguien elige B: “Es verdad que aparecen cifras, pero también aparecían en el texto informativo. Necesitamos una diferencia que no compartan.”\n\nSi alguien elige C: “Correcto. El texto interpretativo emplea los datos para construir contrastes y explicaciones.”\n\nCompletar oralmente: “El texto es interpretativo porque __________ y __________.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
-      "revisar": [],
+      "revisar": [
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D11; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («reconoce») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta.",
+        "[REVISAR] El guion no indica el tipo de interacción; se usó selección única con botón Enviar.",
+        "[REVISAR] El guion no nombra la falla que representa(n) la(s) opción(es) A."
+      ],
       "glosario": []
     },
     {
@@ -1486,7 +1495,8 @@
       "notas": "## Diapositiva 12. Ejemplo de opinión\n\n“Ahora observemos cómo se hace visible el autor.”\n\nLeer las cuatro expresiones resaltadas y preguntar: “¿Cuál de estas expresiones podría aparecer en una lista neutral de datos?”\n\n**Respuesta esperada:** “Ninguna, porque todas muestran una valoración o impresión personal.”\n\n“Los hechos del foro siguen siendo reales. Sin embargo, el propósito dominante es valorarlos y defender una visión sobre el turismo.”",
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
-        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El guion titula esta diapositiva «Ejemplo de opinión» y el contenido «Ejemplo de texto de opinión». En pantalla se usa el título del contenido."
       ],
       "glosario": []
     },
@@ -1670,7 +1680,12 @@
       "notas": "## Diapositiva 13. Pistas aisladas\n\n“Este razonamiento parece lógico: si el texto menciona hechos, entonces es informativo. Sin embargo, está incompleto.”\n\n“Los textos interpretativos y de opinión también pueden contener hechos.”\n\nSolicitar que el grupo identifique el error.\n\n**Respuesta esperada:** “Se utilizó una sola pista y se ignoraron las valoraciones.”\n\n**Refuerzo:** “Antes de clasificar debemos revisar todas las pistas y decidir cuáles tienen mayor peso.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
-        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D13; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («justifica») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta.",
+        "[REVISAR] El guion no indica el tipo de interacción; se usó selección única con botón Enviar.",
+        "[REVISAR] El guion no nombra la falla que representa(n) la(s) opción(es) A, C.",
+        "[REVISAR] El guion titula esta diapositiva «Pistas aisladas» y el contenido «Cuidado con las pistas aisladas». En pantalla se usa el título del contenido."
       ],
       "glosario": []
     },
@@ -1785,7 +1800,9 @@
       "notas": "## Diapositiva 14. Completa los textos\n\n“Completemos primero el texto A. Busquemos una expresión para identificar la fuente, otra para agregar información y otra para cerrar.”\n\n**Respuestas:** De acuerdo con; asimismo; por último.\n\n“Ahora completemos el texto B. Necesitamos una expresión de contraste, una aclaración y otro contraste.”\n\n**Respuestas:** Por el contrario; es decir; sin embargo.\n\nPreguntar:\n\n- “¿Cuál se concentra en presentar información?”\n- “¿Cuál construye una explicación?”\n- “¿Cómo lo sabemos?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
-        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D14-A; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («explica») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta."
       ],
       "glosario": []
     },
@@ -1855,7 +1872,10 @@
         "tipo_predeterminado": false
       },
       "notas": "## Diapositiva 14. Completa los textos\n\n“Completemos primero el texto A. Busquemos una expresión para identificar la fuente, otra para agregar información y otra para cerrar.”\n\n**Respuestas:** De acuerdo con; asimismo; por último.\n\n“Ahora completemos el texto B. Necesitamos una expresión de contraste, una aclaración y otro contraste.”\n\n**Respuestas:** Por el contrario; es decir; sin embargo.\n\nPreguntar:\n\n- “¿Cuál se concentra en presentar información?”\n- “¿Cuál construye una explicación?”\n- “¿Cómo lo sabemos?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
-      "revisar": [],
+      "revisar": [
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D14-B; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («explica») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta."
+      ],
       "glosario": []
     },
     {
@@ -1919,7 +1939,12 @@
         "tipo_predeterminado": true
       },
       "notas": "## Diapositiva 14. Completa los textos\n\n“Completemos primero el texto A. Busquemos una expresión para identificar la fuente, otra para agregar información y otra para cerrar.”\n\n**Respuestas:** De acuerdo con; asimismo; por último.\n\n“Ahora completemos el texto B. Necesitamos una expresión de contraste, una aclaración y otro contraste.”\n\n**Respuestas:** Por el contrario; es decir; sin embargo.\n\nPreguntar:\n\n- “¿Cuál se concentra en presentar información?”\n- “¿Cuál construye una explicación?”\n- “¿Cómo lo sabemos?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
-      "revisar": [],
+      "revisar": [
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D14-1; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («reconoce») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta.",
+        "[REVISAR] El guion no indica el tipo de interacción; se usó selección única con botón Enviar.",
+        "[REVISAR] El guion no nombra la falla que representa(n) la(s) opción(es) B."
+      ],
       "glosario": []
     },
     {
@@ -1983,7 +2008,12 @@
         "tipo_predeterminado": true
       },
       "notas": "## Diapositiva 14. Completa los textos\n\n“Completemos primero el texto A. Busquemos una expresión para identificar la fuente, otra para agregar información y otra para cerrar.”\n\n**Respuestas:** De acuerdo con; asimismo; por último.\n\n“Ahora completemos el texto B. Necesitamos una expresión de contraste, una aclaración y otro contraste.”\n\n**Respuestas:** Por el contrario; es decir; sin embargo.\n\nPreguntar:\n\n- “¿Cuál se concentra en presentar información?”\n- “¿Cuál construye una explicación?”\n- “¿Cómo lo sabemos?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
-      "revisar": [],
+      "revisar": [
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D14-2; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («reconoce») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta.",
+        "[REVISAR] El guion no indica el tipo de interacción; se usó selección única con botón Enviar.",
+        "[REVISAR] El guion no nombra la falla que representa(n) la(s) opción(es) A."
+      ],
       "glosario": []
     },
     {
@@ -2029,7 +2059,8 @@
       "notas": "## Diapositiva 15. Revisamos\n\n“No revisaremos solamente si la palabra cabe en el espacio. Explicaremos qué función cumple.”\n\nSolicitar que distintos estudiantes completen oralmente:\n\n- “‘De acuerdo con’ sirve para…”\n- “‘Por el contrario’ sirve para…”\n- “‘Es decir’ sirve para…”\n\n**Respuestas esperadas:** identificar una fuente; contrastar; aclarar una idea.",
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
-        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El guion titula esta diapositiva «Revisamos» y el contenido «Revisamos las respuestas». En pantalla se usa el título del contenido."
       ],
       "glosario": []
     },
@@ -2238,7 +2269,8 @@
       "notas": "## Diapositiva 16. Texto sobre Volaris\n\n“Antes de clasificar, completemos el fragmento. Algunas expresiones comunican la experiencia y valoración del autor; otras indican lo que considera necesario hacer.”\n\nLeer el banco de expresiones. Después de completar, preguntar:\n\n- “¿Qué parte presenta un hecho?”\n- “¿Qué parte muestra una experiencia personal?”\n- “¿Qué expresión contiene una valoración?”\n- “¿Cuáles proponen una acción?”",
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
-        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El guion titula esta diapositiva «Texto sobre Volaris» y el contenido «Leemos un texto de Daniel Rodríguez». En pantalla se usa el título del contenido."
       ],
       "glosario": []
     },
@@ -2303,7 +2335,10 @@
         "tipo_predeterminado": false
       },
       "notas": "## Diapositiva 16. Texto sobre Volaris\n\n“Antes de clasificar, completemos el fragmento. Algunas expresiones comunican la experiencia y valoración del autor; otras indican lo que considera necesario hacer.”\n\nLeer el banco de expresiones. Después de completar, preguntar:\n\n- “¿Qué parte presenta un hecho?”\n- “¿Qué parte muestra una experiencia personal?”\n- “¿Qué expresión contiene una valoración?”\n- “¿Cuáles proponen una acción?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
-      "revisar": [],
+      "revisar": [
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D16-1; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («encuentra») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta."
+      ],
       "glosario": [],
       "diseno": "una-columna"
     },
@@ -2370,7 +2405,10 @@
         "tipo_predeterminado": false
       },
       "notas": "## Diapositiva 16. Texto sobre Volaris\n\n“Antes de clasificar, completemos el fragmento. Algunas expresiones comunican la experiencia y valoración del autor; otras indican lo que considera necesario hacer.”\n\nLeer el banco de expresiones. Después de completar, preguntar:\n\n- “¿Qué parte presenta un hecho?”\n- “¿Qué parte muestra una experiencia personal?”\n- “¿Qué expresión contiene una valoración?”\n- “¿Cuáles proponen una acción?”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
-      "revisar": [],
+      "revisar": [
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D16-2; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («encuentra») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta."
+      ],
       "glosario": [],
       "diseno": "una-columna"
     },
@@ -2491,7 +2529,8 @@
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
         "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
-        "[REVISAR] La tabla cita «más de 33 millones de pasajeros», dato que no aparece en el fragmento de la Diapositiva 16. Se muestra tal como viene."
+        "[REVISAR] La tabla cita «más de 33 millones de pasajeros», dato que no aparece en el fragmento de la Diapositiva 16. Se muestra tal como viene.",
+        "[REVISAR] El guion titula esta diapositiva «Analizamos el texto» y el contenido «Analizamos el texto sobre Volaris». En pantalla se usa el título del contenido."
       ],
       "glosario": [],
       "diseno": "tabla"
@@ -2560,7 +2599,12 @@
         "tipo_predeterminado": true
       },
       "notas": "## Diapositiva 17. Analizamos el texto\n\n“Las cifras sobre los años de operación, los aviones y los pasajeros son datos verificables.”\n\n“Pero ‘experiencia personal’ hace visible al autor; ‘un desastre’ expresa una valoración, y ‘debe’ o ‘deben actuar’ indican lo que considera necesario.”\n\nSi se elige A: “¿Las cifras tienen mayor peso que la valoración y las recomendaciones?”\n\nSi se elige B: “El texto presenta antecedentes, pero ¿mantiene una explicación neutral?”\n\nSi se elige C: “¿Qué dos evidencias demuestran la postura?”\n\n**Respuesta esperada:** “‘Un desastre’ y ‘deben analizar y actuar’.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
-      "revisar": [],
+      "revisar": [
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D17; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («reconoce») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta.",
+        "[REVISAR] El guion no indica el tipo de interacción; se usó selección única con botón Enviar.",
+        "[REVISAR] El guion no nombra la falla que representa(n) la(s) opción(es) B."
+      ],
       "glosario": []
     },
     {
@@ -2709,7 +2753,11 @@
       "notas": "## Diapositiva 18. Identifica la intención\n\n“Ahora realiza el procedimiento sin una explicación previa. Encuentra dos pistas y explica su función antes de elegir.”\n\nDespués de responder: “‘Por el contrario’ y ‘sin embargo’ contrastan información. ‘Es decir’ aclara cómo deben relacionarse los datos. El propósito dominante es explicar, por eso corresponde al género interpretativo.”\n\n## Orientaciones para revisar las respuestas\n\nUna respuesta está completa cuando el estudiante:\n\n1. selecciona el género correspondiente;\n2. recupera al menos dos evidencias del texto;\n3. explica qué función cumple cada evidencia;\n4. relaciona esas evidencias con la intención del autor.\n\nSi solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”\n\nSi clasifica por una cifra, preguntar: “¿Qué otras pistas aparecen junto con ese dato?”\n\nSi acierta sin justificar, pedir: “Demuestra tu respuesta con dos expresiones del texto.”",
       "revisar": [
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
-        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»)."
+        "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D18; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («reconoce») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta.",
+        "[REVISAR] El guion no indica el tipo de interacción; se usó selección única con botón Enviar.",
+        "[REVISAR] El guion no nombra la falla que representa(n) la(s) opción(es) A, C."
       ],
       "glosario": [],
       "diseno": "dos-columnas"
@@ -2853,7 +2901,11 @@
         "[REVISAR] El guion no indica duraciones; se asignaron 60 s por diapositiva (20 diapositivas = 20 min) repartidos entre sus pantallas.",
         "[REVISAR] El guion no nombra las fases de la liberación gradual; la fase se infirió de sus indicaciones (p. ej., «Voy a analizar», «Completemos», «Ahora realiza el procedimiento sin una explicación previa»).",
         "[REVISAR] El contenido cita «deben actuar», pero el fragmento de Volaris dice «deben analizar y actuar». Se muestra tal como viene.",
-        "[REVISAR] La fórmula de respuesta de esta diapositiva («…muestra… Además, la expresión… indica…») difiere de la de la Diapositiva 8 («…indica… y la expresión… muestra…»)."
+        "[REVISAR] La fórmula de respuesta de esta diapositiva («…muestra… Además, la expresión… indica…») difiere de la de la Diapositiva 8 («…indica… y la expresión… muestra…»).",
+        "[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo D19; se registran como «Sin etiqueta».",
+        "[REVISAR] El paso del trayecto («justifica») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta.",
+        "[REVISAR] El guion no indica el tipo de interacción; se usó selección única con botón Enviar.",
+        "[REVISAR] El guion no nombra la falla que representa(n) la(s) opción(es) A, B."
       ],
       "glosario": [],
       "diseno": "dos-columnas"

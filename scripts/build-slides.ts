@@ -1522,6 +1522,45 @@ const pantallas: Pantalla[] = borradores.map((b, i) => {
   };
 });
 
+// Marcas [REVISAR] por datos que el guion no trae para cada reactivo.
+const NOMBRE_PASO = { encuentra: 'encuentra', explica: 'explica', reconoce: 'reconoce', justifica: 'justifica' };
+for (const p of pantallas) {
+  const it = p.interaccion;
+  if (!it) continue;
+  p.revisar.push(
+    `[REVISAR] El guion no etiqueta nivel de lectura ni proceso PISA para el reactivo ${it.id_reactivo}; se registran como «Sin etiqueta».`,
+    `[REVISAR] El paso del trayecto («${NOMBRE_PASO[it.paso_del_trayecto]}») se asignó a partir de la ruta de la Diapositiva 8; el guion no lo etiqueta.`,
+  );
+  if (it.tipo === 'seleccion') {
+    if (it.tipo_predeterminado) {
+      p.revisar.push('[REVISAR] El guion no indica el tipo de interacción; se usó selección única con botón Enviar.');
+    }
+    const sinFalla = Object.entries(it.fallas)
+      .filter(([, f]) => !f.etiqueta)
+      .map(([k]) => k);
+    if (sinFalla.length) {
+      p.revisar.push(
+        `[REVISAR] El guion no nombra la falla que representa(n) la(s) opción(es) ${sinFalla.join(', ')}.`,
+      );
+    }
+  }
+}
+
+// Diferencias entre el encabezado del guion y el título del contenido.
+for (let n = 1; n <= 20; n++) {
+  const tg = seccion(guion, n)
+    .split('\n')[0]
+    .replace(/^## Diapositiva \d+\. /, '');
+  const tc = tituloDiapositiva(n);
+  if (tg !== tc) {
+    pantallas
+      .find((p) => p.diapositiva === n)!
+      .revisar.push(
+        `[REVISAR] El guion titula esta diapositiva «${tg}» y el contenido «${tc}». En pantalla se usa el título del contenido.`,
+      );
+  }
+}
+
 const total = pantallas.reduce((s, p) => s + p.duracion_s, 0);
 if (total !== 1200) throw new Error(`Las duraciones suman ${total} s, no 1200 s.`);
 // Nota global en la primera pantalla de cada diapositiva.
