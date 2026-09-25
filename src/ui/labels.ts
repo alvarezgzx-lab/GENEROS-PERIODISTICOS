@@ -99,6 +99,23 @@ export const L = {
     revisar: 'Para revisar',
     visual: 'Apoyo visual',
     segundos: (s: number) => `${s} s`,
+    abrirPresentador: 'Abrir ventana del presentador (P)',
+  },
+  presentador: {
+    titulo: 'Ventana del presentador',
+    documento: 'Presentador · Los géneros periodísticos',
+    actual: 'Pantalla actual',
+    siguiente: 'Siguiente pantalla',
+    fin: 'Fin de la presentación',
+    anterior: 'Anterior',
+    avanzar: 'Siguiente',
+    sesion: 'Tiempo de la sesión',
+    planeado: (min: number) => `de ${min} min previstos`,
+    sincronizada: 'Sincronizada con la ventana proyectada',
+    ayuda:
+      'Proyecta la otra ventana. Aquí ves notas, cronómetros y la siguiente pantalla; ambas ventanas avanzan juntas. →/← o Espacio para navegar.',
+    bloqueada:
+      'El navegador bloqueó la ventana emergente: permite ventanas emergentes para este sitio y pulsa P de nuevo.',
   },
   glosario: {
     boton: 'Glosario',

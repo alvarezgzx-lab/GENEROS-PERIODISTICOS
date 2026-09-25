@@ -10,7 +10,7 @@
 | Proyecto Vercel | `learning-lab-clase-muestra` (equipo `jesus-angel`) |
 | Repositorio | https://github.com/alvarezgzx-lab/GENEROS-PERIODISTICOS, rama `claude/agents-md-complete-task-tff4jh` |
 | Pantallas | 57 (20 diapositivas del guion en 54 pantallas + QR + dashboard), 10 reactivos interactivos |
-| Pruebas | `npm run check` en verde: 416 pruebas Vitest y 32 pruebas Playwright |
+| Pruebas | `npm run check` en verde: 416 pruebas Vitest y 35 pruebas Playwright |
 
 La app es estática (Vite + React + TypeScript), funciona sin conexión tras la primera carga (PWA), no usa backend, analítica ni servicios de terceros, y aloja sus propias fuentes.
 
@@ -333,9 +333,19 @@ Todas viven en `src/ui/labels.ts`. Listado completo (las funciones se muestran c
 - `dashboard.excluido`: Sin clave: excluido del acierto
 - `sistema.almacenamientoNoDisponible`: El almacenamiento local no está disponible; las respuestas se conservan solo mientras la página esté abierta.
 
+### Actualización: ventana del presentador
+
+| # | Decisión | Justificación |
+|---|---|---|
+| D25 | Ventana del presentador separada (tecla **P** o botón en las notas; URL `?modo=presentador`). Muestra guion, marcas `[REVISAR]`, cronómetro del segmento, tiempo de la sesión, pantalla actual y siguiente. La ventana proyectada ya no necesita abrir las notas. | Las notas en la misma ventana se verían en el proyector. |
+| D26 | Sincronización local con `BroadcastChannel` (respaldo: eventos de `localStorage`): cualquier ventana de la app abierta en el mismo navegador avanza junto con las demás; las respuestas registradas se reflejan en el dashboard de todas. | Sin servidor ni red, conforme a «sin backend ni servicios externos». |
+| D27 | Las vistas previas del presentador son inertes (no aceptan clics ni foco); las respuestas se registran en la ventana proyectada. | Evita registros duplicados. |
+
+Etiquetas nuevas en `src/ui/labels.ts`: `notas.abrirPresentador` y el grupo `presentador.*` (título, pantalla actual, siguiente, fin, anterior/siguiente, tiempo de la sesión, ayuda y aviso de ventana emergente bloqueada).
+
 ## 8. Resultado de las pruebas de control de calidad
 
-`npm run check` (extract → lint → Vitest → build → Playwright) terminó con código 0 en el commit desplegado `1c91e9e`: **416 pruebas Vitest y 32 pruebas Playwright aprobadas**.
+`npm run check` (extract → lint → Vitest → build → Playwright) terminó con código 0: **416 pruebas Vitest y 35 pruebas Playwright aprobadas** (incluye 3 de la ventana del presentador: apertura con P y navegación sincronizada en ambos sentidos, respuestas compartidas entre ventanas y axe sin violaciones graves).
 
 | # | Prueba | Estado | Detalle |
 |---|---|---|---|
@@ -369,11 +379,9 @@ No quedan pruebas pendientes.
    npm run check
    ```
 2. **Integrar la rama** `claude/agents-md-complete-task-tff4jh` en `main` cuando la revises (no se abrió pull request; puedo abrirlo si lo pides).
-3. **Despliegues automáticos (opcional):** el proyecto de Vercel no está vinculado al repositorio; los despliegues se hicieron por API. Para que cada push despliegue solo, vincula el repositorio en Vercel → Project Settings → Git, o despliega con la CLI:
-   ```bash
-   npx vercel login
-   npx vercel link --yes --project learning-lab-clase-muestra
-   npx vercel --prod --yes
-   ```
+3. **Despliegue automático en cada push (pendiente, 1 minuto en el panel de Vercel):** el conector de Vercel no permite vincular un repositorio a un proyecto ya creado sin recrearlo (lo que liberaría el enlace). Pasos, sin interrumpir producción:
+   1. Vercel → proyecto `learning-lab-clase-muestra` → **Settings → Git → Connect Git Repository** → `alvarezgzx-lab/GENEROS-PERIODISTICOS`.
+   2. **Settings → Environments → Production → Branch Tracking**: escribe `claude/agents-md-complete-task-tff4jh` (o `main`, si integras la rama ahí).
+   3. Desde ese momento, cada push a esa rama publica en `https://learning-lab-clase-muestra.vercel.app`; el despliegue anterior sigue en línea hasta que el nuevo está listo.
 4. **Protección de Vercel:** la URL de producción es pública; las URL únicas de cada despliegue (p. ej. `learning-lab-clase-muestra-24t9jv63d-jesus-angel.vercel.app`) piden inicio de sesión por la protección estándar, que no se modificó. Comparte siempre `https://learning-lab-clase-muestra.vercel.app`.
 5. **Verificación en el aula:** probar el escaneo del QR con los celulares del grupo y la app en el proyector (tecla F para pantalla completa).

@@ -74,6 +74,20 @@ function emitir() {
   oyentes.forEach((f) => f());
 }
 
+// Otra ventana de la misma sesión (p. ej., la del presentador) registró o borró respuestas.
+try {
+  window.addEventListener('storage', (e) => {
+    if (e.key === CLAVE) {
+      enVivo = leer<Respuesta[]>(CLAVE, []).filter((r) => r && r.origen === 'en_vivo');
+      emitir();
+    } else if (e.key === CLAVE_SESION) {
+      idSesion = leer<string | null>(CLAVE_SESION, null) ?? idSesion;
+    }
+  });
+} catch {
+  /* sin eventos de almacenamiento */
+}
+
 export const store = {
   sesion: () => idSesion,
   suscribir(f: () => void) {

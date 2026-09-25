@@ -1,17 +1,17 @@
 /** Vista de notas del presentador: guion del segmento, duración prevista y cronómetro. */
-import { X } from 'lucide-react';
+import { MonitorUp, X } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import type { Pantalla } from '../content/types';
 import { L } from '../ui/labels';
 import { richText } from './RichText';
 
-function formato(s: number) {
+export function formato(s: number) {
   const m = Math.floor(s / 60);
   const r = Math.floor(s % 60);
   return `${m}:${String(r).padStart(2, '0')}`;
 }
 
-function useCronometro(clave: string) {
+export function useCronometro(clave: string) {
   const [acumulado, setAcumulado] = useState(0);
   const [corriendo, setCorriendo] = useState(true);
   const inicio = useRef(Date.now());
@@ -46,7 +46,7 @@ function useCronometro(clave: string) {
   };
 }
 
-function Guion({ texto }: { texto: string }) {
+export function Guion({ texto }: { texto: string }) {
   return (
     <div className="guion">
       {texto.split('\n').map((linea, i) => {
@@ -60,21 +60,17 @@ function Guion({ texto }: { texto: string }) {
   );
 }
 
-interface Props {
+interface CuerpoProps {
   pantalla: Pantalla;
   duracionSegmento: number;
-  onCerrar: () => void;
 }
 
-export function Notes({ pantalla, duracionSegmento, onCerrar }: Props) {
+/** Contenido de las notas: datos del segmento, cronómetro, marcas [REVISAR] y guion. */
+export function NotasCuerpo({ pantalla, duracionSegmento }: CuerpoProps) {
   const crono = useCronometro(pantalla.segmento);
   const excedido = duracionSegmento > 0 && crono.segundos > duracionSegmento;
   return (
-    <aside className="notas" aria-label={L.notas.titulo} data-notas>
-      <button className="btn notas-cerrar" onClick={onCerrar}>
-        <X size={20} aria-hidden="true" /> {L.notas.cerrar}
-      </button>
-      <h2>{L.notas.titulo}</h2>
+    <>
       <dl>
         <dt>{L.notas.segmento}</dt>
         <dd>{pantalla.segmento}</dd>
@@ -89,7 +85,7 @@ export function Notes({ pantalla, duracionSegmento, onCerrar }: Props) {
       </dl>
       <div>
         <h3>{L.notas.cronometro}</h3>
-        <div className={`crono${excedido ? ' excedido' : ''}`} aria-live="off">
+        <div className={`crono${excedido ? ' excedido' : ''}`} aria-live="off" data-crono-segmento>
           {formato(crono.segundos)}
         </div>
         <div className="acciones">
@@ -118,6 +114,34 @@ export function Notes({ pantalla, duracionSegmento, onCerrar }: Props) {
       )}
       <h3>{L.notas.guion}</h3>
       <Guion texto={pantalla.notas} />
+    </>
+  );
+}
+
+interface Props extends CuerpoProps {
+  onCerrar: () => void;
+  onPresentador: () => void;
+  aviso?: string;
+}
+
+export function Notes({ pantalla, duracionSegmento, onCerrar, onPresentador, aviso }: Props) {
+  return (
+    <aside className="notas" aria-label={L.notas.titulo} data-notas>
+      <div className="acciones">
+        <button className="btn" onClick={onPresentador}>
+          <MonitorUp size={20} aria-hidden="true" /> {L.notas.abrirPresentador}
+        </button>
+        <button className="btn notas-cerrar" onClick={onCerrar}>
+          <X size={20} aria-hidden="true" /> {L.notas.cerrar}
+        </button>
+      </div>
+      {aviso && (
+        <p className="aviso-notas" role="alert">
+          {aviso}
+        </p>
+      )}
+      <h2>{L.notas.titulo}</h2>
+      <NotasCuerpo pantalla={pantalla} duracionSegmento={duracionSegmento} />
     </aside>
   );
 }

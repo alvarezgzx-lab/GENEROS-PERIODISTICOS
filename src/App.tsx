@@ -1,26 +1,24 @@
-/** App de presentación: lienzo 1920×1080 escalado, navegación por hash y teclado. */
+/** Ventana proyectada: lienzo 1920×1080 escalado, navegación por hash y teclado. */
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { Brand } from './components/Brand';
 import { EscalaContext } from './components/escala';
 import { Glossary } from './components/Glossary';
 import { Notes } from './components/Notes';
+import { PantallaVista } from './components/PantallaVista';
 import { ProgressBar } from './components/ProgressBar';
-import { QrPanel } from './components/QrPanel';
-import { Slide } from './components/Slide';
-import slidesJson from './content/slides.json';
-import type { ModeloSlides } from './content/types';
-import { Dashboard } from './dashboard/Dashboard';
+import {
+  abrirPresentador,
+  destinoPorTecla,
+  duracionSegmento,
+  irA,
+  leerHash,
+  modelo,
+  TECLAS_NAV,
+  TOTAL,
+} from './modelo';
+import { useSincronia } from './state/sincronia';
 import { L } from './ui/labels';
-
-const modelo = slidesJson as unknown as ModeloSlides;
-const TOTAL = modelo.pantallas.length;
-
-function leerHash(): number {
-  const m = window.location.hash.match(/^#\/(\d+)/);
-  const n = m ? Number(m[1]) : 1;
-  return Math.min(Math.max(n, 1), TOTAL) - 1;
-}
 
 function useEscalaVentana() {
   const [v, setV] = useState({ s: 1, x: 0, y: 0 });
@@ -38,29 +36,22 @@ function useEscalaVentana() {
   return v;
 }
 
-const TECLAS_NAV = new Set([
-  'ArrowRight',
-  'ArrowLeft',
-  'ArrowUp',
-  'ArrowDown',
-  ' ',
-  'PageDown',
-  'PageUp',
-  'Home',
-  'End',
-]);
-
 export default function App() {
   const [indice, setIndice] = useState(leerHash);
   const [notas, setNotas] = useState(false);
   const [glosario, setGlosario] = useState(false);
+  const [aviso, setAviso] = useState('');
   const escala = useEscalaVentana();
   const lienzo = useRef<HTMLDivElement>(null);
   const p = modelo.pantallas[indice];
 
-  const ir = useCallback((n: number) => {
-    const i = Math.min(Math.max(n, 0), TOTAL - 1);
-    window.location.hash = `#/${i + 1}`;
+  useSincronia(indice);
+
+  const presentador = useCallback(() => {
+    if (!abrirPresentador()) {
+      setAviso(L.presentador.bloqueada);
+      setNotas(true);
+    } else setAviso('');
   }, []);
 
   useEffect(() => {
@@ -109,41 +100,22 @@ export default function App() {
         setNotas((v) => !v);
         return;
       }
+      if (e.key === 'p' || e.key === 'P') {
+        e.preventDefault();
+        presentador();
+        return;
+      }
       if (!TECLAS_NAV.has(e.key)) return;
       e.preventDefault();
       // Se lee la posición del hash en el momento de la tecla para no perder pulsaciones rápidas.
-      const actual = leerHash();
-      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown' || e.key === 'ArrowDown') ir(actual + 1);
-      else if (e.key === 'ArrowLeft' || e.key === 'PageUp' || e.key === 'ArrowUp') ir(actual - 1);
-      else if (e.key === 'Home') ir(0);
-      else if (e.key === 'End') ir(TOTAL - 1);
+      const destino = destinoPorTecla(e.key, leerHash());
+      if (destino !== null) irA(destino);
     };
     window.addEventListener('keydown', alTeclear);
     return () => window.removeEventListener('keydown', alTeclear);
-  }, [ir]);
+  }, [presentador]);
 
-  const duracionSegmento = useMemo(
-    () => modelo.pantallas.filter((x) => x.segmento === p.segmento).reduce((s, x) => s + x.duracion_s, 0),
-    [p.segmento],
-  );
   const entradasGlosario = modelo.glosario.filter((g) => p.glosario.includes(g.termino));
-
-  let contenido;
-  if (p.tipo === 'qr') {
-    contenido = (
-      <section className="pantalla pantalla-qr" data-pantalla={p.id}>
-        <QrPanel />
-      </section>
-    );
-  } else if (p.tipo === 'dashboard') {
-    contenido = (
-      <section className="pantalla" data-pantalla={p.id}>
-        <Dashboard modelo={modelo} />
-      </section>
-    );
-  } else {
-    contenido = <Slide p={p} />;
-  }
 
   return (
     <EscalaContext.Provider value={escala.s}>
@@ -156,7 +128,7 @@ export default function App() {
           style={{ transform: `translate(${escala.x}px, ${escala.y}px) scale(${escala.s})` }}
         >
           <div key={p.id} style={{ display: 'contents' }}>
-            {contenido}
+            <PantallaVista p={p} />
           </div>
           <Glossary
             entradas={entradasGlosario}
@@ -166,7 +138,7 @@ export default function App() {
           />
           <button
             className="borde-nav izq"
-            onClick={() => ir(indice - 1)}
+            onClick={() => irA(indice - 1)}
             disabled={indice === 0}
             aria-label={L.nav.anterior}
           >
@@ -174,7 +146,7 @@ export default function App() {
           </button>
           <button
             className="borde-nav der"
-            onClick={() => ir(indice + 1)}
+            onClick={() => irA(indice + 1)}
             disabled={indice === TOTAL - 1}
             aria-label={L.nav.siguiente}
           >
@@ -186,7 +158,15 @@ export default function App() {
           </footer>
           <p className="sr-only">{L.nav.ayuda}</p>
         </div>
-        {notas && <Notes pantalla={p} duracionSegmento={duracionSegmento} onCerrar={() => setNotas(false)} />}
+        {notas && (
+          <Notes
+            pantalla={p}
+            duracionSegmento={duracionSegmento(p.segmento)}
+            onCerrar={() => setNotas(false)}
+            onPresentador={presentador}
+            aviso={aviso}
+          />
+        )}
       </main>
     </EscalaContext.Provider>
   );
