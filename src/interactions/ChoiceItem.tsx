@@ -250,11 +250,7 @@ export function ChoiceItem({ interaccion: it, izquierda }: Props) {
         </span>
       </div>
       <Feedback estado={resultado?.estado ?? null} titulo={resultado?.titulo}>
-        {resultado?.detalle.map((d, i) => (
-          <p className="b" key={i}>
-            {d}
-          </p>
-        ))}
+        {resultado && resultado.detalle.length > 0 && <p className="b">{resultado.detalle.join(' · ')}</p>}
       </Feedback>
     </div>
   );

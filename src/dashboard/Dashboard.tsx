@@ -37,6 +37,7 @@ function Barras({
   ancho = 1728,
   etiquetaAncho = 300,
   alto = 50,
+  textoAncho = 400,
   titulo,
 }: {
   filas: Barra[];
@@ -44,9 +45,9 @@ function Barras({
   ancho?: number;
   etiquetaAncho?: number;
   alto?: number;
+  textoAncho?: number;
   titulo: string;
 }) {
-  const textoAncho = 400;
   const util = ancho - etiquetaAncho - textoAncho - 24;
   const h = filas.length * alto;
   return (
@@ -270,6 +271,7 @@ export function Dashboard({ modelo }: { modelo: ModeloSlides }) {
                 titulo={L.dashboard.aciertoPorPaso}
                 ancho={720}
                 etiquetaAncho={240}
+                textoAncho={240}
                 max={100}
                 filas={porPaso.map((t) => ({
                   etiqueta: L.pasosCortos[t.clave as PasoTrayecto],
@@ -281,30 +283,32 @@ export function Dashboard({ modelo }: { modelo: ModeloSlides }) {
               <Barras
                 titulo={L.dashboard.aciertoPorNivel}
                 ancho={720}
-                etiquetaAncho={0}
+                etiquetaAncho={240}
+                textoAncho={240}
                 max={100}
                 filas={(porNivel.length
                   ? porNivel
                   : [{ clave: L.dashboard.sinEtiqueta, pct: null, aciertos: 0, total: 0 }]
                 ).map((t) => ({
-                  etiqueta: '',
+                  etiqueta: t.clave,
                   valor: t.pct,
-                  texto: `${t.clave}: ${pctTexto(t)}`,
+                  texto: pctTexto(t),
                 }))}
               />
               <h2 className="b b-subtitulo">{L.dashboard.aciertoPorPisa}</h2>
               <Barras
                 titulo={L.dashboard.aciertoPorPisa}
                 ancho={720}
-                etiquetaAncho={0}
+                etiquetaAncho={240}
+                textoAncho={240}
                 max={100}
                 filas={(porPisa.length
                   ? porPisa
                   : [{ clave: L.dashboard.sinEtiqueta, pct: null, aciertos: 0, total: 0 }]
                 ).map((t) => ({
-                  etiqueta: '',
+                  etiqueta: t.clave,
                   valor: t.pct,
-                  texto: `${t.clave}: ${pctTexto(t)}`,
+                  texto: pctTexto(t),
                 }))}
               />
             </div>
@@ -354,60 +358,67 @@ export function Dashboard({ modelo }: { modelo: ModeloSlides }) {
         )}
 
         {pestana === 'distractores' && (
+          <>
+            {dist.length === 0 ? (
+              <p className="b">{L.dashboard.ninguno}</p>
+            ) : (
+              <table className="tabla tabla-dash" aria-label={L.dashboard.distractor}>
+                <thead>
+                  <tr>
+                    <th scope="col">{L.dashboard.reactivo}</th>
+                    <th scope="col">{L.dashboard.distractorCorto}</th>
+                    <th scope="col">{L.dashboard.falla}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {dist.map((d) => (
+                    <tr key={d.id}>
+                      <th scope="row">{d.etiqueta}</th>
+                      <td>
+                        {d.opcion} ({d.veces})
+                      </td>
+                      <td>{d.falla?.etiqueta ?? L.dashboard.sinFalla}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            )}
+          </>
+        )}
+
+        {pestana === 'sintesis' && (
           <div className="dash-dos">
-            <div>
-              <h2 className="b b-subtitulo">{L.dashboard.distractor}</h2>
-              {dist.length === 0 ? (
-                <p className="b">{L.dashboard.ninguno}</p>
+            <div className="dash-sintesis">
+              <h2 className="b b-subtitulo">{L.dashboard.sintesis}</h2>
+              {sint ? (
+                <>
+                  <p className="b">
+                    {L.dashboard.pasoMayorFalla}: <strong>{L.pasos[sint.paso]}</strong> ({sint.fallas}/{sint.total})
+                  </p>
+                  <p className="b">{L.dashboard.intervencion}:</p>
+                  <p className="b b-cita">{sint.intervencion}</p>
+                </>
               ) : (
-                <table className="tabla tabla-dash">
-                  <tbody>
-                    {dist.slice(0, 8).map((d) => (
-                      <tr key={d.id}>
-                        <th scope="row">{d.etiqueta}</th>
-                        <td>
-                          {d.opcion} ({d.veces})
-                        </td>
-                        <td>{d.falla?.etiqueta ?? L.dashboard.sinFalla}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+                <p className="b">{L.dashboard.sinFallas}</p>
               )}
             </div>
             <div>
               <h2 className="b b-subtitulo">{L.dashboard.justificacion}</h2>
+              <p className="b">{L.dashboard.soloCorrectas}</p>
               <Barras
                 titulo={L.dashboard.justificacion}
                 ancho={720}
-                etiquetaAncho={0}
+                etiquetaAncho={260}
+                textoAncho={120}
                 max={Math.max(1, just.con + just.sin)}
                 filas={[
-                  { etiqueta: '', valor: just.con, texto: `${L.dashboard.conJustificacion}: ${just.con}` },
-                  { etiqueta: '', valor: just.sin, texto: `${L.dashboard.sinJustificacion}: ${just.sin}` },
+                  { etiqueta: L.dashboard.suficiente, valor: just.con, texto: String(just.con) },
+                  { etiqueta: L.dashboard.insuficiente, valor: just.sin, texto: String(just.sin) },
                 ]}
-                alto={110}
               />
               <h2 className="b b-subtitulo">{L.dashboard.tiempoMedio}</h2>
               <p className="b dash-cifra">{tMedio === null ? '—' : L.dashboard.segundos(tMedio)}</p>
             </div>
-          </div>
-        )}
-
-        {pestana === 'sintesis' && (
-          <div className="dash-sintesis">
-            <h2 className="b b-subtitulo">{L.dashboard.sintesis}</h2>
-            {sint ? (
-              <>
-                <p className="b">
-                  {L.dashboard.pasoMayorFalla}: <strong>{L.pasos[sint.paso]}</strong> ({sint.fallas}/{sint.total})
-                </p>
-                <p className="b">{L.dashboard.intervencion}:</p>
-                <p className="b b-cita">{sint.intervencion}</p>
-              </>
-            ) : (
-              <p className="b">{L.dashboard.sinFallas}</p>
-            )}
           </div>
         )}
       </div>

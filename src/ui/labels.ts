@@ -159,7 +159,8 @@ export const L = {
     mostrarSimulado: 'Datos simulados',
     mostrarEnVivo: 'Datos en vivo',
     sinDatos: 'Aún no hay respuestas registradas.',
-    sinSemilla: 'Sin datos simulados: el guion no incluye banco de respuestas simuladas.',
+    sinSemilla:
+      'Sin datos simulados: el guion no incluye banco de respuestas simuladas. Nivel de lectura y proceso PISA: sin etiqueta en el guion.',
     exportar: 'Exportar CSV',
     reiniciar: 'Reiniciar',
     confirmarReinicio: '¿Borrar todas las respuestas en vivo de esta sesión?',
@@ -171,7 +172,12 @@ export const L = {
     aciertoPorPaso: 'Acierto por paso del trayecto',
     aciertoPorNivel: 'Acierto por nivel de lectura',
     aciertoPorPisa: 'Acierto por proceso PISA',
-    sinEtiqueta: 'Sin etiqueta en el guion',
+    sinEtiqueta: 'Sin etiqueta',
+    reactivo: 'Reactivo',
+    distractorCorto: 'Opción incorrecta más elegida (veces)',
+    soloCorrectas: 'Respuestas correctas en reactivos que piden justificación',
+    suficiente: 'Suficiente',
+    insuficiente: 'Insuficiente',
     matriz: 'Categoría correcta (filas) frente a categoría elegida (columnas)',
     correcta: 'Correcta',
     elegida: 'Elegida',
@@ -180,8 +186,6 @@ export const L = {
     sinFalla: 'El guion no indica la falla',
     ninguno: 'Sin errores',
     justificacion: 'Calidad de la justificación',
-    conJustificacion: 'Correctas con justificación suficiente',
-    sinJustificacion: 'Correctas sin justificación suficiente',
     tiempoMedio: 'Tiempo medio de respuesta',
     segundos: (s: number) => `${s.toFixed(1)} s`,
     sintesis: 'Síntesis pedagógica',
@@ -194,6 +198,7 @@ export const L = {
     excluido: 'Sin clave: excluido del acierto',
   },
   sistema: {
-    almacenamientoNoDisponible: 'El almacenamiento local no está disponible; las respuestas se conservan solo mientras la página esté abierta.',
+    almacenamientoNoDisponible:
+      'El almacenamiento local no está disponible; las respuestas se conservan solo mientras la página esté abierta.',
   },
 } as const;

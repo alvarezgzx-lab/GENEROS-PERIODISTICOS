@@ -50,19 +50,68 @@ function Lienzo({ alto, desc, children }: { alto: number; desc: string; children
   );
 }
 
-function Icono({ I, x, y, s = 56, color = C5, sw = 2 }: { I: LucideIcon; x: number; y: number; s?: number; color?: string; sw?: number }) {
+function Icono({
+  I,
+  x,
+  y,
+  s = 56,
+  color = C5,
+  sw = 2,
+}: {
+  I: LucideIcon;
+  x: number;
+  y: number;
+  s?: number;
+  color?: string;
+  sw?: number;
+}) {
   return <I x={x - s / 2} y={y - s / 2} width={s} height={s} color={color} strokeWidth={sw} aria-hidden="true" />;
 }
 
-function Texto({ x, y, children, anchor = 'start', color = C5, peso = 500 }: { x: number; y: number; children: ReactNode; anchor?: 'start' | 'middle' | 'end'; color?: string; peso?: number }) {
+function Texto({
+  x,
+  y,
+  children,
+  anchor = 'start',
+  color = C5,
+  peso = 500,
+}: {
+  x: number;
+  y: number;
+  children: ReactNode;
+  anchor?: 'start' | 'middle' | 'end';
+  color?: string;
+  peso?: number;
+}) {
   return (
-    <text x={x} y={y} fontSize={T} textAnchor={anchor} dominantBaseline="middle" style={{ fill: color, fontWeight: peso }}>
+    <text
+      x={x}
+      y={y}
+      fontSize={T}
+      textAnchor={anchor}
+      dominantBaseline="middle"
+      style={{ fill: color, fontWeight: peso }}
+    >
       {children}
     </text>
   );
 }
 
-function Flecha({ x1, y1, x2, y2, color = C5, doble = false }: { x1: number; y1: number; x2: number; y2: number; color?: string; doble?: boolean }) {
+function Flecha({
+  x1,
+  y1,
+  x2,
+  y2,
+  color = C5,
+  doble = false,
+}: {
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+  color?: string;
+  doble?: boolean;
+}) {
   const ang = Math.atan2(y2 - y1, x2 - x1);
   const punta = (x: number, y: number, a: number) => {
     const l = 18;
@@ -78,7 +127,15 @@ function Flecha({ x1, y1, x2, y2, color = C5, doble = false }: { x1: number; y1:
 }
 
 /** Filas de ícono + etiqueta: la forma más legible de asociar una pista con su función. */
-function Filas({ filas, desc, color = C5 }: { filas: Array<{ I: LucideIcon; t: string; tachado?: boolean; c?: string }>; desc: string; color?: string }) {
+function Filas({
+  filas,
+  desc,
+  color = C5,
+}: {
+  filas: Array<{ I: LucideIcon; t: string; tachado?: boolean; c?: string }>;
+  desc: string;
+  color?: string;
+}) {
   const paso = 112;
   const alto = filas.length * paso + 16;
   return (
@@ -90,7 +147,9 @@ function Filas({ filas, desc, color = C5 }: { filas: Array<{ I: LucideIcon; t: s
           <g key={i}>
             <rect x={4} y={y - 48} width={96} height={96} rx={20} fill="none" stroke={c} strokeWidth={4} />
             <Icono I={f.I} x={52} y={y} color={c} s={52} />
-            {f.tachado && <line x1={16} y1={y + 36} x2={88} y2={y - 36} stroke={C3} strokeWidth={8} strokeLinecap="round" />}
+            {f.tachado && (
+              <line x1={16} y1={y + 36} x2={88} y2={y - 36} stroke={C3} strokeWidth={8} strokeLinecap="round" />
+            )}
             <Texto x={128} y={y}>
               {f.t}
             </Texto>
@@ -192,7 +251,16 @@ function Categoria1({ cat, desc }: { cat: Categoria; desc: string }) {
       </Texto>
       {pistas[cat].map((I, i) => (
         <g key={i}>
-          <rect x={30 + i * 120} y={440} width={96} height={96} rx={20} fill="none" stroke={CAT[cat].color} strokeWidth={4} />
+          <rect
+            x={30 + i * 120}
+            y={440}
+            width={96}
+            height={96}
+            rx={20}
+            fill="none"
+            stroke={CAT[cat].color}
+            strokeWidth={4}
+          />
           <Icono I={I} x={78 + i * 120} y={488} s={50} color={CAT[cat].color} />
         </g>
       ))}
@@ -208,7 +276,14 @@ function PreguntasHecho({ desc }: { desc: string }) {
     <Lienzo alto={560} desc={desc}>
       <circle cx={cx} cy={cy} r={90} fill={C2} />
       <Icono I={FileText} x={cx} y={cy - 12} s={64} color="var(--color-1)" />
-      <text x={cx} y={cy + 50} fontSize={T} textAnchor="middle" dominantBaseline="middle" style={{ fill: 'var(--color-1)', fontWeight: 700 }}>
+      <text
+        x={cx}
+        y={cy + 50}
+        fontSize={T}
+        textAnchor="middle"
+        dominantBaseline="middle"
+        style={{ fill: 'var(--color-1)', fontWeight: 700 }}
+      >
         {L.intenciones.hecho}
       </text>
       {iconos.map((I, i) => {
@@ -217,7 +292,14 @@ function PreguntasHecho({ desc }: { desc: string }) {
         const y = cy + Math.sin(a) * 205;
         return (
           <g key={i}>
-            <line x1={cx + Math.cos(a) * 96} y1={cy + Math.sin(a) * 96} x2={x - Math.cos(a) * 54} y2={y - Math.sin(a) * 54} stroke={LINEA} strokeWidth={4} />
+            <line
+              x1={cx + Math.cos(a) * 96}
+              y1={cy + Math.sin(a) * 96}
+              x2={x - Math.cos(a) * 54}
+              y2={y - Math.sin(a) * 54}
+              stroke={LINEA}
+              strokeWidth={4}
+            />
             <circle cx={x} cy={y} r={52} fill="none" stroke={C5} strokeWidth={4} />
             <Icono I={I} x={x} y={y} s={48} />
           </g>
@@ -256,13 +338,31 @@ function Relaciones({ desc }: { desc: string }) {
   ];
   return (
     <Lienzo alto={600} desc={desc}>
-      <rect x={10} y={10} width={500} height={580} rx={24} fill="none" stroke={C4} strokeWidth={3} strokeDasharray="12 10" />
+      <rect
+        x={10}
+        y={10}
+        width={500}
+        height={580}
+        rx={24}
+        fill="none"
+        stroke={C4}
+        strokeWidth={3}
+        strokeDasharray="12 10"
+      />
       <Texto x={260} y={560} anchor="middle" color={C4}>
         {L.visuales.contexto}
       </Texto>
       {nodos.map((n, i) => (
         <g key={i}>
-          <rect x={110} y={n.y - 50} width={300} height={100} fill={i === 1 ? C4 : 'none'} stroke={C4} strokeWidth={4} />
+          <rect
+            x={110}
+            y={n.y - 50}
+            width={300}
+            height={100}
+            fill={i === 1 ? C4 : 'none'}
+            stroke={C4}
+            strokeWidth={4}
+          />
           <Texto x={260} y={n.y} anchor="middle" color={i === 1 ? 'var(--color-1)' : C5} peso={700}>
             {n.t}
           </Texto>
@@ -381,7 +481,9 @@ function LupaTexto({ cat, desc }: { cat: Categoria; desc: string }) {
       {[0, 1, 2, 3, 4, 5, 6, 7].map((i) => (
         <g key={i}>
           <rect x={52} y={60 + i * 54} width={316} height={16} rx={8} fill={LINEA} />
-          {[0, 3, 5, 7].includes(i) && <rect x={52 + (i % 3) * 60} y={54 + i * 54} width={150} height={28} rx={6} fill={color} />}
+          {[0, 3, 5, 7].includes(i) && (
+            <rect x={52 + (i % 3) * 60} y={54 + i * 54} width={150} height={28} rx={6} fill={color} />
+          )}
         </g>
       ))}
       <circle cx={380} cy={380} r={100} fill="none" stroke={C5} strokeWidth={10} />
@@ -394,7 +496,18 @@ function UnaPista({ desc }: { desc: string }) {
   return (
     <Lienzo alto={560} desc={desc}>
       {[0, 1, 2, 3, 4, 5].map((i) => (
-        <rect key={i} x={40 + (i % 3) * 150} y={40 + Math.floor(i / 3) * 150} width={110} height={110} rx={16} fill="none" stroke={i === 0 ? C5 : LINEA} strokeWidth={i === 0 ? 6 : 3} strokeDasharray={i === 0 ? undefined : '8 8'} />
+        <rect
+          key={i}
+          x={40 + (i % 3) * 150}
+          y={40 + Math.floor(i / 3) * 150}
+          width={110}
+          height={110}
+          rx={16}
+          fill="none"
+          stroke={i === 0 ? C5 : LINEA}
+          strokeWidth={i === 0 ? 6 : 3}
+          strokeDasharray={i === 0 ? undefined : '8 8'}
+        />
       ))}
       <Icono I={Hash} x={95} y={95} s={56} />
       <Icono I={User} x={245} y={95} s={48} color={LINEA} />
@@ -431,7 +544,17 @@ function Completar({ cat, desc }: { cat?: Categoria; desc: string }) {
   const color = cat ? CAT[cat].color : C5;
   return (
     <Lienzo alto={480} desc={desc}>
-      <rect x={20} y={40} width={200} height={64} rx={12} fill="none" stroke={C5} strokeWidth={4} strokeDasharray="10 8" />
+      <rect
+        x={20}
+        y={40}
+        width={200}
+        height={64}
+        rx={12}
+        fill="none"
+        stroke={C5}
+        strokeWidth={4}
+        strokeDasharray="10 8"
+      />
       <rect x={250} y={56} width={250} height={32} rx={8} fill={LINEA} />
       <rect x={20} y={170} width={200} height={64} rx={32} fill={color} />
       <Flecha x1={120} y1={164} x2={120} y2={112} color={color} />
@@ -498,13 +621,27 @@ function BalanzaPistas({ desc }: { desc: string }) {
       <line x1={60} y1={160} x2={460} y2={300} stroke={C5} strokeWidth={6} strokeLinecap="round" />
       <rect x={10} y={40} width={150} height={110} rx={16} fill={C2} />
       <Icono I={Hash} x={85} y={78} s={44} color="var(--color-1)" />
-      <text x={85} y={126} fontSize={T} textAnchor="middle" dominantBaseline="middle" style={{ fill: 'var(--color-1)', fontWeight: 700 }}>
+      <text
+        x={85}
+        y={126}
+        fontSize={T}
+        textAnchor="middle"
+        dominantBaseline="middle"
+        style={{ fill: 'var(--color-1)', fontWeight: 700 }}
+      >
         {L.visuales.datos}
       </text>
       <rect x={300} y={300} width={210} height={170} rx={16} fill={C5} />
       <Icono I={Scale} x={360} y={350} s={48} color="var(--color-1)" />
       <Icono I={Signpost} x={450} y={350} s={48} color="var(--color-1)" />
-      <text x={405} y={420} fontSize={T} textAnchor="middle" dominantBaseline="middle" style={{ fill: 'var(--color-1)', fontWeight: 700 }}>
+      <text
+        x={405}
+        y={420}
+        fontSize={T}
+        textAnchor="middle"
+        dominantBaseline="middle"
+        style={{ fill: 'var(--color-1)', fontWeight: 700 }}
+      >
         {L.visuales.postura}
       </text>
     </Lienzo>

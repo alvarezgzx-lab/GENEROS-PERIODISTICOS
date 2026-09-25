@@ -21,7 +21,13 @@ export function Glossary({ entradas, abierto, onAbrir, onCerrar }: Props) {
   if (entradas.length === 0) return null;
   return (
     <>
-      <button ref={abrirRef} className="btn chico btn-glosario" onClick={onAbrir} aria-haspopup="dialog" aria-expanded={abierto}>
+      <button
+        ref={abrirRef}
+        className="btn chico btn-glosario"
+        onClick={onAbrir}
+        aria-haspopup="dialog"
+        aria-expanded={abierto}
+      >
         <BookOpen size={32} aria-hidden="true" /> {L.glosario.boton}
       </button>
       {abierto && (

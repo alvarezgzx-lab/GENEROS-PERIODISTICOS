@@ -24,7 +24,10 @@ export function FormaCategoria({ cat, cx, cy, r }: { cat: Categoria; cx: number;
   else {
     const h = r * 1.9;
     forma = (
-      <polygon points={`${cx},${cy - h * 0.62} ${cx + r * 1.1},${cy + h * 0.45} ${cx - r * 1.1},${cy + h * 0.45}`} fill={color} />
+      <polygon
+        points={`${cx},${cy - h * 0.62} ${cx + r * 1.1},${cy + h * 0.45} ${cx - r * 1.1},${cy + h * 0.45}`}
+        fill={color}
+      />
     );
     dy = r * 0.18;
   }

@@ -118,7 +118,10 @@ add({
       'Algunos se concentran en **informar**; otros buscan **explicar** los hechos y relacionarlos con sus causas o consecuencias; otros expresan una **opinión** y tratan de convencer al lector o invitarlo a reflexionar.',
     ),
   ],
-  visual: V('intenciones', 'Tres flechas que salen de un mismo hecho hacia tres intenciones: informar, explicar y opinar, cada una con su ícono, forma y etiqueta.'),
+  visual: V(
+    'intenciones',
+    'Tres flechas que salen de un mismo hecho hacia tres intenciones: informar, explicar y opinar, cada una con su ícono, forma y etiqueta.',
+  ),
 });
 add({
   diapositiva: 1,
@@ -130,7 +133,10 @@ add({
     c(1, 'identificar si el autor manifiesta una postura;', 'item'),
     c(1, 'justificar una clasificación con evidencias del texto.', 'item'),
   ],
-  visual: V('ruta', 'Ruta de cuatro pasos (encontrar, explicar, reconocer, justificar) que anticipa lo que se hará en la lección.'),
+  visual: V(
+    'ruta',
+    'Ruta de cuatro pasos (encontrar, explicar, reconocer, justificar) que anticipa lo que se hará en la lección.',
+  ),
 });
 
 // ---------------------------------------------------------------------------
@@ -149,7 +155,10 @@ add({
     c(2, 'explicar por qué ocurrió o qué consecuencias puede tener;', 'item'),
     c(2, 'expresar una postura y defenderla mediante razones.', 'item'),
   ],
-  visual: V('intenciones', 'Un mismo hecho y tres intenciones posibles de quien escribe: comunicar, explicar o expresar una postura.'),
+  visual: V(
+    'intenciones',
+    'Un mismo hecho y tres intenciones posibles de quien escribe: comunicar, explicar o expresar una postura.',
+  ),
   glosario: ['géneros periodísticos'],
 });
 add({
@@ -165,7 +174,10 @@ add({
     c(2, '2. Géneros interpretativos.', 'numerado'),
     c(2, '3. Géneros de opinión.', 'numerado'),
   ],
-  visual: V('generos-trio', 'Los tres grupos con su ícono, forma y etiqueta: informativo (círculo), interpretativo (cuadrado) y de opinión (triángulo). Una balanza indica que se busca la intención que predomina.'),
+  visual: V(
+    'generos-trio',
+    'Los tres grupos con su ícono, forma y etiqueta: informativo (círculo), interpretativo (cuadrado) y de opinión (triángulo). Una balanza indica que se busca la intención que predomina.',
+  ),
 });
 
 // ---------------------------------------------------------------------------
@@ -176,13 +188,20 @@ add({
   titulo: titulo(3),
   bloques: [
     c(3, 'Los textos informativos tienen como propósito principal **dar a conocer hechos de interés público**.'),
-    c(3, 'Presentan acontecimientos, datos y declaraciones que pueden comprobarse. Generalmente responden preguntas como:'),
+    c(
+      3,
+      'Presentan acontecimientos, datos y declaraciones que pueden comprobarse. Generalmente responden preguntas como:',
+    ),
     c(3, '¿qué ocurrió?;', 'item'),
     c(3, '¿quiénes participaron?;', 'item'),
     c(3, '¿cuándo y dónde sucedió?;', 'item'),
     c(3, '¿cómo se desarrollaron los hechos?', 'item'),
   ],
-  visual: V('preguntas-hecho', 'Un hecho en el centro rodeado de los íconos de las preguntas qué, quiénes, cuándo, dónde y cómo.', 'informativo'),
+  visual: V(
+    'preguntas-hecho',
+    'Un hecho en el centro rodeado de los íconos de las preguntas qué, quiénes, cuándo, dónde y cómo.',
+    'informativo',
+  ),
 });
 add({
   diapositiva: 3,
@@ -195,7 +214,11 @@ add({
     c(3, 'Evitan que la valoración personal del redactor sea el centro del texto.', 'item'),
     c(3, 'Organizan los acontecimientos de manera clara y ordenada.', 'item'),
   ],
-  visual: V('categoria', 'Distintivo del género informativo (círculo con ícono de periódico) con las pistas que lo caracterizan: calendario, ubicación, persona y cifra.', 'informativo'),
+  visual: V(
+    'categoria',
+    'Distintivo del género informativo (círculo con ícono de periódico) con las pistas que lo caracterizan: calendario, ubicación, persona y cifra.',
+    'informativo',
+  ),
 });
 add({
   diapositiva: 3,
@@ -207,7 +230,11 @@ add({
       'destacado',
     ),
   ],
-  visual: V('autor-presente', 'Una persona que escribe detrás del texto: el autor existe aunque su opinión no sea el centro; la balanza se inclina hacia los hechos verificables.', 'informativo'),
+  visual: V(
+    'autor-presente',
+    'Una persona que escribe detrás del texto: el autor existe aunque su opinión no sea el centro; la balanza se inclina hacia los hechos verificables.',
+    'informativo',
+  ),
 });
 
 // ---------------------------------------------------------------------------
@@ -223,7 +250,11 @@ add({
       'No se limitan a decir qué ocurrió. También presentan antecedentes, comparan perspectivas y establecen relaciones entre causas, consecuencias y contextos.',
     ),
   ],
-  visual: V('relaciones', 'Red de nodos: antecedente → hecho → consecuencia, con un contexto que los rodea; las flechas muestran que el texto relaciona los datos.', 'interpretativo'),
+  visual: V(
+    'relaciones',
+    'Red de nodos: antecedente → hecho → consecuencia, con un contexto que los rodea; las flechas muestran que el texto relaciona los datos.',
+    'interpretativo',
+  ),
 });
 add({
   diapositiva: 4,
@@ -241,7 +272,11 @@ add({
     ),
     c(4, 'No necesitan presentar una opinión personal explícita del redactor.', 'item'),
   ],
-  visual: V('categoria', 'Distintivo del género interpretativo (cuadrado con ícono de red) y las relaciones que construye: causa, contraste y aclaración.', 'interpretativo'),
+  visual: V(
+    'categoria',
+    'Distintivo del género interpretativo (cuadrado con ícono de red) y las relaciones que construye: causa, contraste y aclaración.',
+    'interpretativo',
+  ),
 });
 add({
   diapositiva: 4,
@@ -253,7 +288,10 @@ add({
       'destacado',
     ),
   ],
-  visual: V('compara-info-interp', 'Comparación: a la izquierda, datos sueltos en lista (informativo); a la derecha, los mismos datos unidos por flechas (interpretativo).'),
+  visual: V(
+    'compara-info-interp',
+    'Comparación: a la izquierda, datos sueltos en lista (informativo); a la derecha, los mismos datos unidos por flechas (interpretativo).',
+  ),
 });
 
 // ---------------------------------------------------------------------------
@@ -263,13 +301,20 @@ add({
   diapositiva: 5,
   titulo: titulo(5),
   bloques: [
-    c(5, 'Los textos de opinión tienen como propósito principal **expresar y defender una postura** sobre un asunto de interés público.'),
+    c(
+      5,
+      'Los textos de opinión tienen como propósito principal **expresar y defender una postura** sobre un asunto de interés público.',
+    ),
     c(
       5,
       'El autor no solo presenta hechos: también los valora, propone una interpretación y ofrece razones para convencer al lector o invitarlo a reflexionar.',
     ),
   ],
-  visual: V('postura', 'Una postura central sostenida por tres razones (columnas), con el autor visible junto a ella.', 'opinion'),
+  visual: V(
+    'postura',
+    'Una postura central sostenida por tres razones (columnas), con el autor visible junto a ella.',
+    'opinion',
+  ),
 });
 add({
   diapositiva: 5,
@@ -283,7 +328,11 @@ add({
     c(5, 'Pueden formular recomendaciones u obligaciones: **debe**, **hay que**, **conviene**, **urge**.', 'item'),
     c(5, 'Concluyen con una reflexión, una propuesta o un llamado a actuar.', 'item'),
   ],
-  visual: V('categoria', 'Distintivo del género de opinión (triángulo con ícono de megáfono) y sus pistas: primera persona, valoración y recomendación.', 'opinion'),
+  visual: V(
+    'categoria',
+    'Distintivo del género de opinión (triángulo con ícono de megáfono) y sus pistas: primera persona, valoración y recomendación.',
+    'opinion',
+  ),
 });
 add({
   diapositiva: 5,
@@ -299,7 +348,11 @@ add({
       'destacado',
     ),
   ],
-  visual: V('estructura-opinion', 'Tres bloques apilados (introducción, desarrollo, conclusión) con una flecha que regresa a la postura inicial.', 'opinion'),
+  visual: V(
+    'estructura-opinion',
+    'Tres bloques apilados (introducción, desarrollo, conclusión) con una flecha que regresa a la postura inicial.',
+    'opinion',
+  ),
 });
 
 // ---------------------------------------------------------------------------
@@ -313,7 +366,10 @@ add({
       6,
       'Los **marcadores discursivos** son palabras o expresiones que conectan las partes de un texto y ayudan a comprender la relación entre sus ideas.',
     ),
-    c(6, 'Funcionan como señales que indican si una idea se agrega, se opone, explica, ejemplifica o concluye otra idea.'),
+    c(
+      6,
+      'Funcionan como señales que indican si una idea se agrega, se opone, explica, ejemplifica o concluye otra idea.',
+    ),
   ],
   visual: V('puente', 'Dos ideas unidas por un puente-señal: el marcador indica qué tipo de relación hay entre ellas.'),
   glosario: ['marcadores discursivos'],
@@ -329,7 +385,10 @@ add({
     c(6, 'Para contrastar ideas', 'subtitulo'),
     c(6, '**pero**, **sin embargo**, **en cambio**, **por el contrario**, **aunque**.'),
   ],
-  visual: V('funciones-marcador', 'Íconos de función: suma (agregar), flecha (causa y consecuencia) y flechas opuestas (contraste).'),
+  visual: V(
+    'funciones-marcador',
+    'Íconos de función: suma (agregar), flecha (causa y consecuencia) y flechas opuestas (contraste).',
+  ),
   glosario: ['marcadores discursivos'],
 });
 add({
@@ -346,7 +405,10 @@ add({
       'destacado',
     ),
   ],
-  visual: V('funciones-marcador-2', 'Íconos de función: signo de igualdad (explicar o aclarar) y bandera de meta (cerrar o resumir).'),
+  visual: V(
+    'funciones-marcador-2',
+    'Íconos de función: signo de igualdad (explicar o aclarar) y bandera de meta (cerrar o resumir).',
+  ),
   glosario: ['marcadores discursivos'],
   revisar: [
     '[REVISAR] «por último» aparece en dos grupos: «Para ordenar y agregar información» y «Para cerrar o resumir». Se muestra tal como viene.',
@@ -362,11 +424,17 @@ add({
   bloques: [
     c(7, 'Además de los marcadores discursivos, existen otras pistas que permiten reconocer la intención de un texto.'),
     c(7, 'Atribución de información', 'subtitulo'),
-    c(7, 'Permite saber quién proporciona el dato: **según**, **de acuerdo con**, **informó**, **señaló**, **explicó**.'),
+    c(
+      7,
+      'Permite saber quién proporciona el dato: **según**, **de acuerdo con**, **informó**, **señaló**, **explicó**.',
+    ),
     c(7, 'Datos verificables', 'subtitulo'),
     c(7, 'Pueden comprobarse: fechas, cifras, nombres, lugares, documentos y declaraciones.'),
   ],
-  visual: V('pistas-1', 'Íconos de pista: comillas con persona (atribución) y marca de verificación sobre un dato (dato verificable).'),
+  visual: V(
+    'pistas-1',
+    'Íconos de pista: comillas con persona (atribución) y marca de verificación sobre un dato (dato verificable).',
+  ),
   glosario: ['atribución de información', 'datos verificables'],
 });
 add({
@@ -374,13 +442,22 @@ add({
   titulo: titulo(7),
   bloques: [
     c(7, 'Valoración', 'subtitulo'),
-    c(7, 'Expresa un juicio sobre una persona, hecho o situación: **grave**, **injusto**, **excelente**, **innecesario**, **un desastre**.'),
+    c(
+      7,
+      'Expresa un juicio sobre una persona, hecho o situación: **grave**, **injusto**, **excelente**, **innecesario**, **un desastre**.',
+    ),
     c(7, 'Presencia del autor', 'subtitulo'),
-    c(7, 'Hace visible su experiencia o punto de vista: **creo**, **considero**, **lo que más valoro**, **me parece**, **en mi experiencia**.'),
+    c(
+      7,
+      'Hace visible su experiencia o punto de vista: **creo**, **considero**, **lo que más valoro**, **me parece**, **en mi experiencia**.',
+    ),
     c(7, 'Obligación o recomendación', 'subtitulo'),
     c(7, 'Indica lo que debería hacerse: **debe**, **deben**, **hay que**, **conviene**, **urge**.'),
   ],
-  visual: V('pistas-2', 'Íconos de pista: balanza (valoración), persona que habla (presencia del autor) y señal de indicación (obligación o recomendación).'),
+  visual: V(
+    'pistas-2',
+    'Íconos de pista: balanza (valoración), persona que habla (presencia del autor) y señal de indicación (obligación o recomendación).',
+  ),
   glosario: ['valoración', 'presencia del autor'],
 });
 
@@ -434,7 +511,11 @@ add({
       '**Asimismo**, se aplicarían las vacunas del esquema básico en hospitales, clínicas y escuelas. **Además**, las autoridades explicaron los beneficios de la vacunación. **Por último**, recordaron la importancia de la vacunación colectiva.',
     ),
   ],
-  visual: V('lupa-texto', 'Lupa sobre el texto: las expresiones resaltadas son las pistas que se analizarán.', 'informativo'),
+  visual: V(
+    'lupa-texto',
+    'Lupa sobre el texto: las expresiones resaltadas son las pistas que se analizarán.',
+    'informativo',
+  ),
 });
 add({
   diapositiva: 9,
@@ -447,7 +528,11 @@ add({
     c(9, '**Por último** ordena el cierre de la explicación.', 'item'),
     c(9, 'No aparece una valoración personal explícita del redactor.', 'item'),
   ],
-  visual: V('pistas-encontradas', 'Cada pista encontrada con el ícono de su función: fuente, dato verificable, agregar y cerrar; la valoración aparece ausente.', 'informativo'),
+  visual: V(
+    'pistas-encontradas',
+    'Cada pista encontrada con el ícono de su función: fuente, dato verificable, agregar y cerrar; la valoración aparece ausente.',
+    'informativo',
+  ),
 });
 add({
   diapositiva: 9,
@@ -456,7 +541,11 @@ add({
     c(9, 'Conclusión', 'subtitulo'),
     c(9, 'El propósito principal es informar sobre las fechas, la meta y las acciones de una campaña de vacunación.'),
     c(9, '**Pertenece al género informativo.**', 'destacado'),
-    c(9, 'Texto adaptado de “Salud arranca la primera Semana Nacional de Vacunación de 2025”, Redacción Animal Político.', 'fuente'),
+    c(
+      9,
+      'Texto adaptado de “Salud arranca la primera Semana Nacional de Vacunación de 2025”, Redacción Animal Político.',
+      'fuente',
+    ),
     c(9, 'https://grupoanimal.mx/salud/semana-nacional-vacunacion-2025-fecha', 'fuente'),
   ],
   visual: V('categoria', 'Distintivo del género informativo como conclusión del análisis.', 'informativo'),
@@ -478,9 +567,16 @@ add({
       10,
       '**Por el contrario**, el optimismo por las inversiones contrasta con la falta de una regulación específica. **Es decir**, el beneficio económico adquiere otro significado cuando se relaciona con sus posibles costos sociales y ambientales.',
     ),
-    c(10, '**Sin embargo**, las autoridades, las empresas y los especialistas no valoran estos riesgos de la misma manera.'),
+    c(
+      10,
+      '**Sin embargo**, las autoridades, las empresas y los especialistas no valoran estos riesgos de la misma manera.',
+    ),
   ],
-  visual: V('lupa-texto', 'Lupa sobre el texto: las expresiones resaltadas son las pistas que se analizarán.', 'interpretativo'),
+  visual: V(
+    'lupa-texto',
+    'Lupa sobre el texto: las expresiones resaltadas son las pistas que se analizarán.',
+    'interpretativo',
+  ),
 });
 add({
   diapositiva: 10,
@@ -494,14 +590,21 @@ add({
     c(10, 'Los datos se relacionan para explicar un problema.', 'item'),
     c(10, 'No domina una valoración personal de los redactores.', 'item'),
   ],
-  visual: V('pistas-encontradas-interp', 'Cada marcador con el ícono de su función: agregar, contrastar, aclarar y comparar perspectivas.', 'interpretativo'),
+  visual: V(
+    'pistas-encontradas-interp',
+    'Cada marcador con el ícono de su función: agregar, contrastar, aclarar y comparar perspectivas.',
+    'interpretativo',
+  ),
 });
 add({
   diapositiva: 10,
   titulo: titulo(10),
   bloques: [
     c(10, 'Conclusión', 'subtitulo'),
-    c(10, 'El propósito principal es explicar la relación entre las inversiones, la falta de regulación y el uso de recursos.'),
+    c(
+      10,
+      'El propósito principal es explicar la relación entre las inversiones, la falta de regulación y el uso de recursos.',
+    ),
     c(10, '**Pertenece al género interpretativo.**', 'destacado'),
     c(
       10,
@@ -550,7 +653,11 @@ add({
     opciones: [
       { clave: 'A', texto: lit(11, 'Porque tiene un título y una fecha.'), categoria: null },
       { clave: 'B', texto: lit(11, 'Porque presenta cifras y nombres.'), categoria: null },
-      { clave: 'C', texto: lit(11, 'Porque relaciona los hechos mediante contrastes, explicaciones y contexto.'), categoria: null },
+      {
+        clave: 'C',
+        texto: lit(11, 'Porque relaciona los hechos mediante contrastes, explicaciones y contexto.'),
+        categoria: null,
+      },
     ],
     correcta: ['C'],
     fallas: {
@@ -574,7 +681,11 @@ add({
   titulo: titulo(11),
   bloques: [
     c(11, 'Respuesta', 'subtitulo'),
-    c(11, '**C.** Las expresiones **por el contrario**, **es decir** y **sin embargo** relacionan la información para explicar su significado.', 'destacado'),
+    c(
+      11,
+      '**C.** Las expresiones **por el contrario**, **es decir** y **sin embargo** relacionan la información para explicar su significado.',
+      'destacado',
+    ),
   ],
   visual: V('relaciones', 'Las tres expresiones como flechas que relacionan los datos del texto.', 'interpretativo'),
 });
@@ -609,16 +720,27 @@ add({
     c(12, '**Me quedo con la impresión** comunica una conclusión personal.', 'item'),
     c(12, 'El acontecimiento funciona como punto de partida para defender una postura.', 'item'),
   ],
-  visual: V('pistas-opinion', 'Cada expresión con el ícono de lo que muestra: afirmación personal, juicio, inclusión del autor y conclusión personal.', 'opinion'),
+  visual: V(
+    'pistas-opinion',
+    'Cada expresión con el ícono de lo que muestra: afirmación personal, juicio, inclusión del autor y conclusión personal.',
+    'opinion',
+  ),
 });
 add({
   diapositiva: 12,
   titulo: titulo(12),
   bloques: [
     c(12, 'Conclusión', 'subtitulo'),
-    c(12, 'El propósito principal es valorar la importancia del encuentro y defender una visión sobre el futuro del turismo.'),
+    c(
+      12,
+      'El propósito principal es valorar la importancia del encuentro y defender una visión sobre el futuro del turismo.',
+    ),
     c(12, '**Pertenece al género de opinión.**', 'destacado'),
-    c(12, 'Ejemplo tomado de “La agenda impostergable y el futuro del turismo en México”, José Ángel Díaz Rebolledo.', 'fuente'),
+    c(
+      12,
+      'Ejemplo tomado de “La agenda impostergable y el futuro del turismo en México”, José Ángel Díaz Rebolledo.',
+      'fuente',
+    ),
     c(
       12,
       'https://www.eluniversal.com.mx/opinion/articulista-invitado/la-agenda-impostergable-y-el-futuro-del-turismo-en-mexico/',
@@ -637,9 +759,16 @@ add({
   titulo: c(13, 'Cuidado con las pistas aisladas', 'titulo'),
   bloques: [
     c(13, 'Un lector afirmó:'),
-    c(13, '“El texto sobre turismo menciona un foro, participantes y hechos reales. Por eso debe ser informativo.”', 'cita'),
+    c(
+      13,
+      '“El texto sobre turismo menciona un foro, participantes y hechos reales. Por eso debe ser informativo.”',
+      'cita',
+    ),
   ],
-  visual: V('una-pista', 'Una sola pista iluminada frente a varias pistas ignoradas: clasificar con una sola pista lleva a error.'),
+  visual: V(
+    'una-pista',
+    'Una sola pista iluminada frente a varias pistas ignoradas: clasificar con una sola pista lleva a error.',
+  ),
   interaccion: {
     tipo: 'seleccion',
     id_reactivo: 'D13',
@@ -673,7 +802,11 @@ add({
       13,
       'El texto contiene información sobre un hecho real, pero también presenta primera persona, valoraciones, una interpretación personal y una conclusión que orienta al lector.',
     ),
-    c(13, 'Los datos pueden aparecer en los tres tipos de textos. Para clasificarlos hay que reconocer qué intención domina.', 'cita'),
+    c(
+      13,
+      'Los datos pueden aparecer en los tres tipos de textos. Para clasificarlos hay que reconocer qué intención domina.',
+      'cita',
+    ),
   ],
   visual: V('varias-pistas', 'Varias pistas reunidas bajo una lupa: la intención se reconoce al combinarlas.'),
 });
@@ -694,8 +827,20 @@ add({
     id_reactivo: 'D14-A',
     etiqueta: 'D14 · A',
     parrafos: [
-      [H('', lit(14, ' las autoridades sanitarias, la meta de la campaña era vacunar a 1.8 millones de personas.'), 'De acuerdo con')],
-      [H('', lit(14, ', se aplicarían las vacunas del esquema básico en hospitales, clínicas y escuelas.'), 'Asimismo')],
+      [
+        H(
+          '',
+          lit(14, ' las autoridades sanitarias, la meta de la campaña era vacunar a 1.8 millones de personas.'),
+          'De acuerdo con',
+        ),
+      ],
+      [
+        H(
+          '',
+          lit(14, ', se aplicarían las vacunas del esquema básico en hospitales, clínicas y escuelas.'),
+          'Asimismo',
+        ),
+      ],
       [H('', lit(14, ', las autoridades recordaron la importancia de la vacunación colectiva.'), 'Por último')],
     ],
     banco: [lit(14, 'Asimismo'), lit(14, 'Por último'), lit(14, 'De acuerdo con')],
@@ -724,7 +869,10 @@ add({
       [
         H(
           '',
-          lit(14, ', las cifras económicas deben relacionarse con el consumo de agua y energía para comprender su importancia.'),
+          lit(
+            14,
+            ', las cifras económicas deben relacionarse con el consumo de agua y energía para comprender su importancia.',
+          ),
           'Es decir',
         ),
       ],
@@ -806,11 +954,18 @@ add({
   titulo: titulo(15),
   bloques: [
     c(15, 'Texto A', 'subtitulo'),
-    c(15, '**De acuerdo con** las autoridades sanitarias, la meta de la campaña era vacunar a 1.8 millones de personas.'),
+    c(
+      15,
+      '**De acuerdo con** las autoridades sanitarias, la meta de la campaña era vacunar a 1.8 millones de personas.',
+    ),
     c(15, '**Asimismo**, se aplicarían las vacunas del esquema básico en hospitales, clínicas y escuelas.'),
     c(15, '**Por último**, las autoridades recordaron la importancia de la vacunación colectiva.'),
   ],
-  visual: V('lupa-texto', 'Lupa sobre el texto completado: las expresiones resaltadas son las respuestas.', 'informativo'),
+  visual: V(
+    'lupa-texto',
+    'Lupa sobre el texto completado: las expresiones resaltadas son las respuestas.',
+    'informativo',
+  ),
 });
 add({
   diapositiva: 15,
@@ -822,7 +977,11 @@ add({
     c(15, '**Por último** ordena el cierre.', 'item'),
     c(15, 'El propósito principal es **informar**.', 'destacado'),
   ],
-  visual: V('categoria', 'Distintivo del género informativo con las funciones de fuente, agregar y cerrar.', 'informativo'),
+  visual: V(
+    'categoria',
+    'Distintivo del género informativo con las funciones de fuente, agregar y cerrar.',
+    'informativo',
+  ),
 });
 add({
   diapositiva: 15,
@@ -830,10 +989,20 @@ add({
   bloques: [
     c(15, 'Texto B', 'subtitulo'),
     c(15, '**Por el contrario**, el optimismo por las inversiones contrasta con la falta de regulación.'),
-    c(15, '**Es decir**, las cifras económicas deben relacionarse con el consumo de agua y energía para comprender su importancia.'),
-    c(15, '**Sin embargo**, algunas autoridades consideran que los riesgos pueden atenderse mediante nuevas tecnologías.'),
+    c(
+      15,
+      '**Es decir**, las cifras económicas deben relacionarse con el consumo de agua y energía para comprender su importancia.',
+    ),
+    c(
+      15,
+      '**Sin embargo**, algunas autoridades consideran que los riesgos pueden atenderse mediante nuevas tecnologías.',
+    ),
   ],
-  visual: V('lupa-texto', 'Lupa sobre el texto completado: las expresiones resaltadas son las respuestas.', 'interpretativo'),
+  visual: V(
+    'lupa-texto',
+    'Lupa sobre el texto completado: las expresiones resaltadas son las respuestas.',
+    'interpretativo',
+  ),
 });
 add({
   diapositiva: 15,
@@ -845,7 +1014,11 @@ add({
     c(15, '**Sin embargo** confronta otra perspectiva.', 'item'),
     c(15, 'El propósito principal es **explicar e interpretar**.', 'destacado'),
   ],
-  visual: V('categoria', 'Distintivo del género interpretativo con las funciones de contrastar, aclarar y confrontar.', 'interpretativo'),
+  visual: V(
+    'categoria',
+    'Distintivo del género interpretativo con las funciones de contrastar, aclarar y confrontar.',
+    'interpretativo',
+  ),
 });
 
 // ---------------------------------------------------------------------------
@@ -872,7 +1045,11 @@ add({
     c(16, 'Texto tomado de la actividad del libro base.', 'fuente'),
     c(16, 'https://www.informador.mx/ideas/Al-deshuesadero-aviones-de-Volaris-20240319-0031.html', 'fuente'),
   ],
-  visual: V('documento-fuente', 'Ficha de un artículo con autor, medio, sección y fecha: datos que identifican quién escribe y dónde se publicó.', 'opinion'),
+  visual: V(
+    'documento-fuente',
+    'Ficha de un artículo con autor, medio, sección y fecha: datos que identifican quién escribe y dónde se publicó.',
+    'opinion',
+  ),
 });
 add({
   diapositiva: 16,
@@ -895,7 +1072,11 @@ add({
           lit(16, ' las autoridades aquí en México.'),
           'deben hacer',
         ),
-        H(lit(16, 'Esto lo comento por una'), lit(16, ' del pasado 9 de marzo en un vuelo de Volaris.'), 'experiencia personal'),
+        H(
+          lit(16, 'Esto lo comento por una'),
+          lit(16, ' del pasado 9 de marzo en un vuelo de Volaris.'),
+          'experiencia personal',
+        ),
       ],
       [H(lit(16, 'Total,'), lit(16, ' de aparato en lo que se refiere al mantenimiento.'), 'un desastre')],
     ],
@@ -965,7 +1146,10 @@ add({
   diseno: 'tabla',
   bloques: [
     c(17, 'Respuestas', 'subtitulo'),
-    c(17, '**deben hacer** — **experiencia personal** — **un desastre** — **debe poner** — **deben ser enviados** — **deben analizar y actuar**.'),
+    c(
+      17,
+      '**deben hacer** — **experiencia personal** — **un desastre** — **debe poner** — **deben ser enviados** — **deben analizar y actuar**.',
+    ),
     c(17, 'Pista del texto', 'tabla-encabezado', { col: 0 }),
     c(17, '¿Qué muestra?', 'tabla-encabezado', { col: 1 }),
     c(17, '18 años, 132 naves y más de 33 millones de pasajeros', 'tabla-celda', { col: 0 }),
@@ -981,7 +1165,10 @@ add({
     c(17, '**deben analizar y actuar**', 'tabla-celda', { col: 0 }),
     c(17, 'Obligación o llamado a actuar', 'tabla-celda', { col: 1 }),
   ],
-  visual: V('iconos-tabla', 'Cada fila de la tabla lleva el ícono de lo que muestra la pista: dato, autor, valoración, recomendación, propuesta y llamado a actuar.'),
+  visual: V(
+    'iconos-tabla',
+    'Cada fila de la tabla lleva el ícono de lo que muestra la pista: dato, autor, valoración, recomendación, propuesta y llamado a actuar.',
+  ),
   revisar: [
     '[REVISAR] La tabla cita «más de 33 millones de pasajeros», dato que no aparece en el fragmento de la Diapositiva 16. Se muestra tal como viene.',
   ],
@@ -991,7 +1178,10 @@ add({
   tipo: 'interactivo',
   titulo: titulo(17),
   bloques: [],
-  visual: V('balanza-pistas', 'Balanza: de un lado los datos verificables; del otro, la valoración y las recomendaciones, que pesan más.'),
+  visual: V(
+    'balanza-pistas',
+    'Balanza: de un lado los datos verificables; del otro, la valoración y las recomendaciones, que pesan más.',
+  ),
   interaccion: {
     tipo: 'seleccion',
     id_reactivo: 'D17',
@@ -1000,8 +1190,16 @@ add({
     multiple: false,
     opciones: [
       { clave: 'A', texto: lit(17, 'Informar cuántos aviones y pasajeros tiene Volaris.'), categoria: 'informativo' },
-      { clave: 'B', texto: lit(17, 'Explicar de manera neutral el crecimiento de la empresa.'), categoria: 'interpretativo' },
-      { clave: 'C', texto: lit(17, 'Valorar el estado de los aviones y pedir que se tomen medidas.'), categoria: 'opinion' },
+      {
+        clave: 'B',
+        texto: lit(17, 'Explicar de manera neutral el crecimiento de la empresa.'),
+        categoria: 'interpretativo',
+      },
+      {
+        clave: 'C',
+        texto: lit(17, 'Valorar el estado de los aviones y pedir que se tomen medidas.'),
+        categoria: 'opinion',
+      },
     ],
     correcta: ['C'],
     fallas: {
@@ -1057,9 +1255,21 @@ add({
     enunciado: c(18, '¿A qué género pertenece?', 'subtitulo'),
     multiple: false,
     opciones: [
-      { clave: 'A', texto: lit(18, 'Informativo, porque únicamente comunica hechos separados.'), categoria: 'informativo' },
-      { clave: 'B', texto: lit(18, 'Interpretativo, porque relaciona beneficios, problemas y consecuencias.'), categoria: 'interpretativo' },
-      { clave: 'C', texto: lit(18, 'De opinión, porque toda comparación expresa una postura personal.'), categoria: 'opinion' },
+      {
+        clave: 'A',
+        texto: lit(18, 'Informativo, porque únicamente comunica hechos separados.'),
+        categoria: 'informativo',
+      },
+      {
+        clave: 'B',
+        texto: lit(18, 'Interpretativo, porque relaciona beneficios, problemas y consecuencias.'),
+        categoria: 'interpretativo',
+      },
+      {
+        clave: 'C',
+        texto: lit(18, 'De opinión, porque toda comparación expresa una postura personal.'),
+        categoria: 'opinion',
+      },
     ],
     correcta: ['B'],
     fallas: {
@@ -1098,7 +1308,11 @@ add({
       'destacado',
     ),
   ],
-  visual: V('relaciones', 'Las expresiones como flechas que contrastan y aclaran la relación entre los datos.', 'interpretativo'),
+  visual: V(
+    'relaciones',
+    'Las expresiones como flechas que contrastan y aclaran la relación entre los datos.',
+    'interpretativo',
+  ),
 });
 
 // ---------------------------------------------------------------------------
@@ -1125,9 +1339,21 @@ add({
     enunciado: c(19, '¿Cuál es su propósito principal?', 'subtitulo'),
     multiple: false,
     opciones: [
-      { clave: 'A', texto: lit(19, 'Informar sobre la cantidad de aviones sin expresar una valoración.'), categoria: 'informativo' },
-      { clave: 'B', texto: lit(19, 'Explicar de forma neutral las causas del crecimiento de Volaris.'), categoria: 'interpretativo' },
-      { clave: 'C', texto: lit(19, 'Valorar las condiciones de los aviones y plantear la necesidad de actuar.'), categoria: 'opinion' },
+      {
+        clave: 'A',
+        texto: lit(19, 'Informar sobre la cantidad de aviones sin expresar una valoración.'),
+        categoria: 'informativo',
+      },
+      {
+        clave: 'B',
+        texto: lit(19, 'Explicar de forma neutral las causas del crecimiento de Volaris.'),
+        categoria: 'interpretativo',
+      },
+      {
+        clave: 'C',
+        texto: lit(19, 'Valorar las condiciones de los aviones y plantear la necesidad de actuar.'),
+        categoria: 'opinion',
+      },
     ],
     correcta: ['C'],
     fallas: {
@@ -1228,7 +1454,11 @@ add({
   titulo: titulo(20),
   bloques: [
     c(20, 'Actividad final', 'subtitulo'),
-    c(20, 'Para distinguir un texto informativo de uno interpretativo debo observar ________________________________________________.', 'cita'),
+    c(
+      20,
+      'Para distinguir un texto informativo de uno interpretativo debo observar ________________________________________________.',
+      'cita',
+    ),
     c(20, 'Para reconocer un texto de opinión debo buscar ________________________________________________.', 'cita'),
   ],
   visual: V('compara-info-interp', 'Comparación visual de los tres géneros para apoyar la actividad final.'),
@@ -1243,7 +1473,8 @@ add({ diapositiva: null, tipo: 'dashboard', titulo: null, bloques: [], visual: n
 // Ensamblado: duraciones, fases, notas
 // ---------------------------------------------------------------------------
 const porDiapositiva = new Map<number, number>();
-for (const b of borradores) if (b.diapositiva) porDiapositiva.set(b.diapositiva, (porDiapositiva.get(b.diapositiva) ?? 0) + 1);
+for (const b of borradores)
+  if (b.diapositiva) porDiapositiva.set(b.diapositiva, (porDiapositiva.get(b.diapositiva) ?? 0) + 1);
 
 const vistas = new Map<number, number>();
 const pantallas: Pantalla[] = borradores.map((b, i) => {
@@ -1323,7 +1554,10 @@ const modelo: ModeloSlides = {
     },
     {
       termino: 'atribución de información',
-      definicion: c(7, 'Permite saber quién proporciona el dato: **según**, **de acuerdo con**, **informó**, **señaló**, **explicó**.'),
+      definicion: c(
+        7,
+        'Permite saber quién proporciona el dato: **según**, **de acuerdo con**, **informó**, **señaló**, **explicó**.',
+      ),
     },
     {
       termino: 'datos verificables',
@@ -1331,7 +1565,10 @@ const modelo: ModeloSlides = {
     },
     {
       termino: 'valoración',
-      definicion: c(7, 'Expresa un juicio sobre una persona, hecho o situación: **grave**, **injusto**, **excelente**, **innecesario**, **un desastre**.'),
+      definicion: c(
+        7,
+        'Expresa un juicio sobre una persona, hecho o situación: **grave**, **injusto**, **excelente**, **innecesario**, **un desastre**.',
+      ),
     },
     {
       termino: 'presencia del autor',
@@ -1344,11 +1581,15 @@ const modelo: ModeloSlides = {
   // Intervenciones del guion («Orientaciones para revisar las respuestas») asociadas a cada paso.
   intervenciones: {
     encuentra: {
-      texto: guionLit('Si solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”'),
+      texto: guionLit(
+        'Si solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”',
+      ),
       fuente: 'guion-docente.txt § Orientaciones para revisar las respuestas',
     },
     explica: {
-      texto: guionLit('Si solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”'),
+      texto: guionLit(
+        'Si solo menciona una palabra, preguntar: “¿Qué ideas conecta y qué muestra acerca de la intención?”',
+      ),
       fuente: 'guion-docente.txt § Orientaciones para revisar las respuestas',
     },
     reconoce: {

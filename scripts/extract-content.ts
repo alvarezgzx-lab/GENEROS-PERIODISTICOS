@@ -121,9 +121,7 @@ async function main() {
   const actualizar = process.argv.includes('--actualizar');
   const candidatos = inventariar();
   const descartados: Manifiesto['descartados'] = [];
-  const ignorados = candidatos
-    .filter((c) => c.rol === null)
-    .map((c) => ({ archivo: c.archivo, motivo: c.motivo }));
+  const ignorados = candidatos.filter((c) => c.rol === null).map((c) => ({ archivo: c.archivo, motivo: c.motivo }));
 
   const elegidos = new Map<Rol, Candidato>();
   for (const rol of ['contenido', 'guion', 'qr'] as Rol[]) {
@@ -193,9 +191,10 @@ async function main() {
   for (const [rel, texto] of textos) writeFileSync(path.join(ROOT, rel), texto);
 
   const manifiesto: Manifiesto = {
-    generado: existsSync(MANIFEST_PATH) && !actualizar
-      ? (JSON.parse(readFileSync(MANIFEST_PATH, 'utf8')) as Manifiesto).generado
-      : new Date().toISOString(),
+    generado:
+      existsSync(MANIFEST_PATH) && !actualizar
+        ? (JSON.parse(readFileSync(MANIFEST_PATH, 'utf8')) as Manifiesto).generado
+        : new Date().toISOString(),
     insumos_dir: path.relative(ROOT, INSUMOS_DIR),
     fuentes,
     descartados,

@@ -82,7 +82,9 @@ export function Notes({ pantalla, duracionSegmento, onCerrar }: Props) {
         <dd>{L.fases[pantalla.fase_lgr]}</dd>
         <dt>{L.notas.duracion}</dt>
         <dd>
-          {duracionSegmento > 0 ? `${formato(duracionSegmento)} (${L.notas.segundos(pantalla.duracion_s)})` : L.notas.sinDuracion}
+          {duracionSegmento > 0
+            ? `${formato(duracionSegmento)} (${L.notas.segundos(pantalla.duracion_s)})`
+            : L.notas.sinDuracion}
         </dd>
       </dl>
       <div>

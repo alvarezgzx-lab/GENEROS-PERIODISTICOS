@@ -420,7 +420,9 @@ svg.apoyo text {
   font-weight: 700;
   font-size: var(--t-cuerpo);
   cursor: pointer;
-  transition: background var(--transicion), color var(--transicion);
+  transition:
+    background var(--transicion),
+    color var(--transicion);
 }
 
 .btn:hover:not(:disabled) {

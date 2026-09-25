@@ -40,7 +40,10 @@ export function verificarAcceso(url: string) {
       redirecciones: ubicaciones,
       redirige_a_login: aLogin,
       aprobada: final === 200 && !aLogin,
-      detalle: final === 200 && !aLogin ? 'Acceso público confirmado.' : `Código final ${final}${aLogin ? ', redirige a accounts.google.com' : ''}.`,
+      detalle:
+        final === 200 && !aLogin
+          ? 'Acceso público confirmado.'
+          : `Código final ${final}${aLogin ? ', redirige a accounts.google.com' : ''}.`,
     };
   } catch (e) {
     return {

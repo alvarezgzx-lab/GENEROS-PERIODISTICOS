@@ -38,7 +38,17 @@ function useEscalaVentana() {
   return v;
 }
 
-const TECLAS_NAV = new Set(['ArrowRight', 'ArrowLeft', 'ArrowUp', 'ArrowDown', ' ', 'PageDown', 'PageUp', 'Home', 'End']);
+const TECLAS_NAV = new Set([
+  'ArrowRight',
+  'ArrowLeft',
+  'ArrowUp',
+  'ArrowDown',
+  ' ',
+  'PageDown',
+  'PageUp',
+  'Home',
+  'End',
+]);
 
 export default function App() {
   const [indice, setIndice] = useState(leerHash);
@@ -101,14 +111,16 @@ export default function App() {
       }
       if (!TECLAS_NAV.has(e.key)) return;
       e.preventDefault();
-      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown' || e.key === 'ArrowDown') ir(indice + 1);
-      else if (e.key === 'ArrowLeft' || e.key === 'PageUp' || e.key === 'ArrowUp') ir(indice - 1);
+      // Se lee la posición del hash en el momento de la tecla para no perder pulsaciones rápidas.
+      const actual = leerHash();
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown' || e.key === 'ArrowDown') ir(actual + 1);
+      else if (e.key === 'ArrowLeft' || e.key === 'PageUp' || e.key === 'ArrowUp') ir(actual - 1);
       else if (e.key === 'Home') ir(0);
       else if (e.key === 'End') ir(TOTAL - 1);
     };
     window.addEventListener('keydown', alTeclear);
     return () => window.removeEventListener('keydown', alTeclear);
-  }, [indice, ir]);
+  }, [ir]);
 
   const duracionSegmento = useMemo(
     () => modelo.pantallas.filter((x) => x.segmento === p.segmento).reduce((s, x) => s + x.duracion_s, 0),
@@ -146,11 +158,26 @@ export default function App() {
           <div key={p.id} style={{ display: 'contents' }}>
             {contenido}
           </div>
-          <Glossary entradas={entradasGlosario} abierto={glosario} onAbrir={() => setGlosario(true)} onCerrar={() => setGlosario(false)} />
-          <button className="borde-nav izq" onClick={() => ir(indice - 1)} disabled={indice === 0} aria-label={L.nav.anterior}>
+          <Glossary
+            entradas={entradasGlosario}
+            abierto={glosario}
+            onAbrir={() => setGlosario(true)}
+            onCerrar={() => setGlosario(false)}
+          />
+          <button
+            className="borde-nav izq"
+            onClick={() => ir(indice - 1)}
+            disabled={indice === 0}
+            aria-label={L.nav.anterior}
+          >
             <ChevronLeft size={64} aria-hidden="true" />
           </button>
-          <button className="borde-nav der" onClick={() => ir(indice + 1)} disabled={indice === TOTAL - 1} aria-label={L.nav.siguiente}>
+          <button
+            className="borde-nav der"
+            onClick={() => ir(indice + 1)}
+            disabled={indice === TOTAL - 1}
+            aria-label={L.nav.siguiente}
+          >
             <ChevronRight size={64} aria-hidden="true" />
           </button>
           <footer className="pie">

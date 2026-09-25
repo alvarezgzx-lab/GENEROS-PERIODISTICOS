@@ -10,7 +10,15 @@ const ESTILO: Record<Estado, { Icono: typeof CheckCircle2; color: string }> = {
   neutral: { Icono: Info, color: 'var(--color-5)' },
 };
 
-export function Feedback({ estado, titulo, children }: { estado: Estado | null; titulo?: string; children?: ReactNode }) {
+export function Feedback({
+  estado,
+  titulo,
+  children,
+}: {
+  estado: Estado | null;
+  titulo?: string;
+  children?: ReactNode;
+}) {
   const e = estado ? ESTILO[estado] : null;
   return (
     <div className="feedback-region" role="status" aria-live="polite" aria-atomic="true">

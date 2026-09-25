@@ -32,7 +32,8 @@ export function sanitizarSvg(svg: string): { svg: string; cambios: string[] } {
     s = s.replace(/<svg/, `<svg viewBox="0 0 ${w} ${h}"`);
     cambios.push('viewBox agregado');
   }
-  if (!cambios.length) cambios.push('Sin cambios: el SVG no contenía scripts, eventos ni referencias externas; ya tenía viewBox.');
+  if (!cambios.length)
+    cambios.push('Sin cambios: el SVG no contenía scripts, eventos ni referencias externas; ya tenía viewBox.');
   return { svg: s, cambios };
 }
 

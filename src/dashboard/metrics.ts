@@ -39,7 +39,10 @@ export function participacion(rs: Respuesta[], its: Interaccion[]) {
   });
 }
 
-export function aciertoPorReactivo(rs: Respuesta[], its: Interaccion[]): Array<Tasa & { etiqueta: string; sinClave: boolean }> {
+export function aciertoPorReactivo(
+  rs: Respuesta[],
+  its: Interaccion[],
+): Array<Tasa & { etiqueta: string; sinClave: boolean }> {
   return its.map((it) => ({
     ...tasa(
       it.id_reactivo,
@@ -50,7 +53,11 @@ export function aciertoPorReactivo(rs: Respuesta[], its: Interaccion[]): Array<T
   }));
 }
 
-export function aciertoPor(rs: Respuesta[], campo: 'paso_del_trayecto' | 'nivel_de_lectura' | 'proceso_pisa', sinEtiqueta: string): Tasa[] {
+export function aciertoPor(
+  rs: Respuesta[],
+  campo: 'paso_del_trayecto' | 'nivel_de_lectura' | 'proceso_pisa',
+  sinEtiqueta: string,
+): Tasa[] {
   const grupos = new Map<string, Respuesta[]>();
   for (const r of rs) {
     const k = (r[campo] as string | null) ?? sinEtiqueta;
@@ -66,7 +73,8 @@ export function matrizConfusion(rs: Respuesta[]) {
   const m: Record<string, Record<string, number>> = {};
   for (const f of CATEGORIAS) m[f] = Object.fromEntries(CATEGORIAS.map((c) => [c, 0]));
   for (const r of rs) {
-    if (r.categoria_correcta && r.categoria_elegida && m[r.categoria_correcta]) m[r.categoria_correcta][r.categoria_elegida]++;
+    if (r.categoria_correcta && r.categoria_elegida && m[r.categoria_correcta])
+      m[r.categoria_correcta][r.categoria_elegida]++;
   }
   return m;
 }
@@ -99,13 +107,18 @@ export function tiempoMedio(rs: Respuesta[]): number | null {
  * Síntesis con reglas fijas: el paso del trayecto con mayor proporción de fallas
  * (empate: mayor número de fallas; luego orden del trayecto) y la intervención del guion.
  */
-export function sintesis(rs: Respuesta[], modelo: ModeloSlides): { paso: PasoTrayecto; fallas: number; total: number; intervencion: string } | null {
+export function sintesis(
+  rs: Respuesta[],
+  modelo: ModeloSlides,
+): { paso: PasoTrayecto; fallas: number; total: number; intervencion: string } | null {
   const orden: PasoTrayecto[] = ['encuentra', 'explica', 'reconoce', 'justifica'];
   const filas = orden
     .map((paso) => {
       const del = rs.filter((r) => r.paso_del_trayecto === paso && r.es_correcta !== null);
       // Una respuesta correcta sin justificación suficiente también cuenta como falla del paso «justifica».
-      const fallas = del.filter((r) => r.es_correcta === false || (paso === 'justifica' && r.justificacion_suficiente === false)).length;
+      const fallas = del.filter(
+        (r) => r.es_correcta === false || (paso === 'justifica' && r.justificacion_suficiente === false),
+      ).length;
       return { paso, fallas, total: del.length, tasa: del.length ? fallas / del.length : 0 };
     })
     .filter((f) => f.fallas > 0);
