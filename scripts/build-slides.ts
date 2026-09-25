@@ -399,7 +399,7 @@ add({
       'Pregúntate si agregan información, establecen una causa, contrastan dos ideas, aclaran un dato, expresan una valoración o recomiendan una acción.',
     ),
   ],
-  visual: V('ruta', 'Ruta de cuatro pasos con el paso 1 (encontrar) y el paso 2 (explicar) resaltados.'),
+  visual: V('ruta-12', 'Ruta de cuatro pasos con el paso 1 (encontrar) y el paso 2 (explicar) resaltados.'),
 });
 add({
   diapositiva: 8,
@@ -414,7 +414,7 @@ add({
       'cita',
     ),
   ],
-  visual: V('ruta', 'Ruta de cuatro pasos con el paso 3 (reconocer) y el paso 4 (justificar) resaltados.'),
+  visual: V('ruta-34', 'Ruta de cuatro pasos con el paso 3 (reconocer) y el paso 4 (justificar) resaltados.'),
 });
 
 // ---------------------------------------------------------------------------
@@ -688,7 +688,7 @@ add({
   tipo: 'interactivo',
   titulo: titulo(14),
   bloques: [c(14, 'Texto A', 'subtitulo')],
-  visual: V('completar', 'Piezas que encajan en los huecos: cada marcador cumple una función en el texto.', 'informativo'),
+  visual: null,
   interaccion: {
     tipo: 'arrastre',
     id_reactivo: 'D14-A',
@@ -714,7 +714,7 @@ add({
   tipo: 'interactivo',
   titulo: titulo(14),
   bloques: [c(14, 'Texto B', 'subtitulo')],
-  visual: V('completar', 'Piezas que encajan en los huecos: cada marcador cumple una función en el texto.', 'interpretativo'),
+  visual: null,
   interaccion: {
     tipo: 'arrastre',
     id_reactivo: 'D14-B',
@@ -981,7 +981,7 @@ add({
     c(17, '**deben analizar y actuar**', 'tabla-celda', { col: 0 }),
     c(17, 'Obligación o llamado a actuar', 'tabla-celda', { col: 1 }),
   ],
-  visual: null,
+  visual: V('iconos-tabla', 'Cada fila de la tabla lleva el ícono de lo que muestra la pista: dato, autor, valoración, recomendación, propuesta y llamado a actuar.'),
   revisar: [
     '[REVISAR] La tabla cita «más de 33 millones de pasajeros», dato que no aparece en el fragmento de la Diapositiva 16. Se muestra tal como viene.',
   ],

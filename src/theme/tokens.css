@@ -1,0 +1,49 @@
+/*
+ * Tokens del sistema de diseño · A Learning Lab
+ * Regla 60-30-10: --color-1 fondo (60 %), --color-5 texto y superficies (30 %),
+ * acentos (--color-4, --color-2, --color-3) juntos ≤ 10 % de la superficie.
+ */
+:root {
+  --color-1: #000000; /* fondo, 60 % */
+  --color-5: #fdfff1; /* texto y superficies claras, 30 % */
+  --color-4: #fadb20; /* acento principal: palabras clave */
+  --color-2: #86ccfd; /* interactivos, foco y enlaces */
+  --color-3: #e6000a; /* solo alertas y elementos gruesos (≥ 48 px en negritas, íconos, bordes) */
+
+  /* Superficies derivadas (mezclas de la paleta, sin colores nuevos) */
+  --superficie-1: #141414; /* --color-5 al 8 % sobre --color-1 */
+  --superficie-2: #262624; /* --color-5 al 15 % sobre --color-1 */
+  --linea: #5b5c56; /* --color-5 al 35 % sobre --color-1: bordes y divisores */
+
+  /* Tipografía */
+  --fuente-titulos: 'Montserrat', system-ui, sans-serif;
+  --fuente-cuerpo: 'Inter', system-ui, sans-serif;
+  --t-titulo: 76px; /* 72–96 px */
+  --t-titulo-portada: 96px;
+  --t-subtitulo: 50px; /* 48–64 px */
+  --t-cuerpo: 36px; /* 36–48 px, nunca menos de 36 */
+  --t-marca: 26px; /* 24–28 px, única excepción documentada */
+  --t-ui: 26px; /* cromo de la interfaz (barra de progreso), no es contenido */
+  --interlineado: 1.25;
+  --interlineado-titulo: 1.2;
+  --medida: 60ch; /* longitud máxima de línea */
+
+  /* Espaciado (múltiplos de 8) */
+  --e-1: 8px;
+  --e-2: 16px;
+  --e-3: 24px;
+  --e-4: 32px;
+  --e-5: 48px;
+  --e-6: 64px;
+  --e-7: 96px;
+
+  --radio: 16px;
+  --foco: 4px solid var(--color-2);
+  --transicion: 240ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transicion: 0ms;
+  }
+}

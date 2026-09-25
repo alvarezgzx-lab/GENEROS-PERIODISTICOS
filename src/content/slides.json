@@ -886,7 +886,7 @@
         }
       ],
       "visual": {
-        "id": "ruta",
+        "id": "ruta-12",
         "descripcion": "Ruta de cuatro pasos con el paso 1 (encontrar) y el paso 2 (explicar) resaltados."
       },
       "interaccion": null,
@@ -932,7 +932,7 @@
         }
       ],
       "visual": {
-        "id": "ruta",
+        "id": "ruta-34",
         "descripcion": "Ruta de cuatro pasos con el paso 3 (reconocer) y el paso 4 (justificar) resaltados."
       },
       "interaccion": null,
@@ -1736,11 +1736,7 @@
           "estilo": "subtitulo"
         }
       ],
-      "visual": {
-        "id": "completar",
-        "descripcion": "Piezas que encajan en los huecos: cada marcador cumple una función en el texto.",
-        "categoria": "informativo"
-      },
+      "visual": null,
       "interaccion": {
         "tipo": "arrastre",
         "id_reactivo": "D14-A",
@@ -1812,11 +1808,7 @@
           "estilo": "subtitulo"
         }
       ],
-      "visual": {
-        "id": "completar",
-        "descripcion": "Piezas que encajan en los huecos: cada marcador cumple una función en el texto.",
-        "categoria": "interpretativo"
-      },
+      "visual": null,
       "interaccion": {
         "tipo": "arrastre",
         "id_reactivo": "D14-B",
@@ -2490,7 +2482,10 @@
           "col": 1
         }
       ],
-      "visual": null,
+      "visual": {
+        "id": "iconos-tabla",
+        "descripcion": "Cada fila de la tabla lleva el ícono de lo que muestra la pista: dato, autor, valoración, recomendación, propuesta y llamado a actuar."
+      },
       "interaccion": null,
       "notas": "## Diapositiva 17. Analizamos el texto\n\n“Las cifras sobre los años de operación, los aviones y los pasajeros son datos verificables.”\n\n“Pero ‘experiencia personal’ hace visible al autor; ‘un desastre’ expresa una valoración, y ‘debe’ o ‘deben actuar’ indican lo que considera necesario.”\n\nSi se elige A: “¿Las cifras tienen mayor peso que la valoración y las recomendaciones?”\n\nSi se elige B: “El texto presenta antecedentes, pero ¿mantiene una explicación neutral?”\n\nSi se elige C: “¿Qué dos evidencias demuestran la postura?”\n\n**Respuesta esperada:** “‘Un desastre’ y ‘deben analizar y actuar’.”",
       "revisar": [
