@@ -1,0 +1,5 @@
+dist
+node_modules
+src/content/slides.json
+src/content/seed.json
+src/assets

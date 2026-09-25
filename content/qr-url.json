@@ -1,0 +1,29 @@
+{
+  "url": "https://drive.google.com/file/d/1OAT-2-PgS4uyroRNazrpImkWmyQwVXvy/view?usp=sharing",
+  "decodificado_con": "jsqr sobre captura PNG de Chromium",
+  "dominio_permitido": true,
+  "verificacion_local": {
+    "ejecutada": false,
+    "codigo_final": 0,
+    "redirecciones": [],
+    "redirige_a_login": false,
+    "aprobada": false,
+    "detalle": "curl no pudo completar la solicitud desde este entorno: Command failed: curl -sIL --max-time 30 https://drive.google.com/file/d/1OAT-2-PgS4uyroRNazrpImkWmyQwVXvy/view?usp=sharing",
+    "fecha": "2026-09-25T17:35:25.662Z",
+    "comando": "curl -sIL \"https://drive.google.com/file/d/1OAT-2-PgS4uyroRNazrpImkWmyQwVXvy/view?usp=sharing\""
+  },
+  "verificacion_externa": {
+    "ejecutada": true,
+    "entorno": "Vercel Sandbox (iad1) del equipo jesus-angel, sin cookies",
+    "comando": "curl -sIL \"https://drive.google.com/file/d/1OAT-2-PgS4uyroRNazrpImkWmyQwVXvy/view?usp=sharing\"",
+    "codigo_final": 200,
+    "redirecciones": [],
+    "redirige_a_login": false,
+    "titulo_de_la_pagina": "ficha_practica_independiente_generos_periodisticos.pdf - Google Drive",
+    "aprobada": true,
+    "detalle": "HTTP/2 200 sin redirecciones (num_redirects=0); no redirige a accounts.google.com.",
+    "fecha": "2026-09-25T17:34:49Z",
+    "motivo": "La política de red de este entorno responde 403 a drive.google.com, por lo que curl se ejecutó desde un sandbox externo."
+  },
+  "acceso_publico_verificado": true
+}
